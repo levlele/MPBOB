@@ -1,0 +1,211 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+
+  "promo_is_on": true,
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/Grisino/1/landing/",
+
+  "counter_is_on": false,
+
+  "galeria": {
+    "mpbox_descuento_boton": true,
+    "mpbox_nombre_boton": false
+  },
+
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Hasta 50% OFF en productos seleccionados",
+
+    "link": true,
+    "href": "http://www.grisino.com/grisino.html?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=HotDay#122500584"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "GrisinoNena",
+      "title": "Grisino Nena",
+      "alt": "Grisino Nena",
+      "href": "http://www.grisino.com/grisino/nena.html?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=HotDay#122500584",
+
+      "img": "img/productos/prod_01.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": false,
+      "descuento_txt": false,
+      "descuento_num": "XX% OFF",
+
+      "text_only": true,
+      "text": "Nena",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "GrisinoChicas",
+      "title": "Grisino Chicas",
+      "alt": "Grisino Chicas",
+      "href": "http://www.grisino.com/grisino/chicas.html?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=HotDay#122500584",
+
+      "img": "img/productos/prod_02.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": false,
+      "descuento_txt": false,
+      "descuento_num": "XX% OFF",
+
+      "text_only": true,
+      "text": "Chicas",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "GrisinoNene",
+      "title": "Grisino Nene",
+      "alt": "Grisino Nene",
+      "href": "http://www.grisino.com/grisino/nene.html?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=HotDay#122500584",
+
+      "img": "img/productos/prod_03.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": false,
+      "descuento_txt": false,
+      "descuento_num": "XX% OFF",
+
+      "text_only": true,
+      "text": "Nene",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "GrisinoLosGrisinos",
+      "title": "Grisino Los Grisinos",
+      "alt": "Grisino Los Grisinos",
+      "href": "http://www.grisino.com/grisino/los-grisinos.html?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=HotDay#122500584",
+
+      "img": "img/productos/prod_04.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": false,
+      "descuento_txt": false,
+      "descuento_num": "XX% OFF",
+
+      "text_only": true,
+      "text": "Los Grisinos",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "GrisinoChicos",
+      "title": "Grisino Chicos",
+      "alt": "Grisino Chicos",
+      "href": "http://www.grisino.com/grisino/chicos.html?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=HotDay#122500584",
+
+      "img": "img/productos/prod_05.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": false,
+      "descuento_txt": false,
+      "descuento_num": "XX% OFF",
+
+      "text_only": true,
+      "text": "Chicos",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "GrisinoCalzado",
+      "title": "Grisino Calzado",
+      "alt": "Grisino Calzado",
+      "href": "http://www.grisino.com/grisino/calzado-341.html?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=HotDay#122500584",
+
+      "img": "img/productos/prod_06.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": false,
+      "descuento_txt": false,
+      "descuento_num": "XX% OFF",
+
+      "text_only": true,
+      "text": "Calzado",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}

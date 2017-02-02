@@ -1,0 +1,280 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+
+  "promo_is_on": true,
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/HotDays_MShops/landing/",
+
+  "counter_is_on": false,
+
+  "galeria": {
+    "mpbox_descuento_boton": true,
+    "mpbox_nombre_boton": false,
+    "mpbox_psj": false
+  },
+
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Hasta 50% OFF en productos seleccionados",
+
+    "link": false,
+    "href": "#"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "garden_life",
+      "title": "Garden life",
+      "alt": "Garden life",
+      "href": "http://www.shop.gardenlife.me/?utm_source=exclusivaMP&utm_medium=mail#173271614",
+
+      "logo": "img/productos/logo_gardenlife.jpg",
+      "img": "img/productos/gardenlife.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": false,
+      "text": "En todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "simones",
+      "title": "Simones",
+      "alt": "Simones",
+      "href": "http://www.simones.com.ar/?utm_source=exclusivaMP&utm_medium=mail#188455481",
+
+      "logo": "img/productos/logo_simones.jpg",
+      "img": "img/productos/simones.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": false,
+      "text": "En todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "trabuco",
+      "title": "Trabuco",
+      "alt": "Trabuco",
+      "href": "http://www.trabucohogar.com.ar/?utm_source=exclusivaMP&utm_medium=mail#142111908",
+
+      "logo": "img/productos/logo_trabuco.jpg",
+      "img": "img/productos/trabuco.jpg",
+
+      "psj_12x": true,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "En productos<br>seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "ansila",
+      "title": "Ansila",
+      "alt": "Ansila",
+      "href": "http://www.ansila.com.ar/?utm_source=exclusivaMP&utm_medium=mail#75482619",
+
+      "logo": "img/productos/logo_ansila.jpg",
+      "img": "img/productos/ansila.jpg",
+
+      "psj_12x": false ,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "En todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "elepants",
+      "title": "Elepants",
+      "alt": "Elepants",
+      "href": "http://www.elepants.com.ar?utm_source=MercadoPago&utm_campaign=FlashSale&utm_medium=Mailing#148381980",
+
+      "logo": "img/productos/logo_elepants.jpg",
+      "img": "img/productos/elepants.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "25% OFF",
+
+      "text_only": false,
+      "text": "En todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "morph",
+      "title": "Morph",
+      "alt": "Morph",
+      "href": "http://www.morph.com.ar?utm_source=exclusivaMP&utm_medium=mail#148976079",
+
+      "logo": "img/productos/logo_morph.jpg",
+      "img": "img/productos/morph.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": false,
+      "text": "En todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "malibu_utfitters",
+      "title": "Malibu Outfitters",
+      "alt": "Malibu Outfitters",
+      "href": "http://www.malibuoutfitters.com.ar/?utm_source=exclusivaMP&utm_medium=mail#189192934",
+
+      "logo": "img/productos/logo_malibu.jpg",
+      "img": "img/productos/malibu.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "En productos<br>seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "miux",
+      "title": "Miux",
+      "alt": "Miux",
+      "href": "http://www.miux.com.ar/?utm_source=exclusivaMP&utm_medium=mail#148381980",
+
+      "logo": "img/productos/logo_miux.jpg",
+      "img": "img/productos/miux.jpg",
+
+      "psj_12x": true,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": false,
+      "text": "En todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}

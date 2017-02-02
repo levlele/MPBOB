@@ -1,0 +1,281 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+
+  "promo_is_on": true,
+  "promo_url": "https://www.mercadolibre.com/org-img/MP3/promociones/ar/2017/Bensimon_Pepas/landing/",
+
+  "counter_is_on": false,
+
+  "galeria": {
+    "mpbox_descuento_boton": true,
+    "mpbox_nombre_boton": true,
+    "mpbox_psj": false
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "header/slide_small_01.jpg",
+    "src_medium_01": "header/slide_medium_01.jpg",
+    "src_large_01": "header/slide_large_01.jpg",
+    "alt_01": "Ofertas antes que termine el verano",
+
+    "link": false,
+    "href": "#"
+  },
+
+  "productos": [
+    
+    {
+      "active": true,
+
+      "id": "carteras",
+      "title": "carteras",
+      "alt": "carteras",
+      "href": "http://www.laspepas.com.ar/carteras_qO24284367XtOcxSM",
+
+      "logo": "productos/logo_pepas.jpg",
+      "img": "productos/carteras.jpg",
+
+      "psj_12x": false ,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": true,
+      "extra_text": "",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "60% OFF",
+
+      "text_only": true,
+      "text": "En todo el sitio<br><strong>CARTERAS</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    },
+      {
+      "active": true,
+
+      "id": "cuero",
+      "title": "cuero",
+      "alt": "cuero",
+      "href": "http://www.laspepas.com.ar/camperas_qO25110228XtOcxSM",
+
+      "logo": "productos/logo_pepas.jpg",
+      "img": "productos/cuero.jpg",
+
+      "psj_12x": false ,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "60% OFF",
+
+      "text_only": true,
+      "text": "En todo el sitio<br><strong>CUERO</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    },
+        {
+      "active": true,
+
+      "id": "jeans_pepas",
+      "title": "Jeans",
+      "alt": "Jeans",
+      "href": "http://www.laspepas.com.ar/jeans_qO24283037XtOcxSM",
+
+      "logo": "productos/logo_pepas.jpg",
+      "img": "productos/jeans_pepas.jpg",
+
+      "psj_12x": false ,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "60% OFF",
+
+      "text_only": true,
+      "text": "En todo el sitio<br><strong>JEANS</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    },
+        {
+      "active": true,
+
+      "id": "zapatos",
+      "title": "zapatos",
+      "alt": "zapatos",
+      "href": "http://www.laspepas.com.ar/zapatos_qO24287922XtOcxSM",
+      
+      "logo": "productos/logo_pepas.jpg",
+      "img": "productos/zapatos.jpg",
+
+      "psj_12x": false ,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "60% OFF",
+
+      "text_only": true,
+      "text": "En todo el sitio<br><strong>ZAPATOS</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "camisas",
+      "title": "camisas",
+      "alt": "camisas",
+      "href": "http://www.bensimon.com.ar/camisa/?utm_source=landing&utm_campaign=especialmodaMP&utm_medium=camisas",
+
+      "logo": "productos/logo_bensimon.jpg",
+      "img": "productos/camisas.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": true,
+      "text": "En productos de SALE<br><strong>CAMISAS</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "calzado",
+      "title": "calzado",
+      "alt": "calzado",
+      "href": "http://www.bensimon.com.ar/calzado/?utm_source=landing&utm_campaign=especialmodaMP&utm_medium=calzado",
+
+      "logo": "productos/logo_bensimon.jpg",
+      "img": "productos/calzado.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": true,
+      "text": "En productos de SALE<br><strong>CALZADO</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    },
+     {
+      "active": true,
+
+      "id": "remeras",
+      "title": "remeras",
+      "alt": "remeras",
+      "href": "http://www.bensimon.com.ar/remeras/?utm_source=landing&utm_campaign=especialmodaMP&utm_medium=remeras",
+
+      "logo": "productos/logo_bensimon.jpg",
+      "img": "productos/remeras.jpg",
+
+      "psj_12x": false ,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": true,
+      "text": "En productos de SALE<br><strong>REMERAS</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "jeans",
+      "title": "jeans",
+      "alt": "jeans",
+      "href": "http://www.bensimon.com.ar/jeans/?utm_source=landing&utm_campaign=especialmodaMP&utm_medium=jean",
+
+      "logo": "productos/logo_bensimon.jpg",
+      "img": "productos/jeans.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+      
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": true,
+      "text": "En productos de SALE<br><strong>JEANS</strong>",
+      "sup": false,
+      "sup_num": ""
+    }
+       
+  ]
+}

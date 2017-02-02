@@ -1,0 +1,292 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+
+  "promo_is_on": true,
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+
+  "counter_is_on": false,
+
+  "galeria": {
+    "mpbox_descuento_boton": true,
+    "mpbox_nombre_boton": false
+  },
+
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01b.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Hasta 50% OFF en productos seleccionados",
+
+    "link": false,
+    "href": "#"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "Arredo",
+      "title": "Arredo",
+      "alt": "Arredo",
+      "href": "http://arredo.com.ar/2das-rebajas?utm_source=Mercadopago&utm_campaign=MP_Enero2&utm_medium=Mailing#152667538",
+
+      "logo": "img/productos/logo_arredo.jpg",
+      "img": "img/productos/arredo.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+      "text": "en productos<br>seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "DeSillas",
+      "title": "De Sillas",
+      "alt": "De Sillas",
+      "href": "https://www.desillas.com/promociones.html#139386086",
+
+      "logo": "img/productos/logo_de_sillas.jpg",
+      "img": "img/productos/de_sillas.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "30% OFF",
+      "text": "en productos<br>seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "GardenLife",
+      "title": "Garden Life",
+      "alt": "Garden Life",
+      "href": "http://www.shop.gardenlife.me/#173271614",
+
+      "logo": "img/productos/logo_gardenlife.jpg",
+      "img": "img/productos/gardenlife.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+      "text": "en productos<br>seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "NylmanDeco",
+      "title": "Nylman Deco",
+      "alt": "Nylman Deco",
+      "href": "http://nylmandeco.design/167-home-deco#138146725",
+
+      "logo": "img/productos/logo_nylmandeco.jpg",
+      "img": "img/productos/nylmandeco.jpg",
+
+      "psj_12x": true ,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "TodoGriferia",
+      "title": "Todo Griferia",
+      "alt": "Todo Griferia",
+      "href": "http://www.todogriferia.com/mercado-pago.html?63346435",
+
+      "logo": "img/productos/logo_todo_griferia.jpg",
+      "img": "img/productos/todo_griferia.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+      "text": "en productos<br>seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Morph",
+      "title": "Morph",
+      "alt": "Morph",
+      "href": "http://www.morph.com.ar#148976079",
+
+      "logo": "img/productos/logo_morph.jpg",
+      "img": "img/productos/morph.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "35% OFF",
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Desli",
+      "title": "Desli",
+      "alt": "Desli",
+      "href": "https://desli.com/campaign/retiro-inmediato-1456#104781858",
+
+      "logo": "img/productos/logo_desli.jpg",
+      "img": "img/productos/desli.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+      "text": "en productos<br>seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "BoutiqueDeLuz",
+      "title": "Boutique de Luz",
+      "alt": "Boutique de Luz",
+      "href": "http://www.boutiquedeluz.com/superofertas-descuentos-y-promociones-en-tu-compra-de-iluminacion/#70726629",
+
+      "logo": "img/productos/logo_boutique_de_luz.jpg",
+      "img": "img/productos/boutique_de_luz.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "20% OFF",
+      "text": "en productos<br>seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "TiendaVainilla",
+      "title": "Tienda Vainilla",
+      "alt": "Tienda Vainilla",
+      "href": "http://www.tiendavanilla.com#177599964",
+
+      "logo": "img/productos/logo_tienda_vanilla.jpg",
+      "img": "img/productos/tienda_vainilla.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "35% OFF",
+      "text": "en productos<br>seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}
