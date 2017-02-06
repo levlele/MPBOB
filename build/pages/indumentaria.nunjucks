@@ -60,3 +60,8 @@
 {% block content %}
 {% include "partials/page_indumentaria.html" %}
 {% endblock %}
+
+{% block legales %}
+{% include "partials/module_footer.html" %}
+{% endblock %}
+

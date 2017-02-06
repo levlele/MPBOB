@@ -186,4 +186,15 @@ $(document).ready(function () {
       }
     }
   });
+
+  // Legales
+  $(function() {
+    $('.footer-toggle').click(function() {
+      $('.legales').toggleClass('block');
+      $('.footer-toggle span').toggleClass('up');
+      $('html, body').animate({
+        scrollTop: $("footer").offset().top
+      }, 800);
+    });
+  });
 });

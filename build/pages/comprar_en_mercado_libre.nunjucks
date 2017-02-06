@@ -39,3 +39,7 @@
 {% block content %}
 {% include "partials/page_comprar_en_ml.html" %}
 {% endblock %}
+
+{% block legales %}
+{% include "partials/module_footer.html" %}
+{% endblock %}
