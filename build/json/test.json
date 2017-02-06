@@ -1,0 +1,163 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+
+  "counter_is_on": false,
+  "promo_is_on": true,
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/Topper/landing/",
+
+  "galeria": {
+    "mpbox_logo": false,
+    "mpbox_psj": false,
+    "mpbox_codigo": false,
+    "mpbox_hasta": true,
+    "mpbox_descuento": false,
+    "mpbox_solo_texto": true,
+    "mpbox_texto_extra": true
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01b.jpg",
+    "src_medium_01": "img/header/slide_medium_01b.jpg",
+    "src_large_01": "img/header/slide_large_01c.jpg",
+    "alt_01": "Topper - 20% OFF en todo el sitio + hasta 50% OFF en seleccionados",
+
+    "link": false,
+    "href": "#"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "Topper-Ninos",
+      "title": "Topper Niños",
+      "alt": "Topper Niños",
+      "href": "#",
+      
+      "logo": "img/logo/indumentaria_cardon.png",
+      "img": "img/productos/ninos.jpg",
+
+      "psj_12x": true,
+      "psj_3x": false,
+
+      "codigo": true,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "<b>20</b>% OFF",
+      "descuento_info": "en todo el sitio<br>pagando en cuotas",
+
+      "text_only": true,
+      "text": "<b>NIÑOS</b><br>en todo el sitio pagando<br>en cuotas sin interés.",
+
+      "text_extra": true,
+      "extra": "Informacion adicional",
+
+      "sup": false,
+      "sup_num": "(*)"
+    },
+    {
+      "active": true,
+
+      "id": "Topper-Ninos",
+      "title": "Topper Niños",
+      "alt": "Topper Niños",
+      "href": "#",
+      
+      "logo": "img/logo/indumentaria_cardon.png",
+      "img": "img/productos/ninos.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "<b>20</b>% OFF",
+      "descuento_info": "en todo el sitio<br>pagando en cuotas",
+
+      "text_only": true,
+      "text": "<b>NIÑOS</b><br>en todo el sitio pagando<br>en cuotas sin interés.",
+
+      "text_extra": true,
+      "extra": "Informacion adicional",
+
+      "sup": false,
+      "sup_num": "(*)"
+    },
+    {
+      "active": true,
+
+      "id": "Topper-Ninos",
+      "title": "Topper Niños",
+      "alt": "Topper Niños",
+      "href": "#",
+      
+      "logo": "img/logo/indumentaria_cardon.png",
+      "img": "img/productos/ninos.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "<b>20</b>% OFF",
+      "descuento_info": "en todo el sitio<br>pagando en cuotas",
+
+      "text_only": true,
+      "text": "<b>NIÑOS</b><br>en todo el sitio pagando<br>en cuotas sin interés.",
+
+      "text_extra": true,
+      "extra": "Informacion adicional",
+
+      "sup": false,
+      "sup_num": "(*)"
+    },
+    {
+      "active": true,
+
+      "id": "Topper-Ninos",
+      "title": "Topper Niños",
+      "alt": "Topper Niños",
+      "href": "#",
+      
+      "logo": "img/logo/indumentaria_cardon.png",
+      "img": "img/productos/ninos.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "<b>20</b>% OFF",
+      "descuento_info": "en todo el sitio<br>pagando en cuotas",
+
+      "text_only": true,
+      "text": "<b>NIÑOS</b><br>en todo el sitio pagando<br>en cuotas sin interés.",
+
+      "text_extra": true,
+      "extra": "Informacion adicional",
+
+      "sup": false,
+      "sup_num": "(*)"
+    }
+  ]
+}

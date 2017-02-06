@@ -11,7 +11,7 @@
     padding: 0 8px;
     background-color: rgba(255,0,0,.08);
 
-    @media (min-width: 768px) and (max-width: 1023px) {
+    @media (min-width: 768px) and (max-width: 824px) {
       @include span-columns(10);
       @include shift(1);
     }
@@ -170,7 +170,6 @@
 .item__code {
   text-align: center;
   font-size: 16px;
-  // height: 30px;
   line-height: 1;
 
   b {
@@ -178,90 +177,84 @@
   }
 }
 
-// .item__info {
-//   text-align: center;
-//   font-size: 16px;
-//   height: 30px;
-//   line-height: 1;
-//   margin-bottom: 8px;
-// }
+.item__info {
+  text-align: center;
+  font-size: 16px;
+  height: 30px;
+  line-height: 1;
+  color: $brand-lightgrey;
+}
 
+// Hasta + Descuento
 .item__discount {
-  // float: left;
   text-align: left;
+  @include align-self(flex-end);
 
   span {
     display: block;
-    margin: 0;
-    color: #999;
     font-size: 14px ;
-    font-weight: 400;
     line-height: 1;
+    color: #999;
+
+    b {
+      font-weight: 700;
+    }
   }
 
+  // Cantidad de descuento en si (XX% OFF)
   .discount-number {
-    color: $brand-lightred;
     font-size: 2em;
     line-height: 1;
+    color: $brand-lightred;
 
+    // Legales
     sup {
       position: relative;
       top: -8px;
       right: 0px;
+
       font-size: 14px;
       line-height: 1;
       font-weight: normal;
     }
   }
-
 }
 
-// .item__text {
-//   float: left;
-
-//   p {
-//     margin-bottom: 0;
-//     color: $brand-lightred;
-//     font-weight: bold;
-//     font-size: 24px;
-//     line-height: 1;
-//   }
-// }
-
-.item__btn {
-  // float: right;
-  // margin-top: 55px;
+// Sólo texto, usar <b> para nombres de productos
+.item__text {
   @include align-self(flex-end);
-  text-align: right;
+  font-size: 14px;
+  line-height: 1;
+  color: $brand-lightgrey;
 
-  a {
-    display: block;
-    color: $brand-primary;
-    font-size: 14px;
-    line-height: 1;
+  b {
+    margin-bottom: 0;
     font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+    color: $brand-lightred;
+  }
+
+  // Legales
+  sup {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: normal;
   }
 }
 
-// .no-margin {
-//   margin: 0;
-//   line-height: 24px;
-
-//   a {
-//     line-height: 24px;
-//   }
-// }
-
-.btn__back {
-  clear: both;
-  color: $brand-primary;
-  font-size: 1.5em;
+// Cta "Ver más"
+.item__btn {
+  @include align-self(flex-end);
+  text-align: right;
+  font-size: 14px;
   line-height: 1;
-  display: block;
-  text-align: center;
-  transition: color ease 300ms;
 
-  &:hover {
-    color: darken($brand-primary, 10%);
+  a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: bold;
+    color: $brand-primary;
   }
 }

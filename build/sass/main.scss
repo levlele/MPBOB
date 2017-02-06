@@ -22,8 +22,8 @@ body, main, section {	background-color: #ffffff; }
 @import "slider"; // Módulo Slider header
 
 @import "subheader"; // Titulares h1, h2
-@import "gallery"; // Módulo galeria de productos
-//@import "gallery_test"; // Módulo galeria de productos
+// @import "gallery"; // Módulo galeria de productos
+@import "gallery_test"; // Módulo galeria de productos
 
 @import "medios_de_pago_estilos_api"; // Estilos API, NO tocar, solo actualizar si se agrega algún banco en la página principal de promociones
 @import "medios_de_pago"; // Módulo Medios de pago, alimentados con la API de MP
