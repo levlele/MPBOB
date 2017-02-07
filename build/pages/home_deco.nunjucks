@@ -61,7 +61,7 @@
 {% include "partials/page_home_deco.html" %}
 {% endblock %}
 
-{% block legales %}
-{% include "partials/module_footer.html" %}
+{% block footer %}
+{% include "partials/modules/module_footer.html" %}
 {% endblock %}
 

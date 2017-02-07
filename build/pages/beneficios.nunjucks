@@ -25,3 +25,7 @@
 {% block content %}
 {% include "partials/page_beneficios.html" %}
 {% endblock %}
+
+{% block footer %}
+{% include "partials/modules/module_footer.html" %}
+{% endblock %}

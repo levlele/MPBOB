@@ -1,45 +1,60 @@
-@import "node_modules/bourbon/app/assets/stylesheets/bourbon"; // Mixins libreria Bourbon
+@import 'node_modules/bourbon/app/assets/stylesheets/bourbon'; // Mixins libreria Bourbon
 // $visual-grid: true !default;
 // $visual-grid-color: rgba(100,50,100,.5) !default;
 // $visual-grid-index: front !default;
-@import "node_modules/bourbon-neat/app/assets/stylesheets/neat"; // Grilla libreria Bourbon Neat
-@import "base/base"; // Estilos base
-@import "brand"; // Variables colores brandbook MP
+@import 'node_modules/bourbon-neat/app/assets/stylesheets/neat'; // Grilla libreria Bourbon Neat
+@import 'base/base'; // Estilos base
+@import 'base/brand'; // Variables colores brandbook MP
 
 // Reemplazar ".." por "https://www.mercadopago.com/org-img/MP3/promociones/xx/xxxx/xxx sin /"
 $landing_url : 'https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB';
+
+@charset 'utf-8';
 
 html { height: 100%; padding: 0; margin: 0; }
 body { height: 100%; padding: 0; margin: 0; overflow-x: hidden; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 body, main, section {	background-color: #ffffff; }
 
-// Partials - Cargar en el orden en que se muestran en la página, cargar últimos los de las internas
-@import "header"; // Módulo Header
-@import "menu_mobile"; // Menu desplegable mobile
-@import "menu_desktop"; // Menu desktop
+// Cargar los módulos en el orden en que se muestran en la página, cargar últimos los de las internas
 
-@import "vendor_swiper"; // Estilos básicos vendor Swiper, NO tocar
-@import "slider"; // Módulo Slider header
+// Header
+@import
+  'modules/header', // Módulo Header
+  'modules/menu_mobile', // Menu desplegable mobile
+  'modules/menu_desktop'; // Menu desktop
 
-@import "subheader"; // Titulares h1, h2
-// @import "gallery"; // Módulo galeria de productos
-@import "gallery_test"; // Módulo galeria de productos
+// Banner Slider
+@import
+  'vendor/vendor_swiper', // Estilos básicos vendor Swiper, NO tocar
+  'modules/slider'; // Módulo Slider header
 
-@import "medios_de_pago_estilos_api"; // Estilos API, NO tocar, solo actualizar si se agrega algún banco en la página principal de promociones
-@import "medios_de_pago"; // Módulo Medios de pago, alimentados con la API de MP
+// Galeria
+@import
+  'modules/subheader', // Titulares h1, h2
+//   'modules/gallery', // Módulo galeria de productos
+  'gallery_test'; // Módulo galeria de productos
 
-@import "videos"; // Módulo Videos
-@import "apps"; // Módulo Apps
-@import "registro"; // Módulo Registro
-@import "footer"; // Módulo Footer + Redes sociales - Falta cambiar png por svg
+// Medios de pago
+@import
+  'modules/medios_de_pago_estilos_api', // Estilos API, NO tocar, solo actualizar si se agrega algún banco en la página principal de promociones
+  'modules/medios_de_pago'; // Módulo Medios de pago, alimentados con la API de MP
 
-@import "vendor_venobox"; // Estilos básicos vendor Venobox, NO tocar
-@import "lato"; // Tipografia MP - Cargar después de los estilos necesarios para la Home
+// Módulos home e internas
+@import
+  'modules/videos', // Módulo Videos
+  'modules/apps', // Módulo Apps
+  'modules/registro', // Módulo Registro
+  'modules/footer', // Módulo Footer + Redes sociales - Falta cambiar png por svg
 
-@import "icons_nav"; // Módulo Navegacion iconos categorias
-@import "categorias"; // Categorias paginas internas
-@import "carrusel_logos"; // Módulo slider logos
-@import "comprar_en_ml"; // Módulo comprar por ML
+  'vendor/vendor_venobox', // Estilos básicos vendor Venobox, NO tocar
+  'base/lato'; // Tipografia MP - Cargar después de los estilos necesarios para la Home
 
-// @import "slider_clock"; // Contenedor reloj slider header, habilitar si llega a usarse
-//@import "beneficios"; // Pagina de beneficios, lo mas seguro es que no se use, anular en caso de que asi sea
+// Páginas internas
+@import
+  'modules/icons_nav', // Módulo Navegacion iconos categorias
+  'modules/categorias', // Categorias paginas internas
+  'modules/carrusel_logos', // Módulo slider logos
+  'modules/comprar_en_ml'; // Módulo comprar por ML
+
+//   'slider_clock"; // Contenedor reloj slider header, habilitar si llega a usarse
+//  'beneficios"; // Pagina de beneficios, lo mas seguro es que no se use, anular en caso de que asi sea

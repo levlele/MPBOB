@@ -1,3 +1,5 @@
 node_modules/
 _info_diseño/
 _version/
+_contenido/
+.gitignore

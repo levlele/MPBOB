@@ -87,6 +87,7 @@
 {% block content %}
 {% include "partials/page_index.html" %}
 {% endblock %}
-{% block legales %}
-{% include "partials/module_footer_legales.html" %}
+
+{% block footer %}
+{% include "partials/modules/module_footer_legales.html" %}
 {% endblock %}

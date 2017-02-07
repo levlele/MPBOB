@@ -40,7 +40,7 @@
 {% include "partials/page_categorias.html" %}
 {% endblock %}
 
-{% block legales %}
-{% include "partials/module_footer.html" %}
+{% block footer %}
+{% include "partials/modules/module_footer.html" %}
 {% endblock %}
 
