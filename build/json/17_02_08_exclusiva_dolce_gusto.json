@@ -1,0 +1,158 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+
+  "counter_is_on": false,
+  "promo_is_on": true,
+  "promo_url": "https://www.mercadolibre.com/org-img/MP3/promociones/ar/2017/nestle/1/landing/",
+
+  "galeria": {
+    "mpbox_hasta": false,
+    "mpbox_descuento": true,
+    "mpbox_solo_texto": false,
+    "mpbox_logo": false,
+    "mpbox_psj": false,
+    "mpbox_code": false
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Nestlé - Hasta 30% OFF en productos seleccionados",
+
+    "link": false,
+    "href": "#"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "Nestle-Maquinas",
+      "title": "Nestlé Máquinas",
+      "alt": "Nestlé Máquinas",
+      "href": "https://www.dolce-gusto.com.ar/maquinas#195352434",
+      
+      "logo": "img/logo/indumentaria_cardon.png",
+      "img": "img/productos/maquinas_b.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio<br><strong>Máquinas</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Nestle-Capsulas",
+      "title": "Nestlé Cápsulas",
+      "alt": "Nestlé Cápsulas",
+      "href": "https://www.dolce-gusto.com.ar/capsulas#195352434",
+      
+      "logo": "img/logo/indumentaria_cardon.png",
+      "img": "img/productos/capsulas_b.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio<br><strong>Cápsulas</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Nestle-Reposteria",
+      "title": "Nestlé Repostería",
+      "alt": "Nestlé Repostería",
+      "href": "https://shop.nestle.com.ar/collections/reposteria#195352434",
+      
+      "logo": "img/logo/indumentaria_cardon.png",
+      "img": "img/productos/reposteria_b.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio<br><strong>Repostería</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Nestle-Culinarios",
+      "title": "Nestlé Culinarios",
+      "alt": "Nestlé Culinarios",
+      "href": "https://www.dolce-gusto.com.ar/maquinas#195352434",
+      
+      "logo": "img/logo/indumentaria_cardon.png",
+      "img": "img/productos/culinarios_b.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio<br><strong>Culinarios</strong>",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}

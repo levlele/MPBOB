@@ -31,8 +31,8 @@ body, main, section {	background-color: #ffffff; }
 // Galeria
 @import
   'modules/subheader', // Titulares h1, h2
-//   'modules/gallery', // Módulo galeria de productos
-  'gallery_test'; // Módulo galeria de productos
+  'modules/gallery'; // Módulo galeria de productos
+  //'gallery_test'; // Módulo galeria de productos
 
 // Medios de pago
 @import
