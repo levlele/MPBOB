@@ -4,6 +4,7 @@
 // $visual-grid-index: front !default;
 @import 'node_modules/bourbon-neat/app/assets/stylesheets/neat'; // Grilla libreria Bourbon Neat
 @import 'base/base'; // Estilos base
+@import 'base/mixins'; // Custom mixins
 @import 'base/brand'; // Variables colores brandbook MP
 
 // Reemplazar ".." por "https://www.mercadopago.com/org-img/MP3/promociones/xx/xxxx/xxx sin /"

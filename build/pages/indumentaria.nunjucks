@@ -65,3 +65,8 @@
 {% include "partials/modules/module_footer.html" %}
 {% endblock %}
 
+{% block scripts %}
+<script src="{{landing_url}}js/vendor/jquery-2.2.3.min.js"></script>
+<script src="{{landing_url}}js/vendor/slideout.min.js"></script>
+{% endblock %}
+

@@ -16,7 +16,7 @@
   <link rel="apple-touch-icon-precomposed" href="https://secure.mlstatic.com/components/resources/mp/desktop/images/apple-touch-icon-120x120-precomposed.png?v=2.9.3/apple-touch-icon-120x120-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="https://secure.mlstatic.com/components/resources/mp/desktop/images/apple-touch-icon-144x144-precomposed.png?v=2.9.3/apple-touch-icon-144x144-precomposed.png">
 
-  <link rel="stylesheet" href="{{landing_url}}css/main-min-v07.css">
+  <link rel="stylesheet" href="{{landing_url}}css/main-min-v08.css">
   <!--[if lt IE 9]>
     <script src="https://static.mlstatic.com/org-img/ch/vendor/html5shiv/html5shiv-3.7.0.js"></script>
   <![endif]-->
@@ -34,12 +34,7 @@
 {% block menu %}{% endblock %}
 {% block content %}{% endblock %}
 {% block footer %}{% endblock %}
-
-<script src="{{landing_url}}js/vendor/jquery-2.2.3.min.js"></script>
-<script src="{{landing_url}}js/vendor/slideout.min.js"></script>
-<script src="{{landing_url}}js/vendor/swiper.jquery.min.js"></script>
-<script src="{{landing_url}}js/vendor/venobox.min.js"></script>
-<script src="{{landing_url}}js/vendor/moment.js"></script>
+{% block scripts %}{% endblock %}
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -52,20 +47,6 @@
   ga('set', 'dimension1', 'desktop');
   ga('send', 'pageview');
 </script>
-{% if counter_is_on %}
-<script src="{{landing_url}}js/vendor/jquery.countdown.min.js"></script>
-<script src="{{landing_url}}js/vendor/moment-timezone.js"></script>
-<script>
-  var bob = moment.tz("2017-10-31 00:00", "America/Argentina/Buenos_Aires");
-  $('.clock').countdown(bob.toDate(), function(event) {
-    var $this = $(this).html(event.strftime(''
-    + '<div class="clock__divider"><div class="num">%D</div><div class="name">DIAS</div></div>'
-    + '<div class="clock__divider"><div class="num">%H</div><div class="name">HORAS</div></div>'
-    + '<div class="clock__divider"><div class="num">%M</div><div class="name">MINUTOS</div></div>'
-    + '<div class="clock__divider"><div class="num">%S</div><div class="name">SEGUNDOS</div></div>'));
-  });
-</script>
-{% endif %}
 <script src="{{landing_url}}js/main-min-v09.js"></script>
 </body>
 </html>

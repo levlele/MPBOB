@@ -11,10 +11,10 @@
     padding: 0 8px;
     background-color: rgba(255,0,0,.08);
 
-    @media (min-width: 768px) and (max-width: 824px) {
-      @include span-columns(10);
-      @include shift(1);
-    }
+    // @media (min-width: 768px) and (max-width: 824px) {
+    //   @include span-columns(10);
+    //   @include shift(1);
+    // }
 
     // @media (min-width: 600px) and (max-width: 639px) {
 
@@ -39,7 +39,7 @@
     margin-bottom: $gutter;
     @include clearfix;
 
-    @media (max-width: 599px) {
+    @media (max-width: 424px) {
       @include fill-parent;
     }
 
@@ -63,7 +63,12 @@
     //   @include omega(3n);
     // }
 
-    @media (min-width: 600px) and (max-width: 824px) {
+    // @media (min-width: 600px) and (max-width: 824px) {
+    //   @include span-columns(6);
+    //   @include omega(2n);
+    // }
+
+    @media (min-width: 425px) and (max-width: 826px) {
       @include span-columns(6);
       @include omega(2n);
     }
@@ -112,7 +117,6 @@
 
 .item__divider {
   background-color: rgba(0,255,0,.1);
-
   @include display(flex);
   @include flex-direction(row);
   @include justify-content(flex-end);
@@ -223,9 +227,14 @@
 // Sólo texto, usar <b> para nombres de productos
 .item__text {
   @include align-self(flex-end);
+  @include text-overflow;
   font-size: 14px;
   line-height: 1;
   color: $brand-lightgrey;
+
+  // @media (min-width: 600px) {
+  //   font-size: 14px;
+  // }
 
   b {
     margin-bottom: 0;
@@ -250,11 +259,19 @@
   font-size: 14px;
   line-height: 1;
 
+  // @media (min-width: 600px) {
+  //   font-size: 14px;
+  // }
+
   a {
     display: inline-block;
     font-size: 14px;
     line-height: 1;
     font-weight: bold;
     color: $brand-primary;
+
+    // @media (min-width: 600px) {
+    //   font-size: 14px;
+    // }
   }
 }

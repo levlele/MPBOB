@@ -1,0 +1,406 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+
+  "counter_is_on": false,
+  "promo_is_on": true,
+  "promo_url": "https://www.mercadolibre.com/org-img/MP3/promociones/ar/2017/bts/landing/",
+
+  "galeria": {
+    "mpbox_hasta": true,
+    "mpbox_descuento": true,
+    "mpbox_solo_texto": false,
+    "mpbox_logo": true,
+    "mpbox_psj": false,
+    "mpbox_code": true
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Aprovechá del 17 al 20 de enero",
+
+    "link": false,
+    "href": "#"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "Grisino",
+      "title": "Grisino",
+      "alt": "Grisino",
+      "href": "http://www.grisino.com/grisino/cole.html?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=VueltaAlCole",
+      
+      "logo": "img/productos/logo_grisino.jpg",
+      "img": "img/productos/grisino.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXXXXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "25% OFF",
+
+      "text_only": true,
+      "text": "exclusivo en linea cole",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "HP",
+      "title": "HP",
+      "alt": "HP",
+      "href": "https://www.hponline.com.ar/?utm_source=MercadoPago&utm_medium=email&utm_campaign=BackToSchool",
+      
+      "logo": "img/productos/logo_hp.jpg",
+      "img": "img/productos/hp.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "HP15",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "35% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Topper",
+      "title": "Topper",
+      "alt": "Topper",
+      "href": "http://www.topper.com.ar/vuelta-al-cole.html",
+      
+      "logo": "img/productos/logo_topper.jpg",
+      "img": "img/productos/topper.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "HP15",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Simones",
+      "title": "Simones",
+      "alt": "Simones",
+      "href": "http://www.simones.com.ar/vuelta-al-cole-con-simones_qO25141713XoOmaxPriceXtOcXvOgalleryxSM",
+      
+      "logo": "img/productos/logo_simones.jpg",
+      "img": "img/productos/simones.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "HP15",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Dinomall",
+      "title": "Dinomall",
+      "alt": "Dinomall",
+      "href": "https://www.dinosauriomall.com.ar/tienda/promo-mercadopago",
+      
+      "logo": "img/productos/logo_dino.jpg",
+      "img": "img/productos/dino.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "HP15",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": true,
+      "text": "en productos escolares",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Magneto",
+      "title": "Magneto",
+      "alt": "Magneto",
+      "href": "http://www.grisino.com/magneto/promo-cole.html?p=1?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=VueltaAlCole",
+      
+      "logo": "img/productos/logo_magneto.jpg",
+      "img": "img/productos/magneto.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "HP15",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Sportline",
+      "title": "Sportline",
+      "alt": "Sportline",
+      "href": "http://www.sportline.com.ar/busca/?fq=specificationFilter_23:OFERTA&fq=specificationFilter_15:NIÑO&O=OrderByPriceDESC",
+      
+      "logo": "img/productos/logo_sportline.jpg",
+      "img": "img/productos/sportline.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "HP15",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Mimo",
+      "title": "Mimo",
+      "alt": "Mimo",
+      "href": "http://tienda.mimo.com.ar/?utm_source=mercadopago&utm_medium=referral&utm_campaign=mpvueltaalcole",
+      
+      "logo": "img/productos/logo_mimo.jpg",
+      "img": "img/productos/mimo.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "HP15",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio <sup>(1)</sup>",
+
+      "sup": false,
+      "sup_num": "(1)"
+    },
+    {
+      "active": true,
+
+      "id": "Top3",
+      "title": "Top3",
+      "alt": "Top3",
+      "href": "http://www.top3.com.ar/?utm_source=mercadopago&utm_medium=referral&utm_campaign=mpvueltaalcole",
+      
+      "logo": "img/productos/logo_top3.jpg",
+      "img": "img/productos/top3.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "HP15",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": true,
+      "text": "en productos escolares",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Delsey",
+      "title": "Delsey",
+      "alt": "Delsey",
+      "href": "http://www.delsey.com.ar/escolares_qO23765959XtOcxSM",
+      
+      "logo": "img/productos/logo_delsey.jpg",
+      "img": "img/productos/delsey.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "HP15",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en productos escolares",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "TodoModa",
+      "title": "Todo Moda",
+      "alt": "Todo Moda",
+      "href": "http://ar.todomoda.com/back-to-school-mp.html?utm_source=newsletter_MP&utm_medium=mailing&utm_campaign=febrero&utm_content=bts",
+      
+      "logo": "img/productos/logo_todomoda.jpg",
+      "img": "img/productos/todomoda.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "HP15",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Misutiles",
+      "title": "Mis Útiles",
+      "alt": "Mis Útiles",
+      "href": "http://www.misutiles.com/",
+      
+      "logo": "img/productos/logo_misutiles.jpg",
+      "img": "img/productos/misutiles.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": true,
+      "codigo_txt": "Código:",
+      "codigo_code": "MP20OFF",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}

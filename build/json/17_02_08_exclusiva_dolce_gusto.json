@@ -7,8 +7,8 @@
 
   "galeria": {
     "mpbox_hasta": false,
-    "mpbox_descuento": true,
-    "mpbox_solo_texto": false,
+    "mpbox_descuento": false,
+    "mpbox_solo_texto": true,
     "mpbox_logo": false,
     "mpbox_psj": false,
     "mpbox_code": false
@@ -56,7 +56,7 @@
       "descuento_num": "30% OFF",
 
       "text_only": true,
-      "text": "en todo el sitio<br><strong>Máquinas</strong>",
+      "text": "<strong>Máquinas</strong>",
 
       "sup": false,
       "sup_num": ""
@@ -87,7 +87,7 @@
       "descuento_num": "30% OFF",
 
       "text_only": true,
-      "text": "en todo el sitio<br><strong>Cápsulas</strong>",
+      "text": "<strong>Cápsulas</strong>",
 
       "sup": false,
       "sup_num": ""
@@ -118,7 +118,7 @@
       "descuento_num": "30% OFF",
 
       "text_only": true,
-      "text": "en todo el sitio<br><strong>Repostería</strong>",
+      "text": "<strong>Repostería</strong>",
 
       "sup": false,
       "sup_num": ""
@@ -149,7 +149,7 @@
       "descuento_num": "30% OFF",
 
       "text_only": true,
-      "text": "en todo el sitio<br><strong>Culinarios</strong>",
+      "text": "<strong>Culinarios</strong>",
 
       "sup": false,
       "sup_num": ""
