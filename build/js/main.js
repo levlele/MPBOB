@@ -1,13 +1,24 @@
 // Menu mobile
-var slideout = new Slideout({
-  'panel': document.getElementById('panel'),
-  'menu': document.getElementById('menu-mobile'),
-  'padding': 300,
-  'tolerance': 70,
-  'side': 'right',
-  'fx': 'ease-in-out',
-  'touch': 'false'
+$(function() {
+  var slideout = new Slideout({
+    'panel': document.getElementById('panel'),
+    'menu': document.getElementById('menu-mobile'),
+    'padding': 300,
+    'tolerance': 70,
+    'side': 'right',
+    'fx': 'ease-in-out',
+    'touch': 'false'
+  });
 });
+// var slideout = new Slideout({
+//   'panel': document.getElementById('panel'),
+//   'menu': document.getElementById('menu-mobile'),
+//   'padding': 300,
+//   'tolerance': 70,
+//   'side': 'right',
+//   'fx': 'ease-in-out',
+//   'touch': 'false'
+// });
 
 $('.toggle-button').on('click', function() {
   slideout.toggle();

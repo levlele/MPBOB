@@ -1,72 +1,91 @@
 {
   "carrousel_logos": [
     {
+      "active": false,
       "id": "Sportline",
       "alt": "Sportline",
       "src": "img/logo/indumentaria_sportline.png",
       "href": "http://www.sportline.com.ar/"
     },
     {
+      "active": true,
       "id": "Grimoldi",
       "alt": "Grimoldi",
       "src": "img/logo/indumentaria_grimoldi.png",
-      "href": "http://www.grimoldi.com.ar/zapatos/"
+      "href": "http://www.grimoldi.com/Compra/Promotion/?hashPromo=119cf&hashverificador=dhc%2fDSMWWf18p6UJloY8hvIEI20%3d&email=promociones%40grimoldi.com"
     },
     {
+      "active": true,
       "id": "Grisino",
       "alt": "Grisino",
       "src": "img/logo/indumentaria_grisino.png",
-      "href": "http://www.grisino.com/"
+      "href": "http://www.grisino.com/grisino.html?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=Liqui50%"
     },
     {
+      "active": true,
       "id": "Ver",
       "alt": "Ver",
       "src": "img/logo/indumentaria_ver.png",
-      "href": "http://www.ver.com.ar/home/"
+      "href": "http://www.ver.com.ar/tiendaonline/#/verano/oportunidades"
     },
     {
+      "active": true,
+      "id": "Complot",
+      "alt": "Complot",
+      "src": "img/logo/indumentaria_complot.png",
+      "href": "http://www.complot.com.ar/eshop/rebajas-ss17-168.html"
+    },
+    {
+      "active": false,
       "id": "Arredo",
       "alt": "Arredo",
       "src": "img/logo/homedeco_arredo.png",
       "href": "http://arredo.com.ar/"
     },
     {
+      "active": false,
       "id": "DeSillas",
       "alt": "De Sillas",
       "src": "img/logo/homedeco_desillas.png",
       "href": "https://www.desillas.com/"
     },
     {
+      "active": false,
       "id": "ColoniaExpress",
       "alt": "Colonia Express",
       "src": "img/logo/turismo_colonia_express.png",
       "href": "https://coloniaexpress.com/ar"
     },
     {
+      "active": false,
       "id": "Seacat",
       "alt": "Seacat",
       "src": "img/logo/turismo_seacat.png",
       "href": "https://www.seacatcolonia.com.ar/"
     },
     {
+      "active": false,
       "id": "Plataforma10",
       "alt": "Plataforma 10",
       "src": "img/logo/turismo_plataforma10.png",
       "href": "http://www.plataforma10.com.ar/pasajes-micro"
     },
     {
+      "active": false,
       "id": "ClubCupon",
       "alt": "Club Cupón",
       "src": "img/logo/turismo_central_de_pasajes.png",
       "href": "http://www.clubcupon.com.ar/"
     },
     {
+      "active": false,
       "id": "Groupon",
       "alt": "Groupon",
       "src": "img/logo/cuponeras_groupon.png",
       "href": "https://www.groupon.com.ar/"
     },
     {
+      "active": false,
       "id": "NescafeDolceGusto",
       "alt": "Nescafe Dolce Gusto",
       "src": "img/logo/homedeco_dolcegusto.png",
