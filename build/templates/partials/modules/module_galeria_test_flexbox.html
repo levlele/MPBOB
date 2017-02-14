@@ -1,88 +1,48 @@
 <section>
   <div class="gallery">
     <div class="gallery__row">
-    {# Loopear productos y mostrar los que esten activos, ir agregando variables de mpbox en condicionales #}
-    {% for producto in productos %}{% if producto.active %}
+      {# Loopear productos y mostrar los que esten activos, ir agregando variables de mpbox en condicionales #}
+      {% for producto in productos %}{% if producto.active %}
       <div class="gallery__column">
+
         <div class="item">
-
+          {% if galeria.mpbox_logo %}
           <div class="item__logo">
-            <img src="http://placehold.it/160x55" alt="{{producto.alt}}">
+            <img src="{{promo_url}}{{producto.logo}}" alt="{{producto.alt}}">
           </div>
-
-          <div class="item__img">
-            <a id="promociones-{{producto.id}}-img" href="{{producto.href|safe}}" title="{{producto.title}}" target="_blank">
-              <img src="http://placehold.it/500x500" alt="{{producto.alt}}">
-            </a>
-          </div>
-
-          {# Si algún merchant lleva psj #}
-          {% if galeria.mpbox_psj %}
-            {# Si lleva 12x #}
-            {% if producto.psj_12x %}
-              <div class="item__psj">
-                <img src="http://placehold.it/375x40" alt="{{producto.alt}}">
-              </div>
-            {# Si lleva 3x #}
-            {% elif producto.psj_3x %}
-              <div class="item__psj">
-                <img src="http://placehold.it/375x40" alt="{{producto.alt}}">
-              </div>
-            {# Sino espacio en blanco del tamaño de los psj para equilibrar los mpboxes #}
-            {% else %}
-              <div style="height:30px">&nbsp;</div>
-            {% endif %}
-          {% endif %}
-
-          {# Si algún mpbox lleva código de descuento #}
-          {% if galeria.mpbox_codigo %}
-            {# Si lleva #}
-            {% if producto.codigo %}
-              <div class="item__code">
-                {{ producto.codigo_txt }}&nbsp;<b>{{ producto.codigo_code }}</b>
-              </div>
-            {# Sino espacio en blanco del alto del código para equilibrar los mpboxes #}
-            {% else %}
-              <div style="height:16px">&nbsp;</div>
-            {% endif %}
-          {% endif %}
-
-          {# Si algún mpbox lleva información extra #}
-          {% if galeria.mpbox_codigo %}
-            {# Si lleva #}
-            {% if producto.text_extra %}
-              <div class="item__info">
-                {{ producto.extra }}
-              </div>
-            {# Sino espacio en blanco del alto del código para equilibrar los mpboxes #}
-            {% else %}
-              <div style="height:16px">&nbsp;</div>
-            {% endif %}
           {% endif %}
 
           {# Divisor #}
-          <div class="item__divider">
+          <div class="item__img">
+            {#<div class="item__img">#}
+              <a id="promociones-{{producto.id}}-img" href="{{producto.href|safe}}" title="{{producto.title}}" target="_blank">
+                <img src="{{promo_url}}{{producto.img}}" alt="{{producto.alt}}">
+              </a>
+            {#</div>#}
+          </div>
 
+          {# Divisor #}
+          <div class="item__info">
             {# Descuento #}
             {% if galeria.mpbox_descuento and producto.descuento %}
               <div class="item__discount">
                 {# Si algún mpbox lleva 'hasta' #}
                 {% if galeria.mpbox_hasta %}
                   {% if producto.descuento_txt %}
-                    <span>Hasta</span>
+                    <span class="support-on">Hasta</span>
                   {% else %}
-                    <span class="hola">&nbsp;</span>
+                    <span class="support-off">&nbsp;</span>
                   {% endif %}
                 {% endif %}
 
                 {# Porcentaje de descuento #}
-                <span class="discount-number">
+                <span class="item__discount-number">
                   {{ producto.descuento_num | safe }}
                   {% if producto.sup %}&nbsp;<sup>{{ producto.sup_num }}</sup>{% endif %}
                 </span>
 
                 {#Información adicional sobre el descuento#}
-                <span>
+                <span class="item__discount-text">
                   {{ producto.descuento_info | safe }}
                 </span>
               </div>
@@ -91,25 +51,13 @@
               <div class="item__btn">
                 <a id="promociones-{{producto.id}}-btn" href="{{producto.href|safe}}" title="{{producto.title}}" target="_blank">VER MÁS&nbsp;&gt;</a>
               </div>
-              {# end Descuento #}
-
-            {# Solo texto #}
-            {% elif galeria.mpbox_solo_texto and producto.text_only %}
-              {# Texto plano #}
-              <div class="item__text">
-                {{ producto.text | safe }}{% if producto.sup %}&nbsp;<sup>{{ producto.sup_num }}</sup>{% endif %}
-              </div>
-
-              {# Btn #}
-              <div class="item__btn">
-                <a id="{{producto.id}}-Btn" href="{{producto.href|safe}}" title="{{producto.title}}" target="_blank">VER MÁS&nbsp;&gt;</a>
-              </div>
             {% endif %}
-            {# end Solo texto #}
           </div>
         </div>
+
       </div>
     {% endif %}{% endfor %}
+    
     </div>
   </div>
 </section>

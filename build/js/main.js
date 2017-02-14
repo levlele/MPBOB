@@ -77,6 +77,20 @@ $(function() {
   });
 });
 
+// Equal height
+$(function(){
+  $(window).resize(function() {
+    var maxHeight = 0;
+    var h = $('.item__discount');
+
+    h.each(function(){
+      if ($(this).height() > maxHeight) { maxHeight = $(this).height(); }
+    });
+
+    h.height(maxHeight);
+  }).trigger("resize");
+});
+
 // Modal video
 $('.venobox').venobox();
 
@@ -197,4 +211,28 @@ $(document).ready(function () {
       }, 800);
     });
   });
+
+  // Randomize MPBoxes
+  (function($){
+    var mpboxes = $( '.gallery__item' );
+
+    $.fn.shuffle = function() {
+    var allElems = this.get(),
+      getRandom = function(max) {
+          return Math.floor(Math.random() * max);
+      },
+      shuffled = $.map(allElems, function(){
+          var random = getRandom(allElems.length),
+              randEl = $(allElems[random]).clone(true)[0];
+          allElems.splice(random, 1);
+          return randEl;
+    });
+    this.each(function(i){
+      $(this).replaceWith($(shuffled[i]));
+    });
+    return $(shuffled);
+    };
+
+    mpboxes.shuffle();
+  })(jQuery);
 });

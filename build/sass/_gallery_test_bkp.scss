@@ -1,0 +1,296 @@
+// Contenedor
+.gallery {
+   @include outer-container(1200px);
+  @include clearfix;
+  background-color: #ffffff;
+
+  // Filas
+  &__row {
+    @include fill-parent;
+    @include clearfix;
+    padding: 0 8px;
+    background-color: rgba(255,0,0,.08);
+
+    @include debug(blue);
+
+    // @media (min-width: 768px) and (max-width: 824px) {
+    //   @include span-columns(10);
+    //   @include shift(1);
+    // }
+
+    // @media (min-width: 600px) and (max-width: 639px) {
+
+    //   border: 1px solid magenta;
+    // }
+
+    // @media (min-width: 640px) and (max-width: 825px) {
+    //   @include span-columns(11);
+    //   @include shift(.5);
+    //   border: 1px solid gold;
+    // }
+
+    @media (min-width: 1280px) {
+      padding: 0;
+    }
+  }
+
+  // columnas
+  &__column {
+    @include clearfix;
+    margin-bottom: $gutter;
+    // background-color: white;
+    
+
+
+    // @media (min-width: 375px) and (max-width: 424px) {
+    //   @include span-columns(10);
+    //   @include shift(1);
+    // }
+
+    // @media (min-width: 425px) and (max-width: 599px) {
+    //   @include span-columns(9);
+    //   @include shift(1.5);
+    // }
+
+    // @media (min-width: 600px) and (max-width: 1023px) {
+    //   @include span-columns(6);
+    //    @include omega(2n);
+    // }
+
+    // @media (min-width: 1024px) and (max-width: 1199px) {
+    //   @include span-columns(4);
+    //   @include omega(3n);
+    // }
+
+    // @media (min-width: 600px) and (max-width: 824px) {
+    //   @include span-columns(6);
+    //   @include omega(2n);
+    // }
+
+    @media (max-width: 424px) {
+      @include fill-parent;
+    }
+
+    @media (min-width: 425px) and (max-width: 826px) {
+      @include span-columns(6);
+      @include omega(2n);
+    }
+
+    @media (min-width: 825px) and (max-width: 1099px) {
+      @include span-columns(4);
+      @include omega(3n);
+    }
+
+    @media (min-width: 1100px) {
+      @include span-columns(3);
+      @include omega(4n);
+    }
+  }
+}
+
+// Merchant
+.item {
+  background-color: white;
+  border-radius: 4px;
+  padding: 8px;
+
+  @media (max-width: 600px) {
+    max-width: 275px;
+    margin: 0 auto;
+  }
+
+    // @include display(flex);
+    // @include flex-direction(row);
+    // @include justify-content(flex-end);
+    // @include flex-wrap(wrap);
+
+  
+
+  // box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+  // border: 1px solid #eee;
+  @include debug(black);
+
+  > div {
+    margin-bottom: 8px;
+  }
+
+  // > div:first-child {
+  //    @include flex(0 0 100%);
+  // }
+
+  // > div:nth-child(2n) {
+  //   @include flex(1 1 auto);
+  // }
+
+  > div:last-child {
+    margin-bottom: 0;
+    // @include flex(1 1 auto);
+  }
+}
+
+.item__divider {
+  background-color: rgba(0,255,0,.1);
+  @include display(flex);
+  @include flex-direction(row);
+  @include justify-content(flex-end);
+  @include flex-wrap(nowrap);
+  @include debug(magenta);
+
+  // @media (max-width: 599px) {
+  //   @include flex-direction(row);
+  // }
+
+  // @media (min-width: 600px) {
+  //   @include flex-direction(row);
+  // }
+
+  > div:first-child {
+    background-color: rgba(0,255,255,.1);
+  }
+
+  > div:last-child {
+    background-color: rgba(255,255,0,.1);
+  }
+
+  > div {
+    // border: 1px solid red;
+    // @include flex(1 0 auto);
+    @include flex(0 0 100%);
+
+    // @media (max-width: 599px) {
+    //   @include flex(1);
+    // }
+
+    // @media (min-width: 600px) {
+    //   @include flex(1 0 auto);
+    // }
+  }
+}
+
+// Componentes
+.item__logo,
+.item__img,
+.item__psj {
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.item__img a {
+  display: block;
+}
+
+.item__psj img {
+  width: auto;
+  height: 30px;
+}
+
+.item__code {
+  text-align: center;
+  font-size: 16px;
+  line-height: 1;
+
+  b {
+    color: $brand-lightred;
+  }
+}
+
+.item__info {
+  text-align: center;
+  font-size: 16px;
+  height: 30px;
+  line-height: 1;
+  color: $brand-lightgrey;
+}
+
+// Hasta + Descuento
+.item__discount {
+  text-align: left;
+  @include align-self(flex-end);
+
+  span {
+    display: block;
+    font-size: 14px ;
+    line-height: 1;
+    color: #999;
+
+    b {
+      font-weight: 700;
+    }
+  }
+
+  // Cantidad de descuento en si (XX% OFF)
+  .discount-number {
+    font-size: 2em;
+    line-height: 1;
+    color: $brand-lightred;
+
+    @media (min-width: 425px) {
+      font-size: 1.5em;
+    }
+
+    // Legales
+    sup {
+      position: relative;
+      top: -8px;
+      right: 0px;
+
+      font-size: 14px;
+      line-height: 1;
+      font-weight: normal;
+    }
+  }
+}
+
+// Sólo texto, usar <b> para nombres de productos
+.item__text {
+  @include align-self(flex-end);
+  @include text-overflow;
+  font-size: 14px;
+  line-height: 1;
+  color: $brand-lightgrey;
+
+  // @media (min-width: 600px) {
+  //   font-size: 14px;
+  // }
+
+  b {
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 1;
+    color: $brand-lightred;
+  }
+
+  // Legales
+  sup {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: normal;
+  }
+}
+
+// Cta "Ver más"
+.item__btn {
+  @include align-self(flex-end);
+  text-align: right;
+  font-size: 14px;
+  line-height: 1;
+
+  // @media (min-width: 600px) {
+  //   font-size: 14px;
+  // }
+
+  a {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 1;
+    font-weight: bold;
+    color: $brand-primary;
+
+    // @media (min-width: 600px) {
+    //   font-size: 14px;
+    // }
+  }
+}

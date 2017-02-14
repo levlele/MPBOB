@@ -1145,13 +1145,6 @@
       "id": "BigDeal",
       "highlight": true,
       "active": true
-    }, {
-      "src": "img/logo/cuponeras_bigbox.png",
-      "href": "http://bigbox.com.ar/",
-      "alt": "Big Box",
-      "title": "Big Box",
-      "id": "BigBox",
-      "active": true
     }
   ],
 
@@ -1164,6 +1157,15 @@
   },
 
   "otros_logos": [
+    {
+      "src": "img/logo/cuponeras_bigbox.png",
+      "href": "http://bigbox.com.ar/",
+      "alt": "Big Box",
+      "title": "Big Box",
+      "id": "BigBox",
+      "highlight": true,
+      "active": true
+    },
     {
       "src": "img/logo/otros_ticket_bis.png",
       "href": "http://www.ticketbis.com/ar/",
@@ -1210,7 +1212,7 @@
       "alt": "Librería Paidos",
       "title": "Librería Paidos",
       "id": "Paidos",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/otros_kairon.png",

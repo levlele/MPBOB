@@ -19,37 +19,34 @@
    white-space: nowrap;
  }
 
-  @media (max-width: 424px) {
-    font-size: em(18);
-  }
+  // @media (max-width: 424px) {
+  //   font-size: em(18);
+  // }
 
-  @media (min-width: 425px) and (max-width: 639px) {
-    font-size: em(22);
-  }
+  // @media (min-width: 425px) and (max-width: 639px) {
+  //   font-size: em(22);
+  // }
 
-  @media (min-width: 640px) and (max-width: 767px) {
-    font-size: em(26);
-  }
+  // @media (min-width: 640px) and (max-width: 767px) {
+  //   font-size: em(26);
+  // }
 
-  @media (min-width: 768px) and (max-width: 1023px)  {
-    font-size: em(30);
-  }
+  // @media (min-width: 768px) and (max-width: 1023px) {
+  //   font-size: em(30);
+  // }
 
   @media (max-width: 1023px) {
     padding: $gutter 10%;
   }
 
   @media (min-width: 1024px) {
-    font-size: em(32);
-    padding: $gutter 15%;
-  }
-
-  @media (min-width: 1024px) {
-    font-size: em(32);
+    // font-size: em(32);
     padding: $gutter 15%;
   }
 
   @media (min-width: 1280px) {
     padding: $gutter 10%;
   }
+
+  @include responsive-font(5vw, 18px, 32px, 32px);
 }

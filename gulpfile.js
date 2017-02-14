@@ -38,14 +38,14 @@ var build = {
     img: "build/img/**/*",
     html: "build/index.html",
     json_internas: "build/json/merchants_internas.json", // Información de los merchants en categorias y slider
-    // json_promo: "build/json/test.json"
+    json_promo: "build/json/test.json"
     // json_promo: "build/json/17_01_20_home_deco.json",
     // json_promo: "build/json/17_01_23_exclusiva_grisino.json",
     // json_promo: "build/json/17_01_24_compartida_hotday_mshops.json",
     // json_promo: "build/json/17_01_27_compartida_bensimon_pepas.json",
     // json_promo: "build/json/17_02_01_exclusiva_topper.json",
     // json_promo: "build/json/17_02_08_exclusiva_dolce_gusto.json",
-    json_promo: "build/json/17_02_10_compartida_bts.json"
+    // json_promo: "build/json/17_02_10_compartida_bts.json"
 };
 
 var dist = {
