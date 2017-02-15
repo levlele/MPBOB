@@ -9,6 +9,38 @@ $(function() {
     'fx': 'ease-in-out',
     'touch': 'false'
   });
+
+  $('.toggle-button').on('click', function() {
+    slideout.toggle();
+    $(this).find("span").toggleClass('on');
+    $('#panel').toggleClass('slideout-panel-overlay');
+    $('#menu-mobile').toggleClass('open');
+    slideout.disableTouch();
+  });
+
+  $(window).resize(function(){
+    if(slideout.isOpen()){
+      slideout.close();
+      $('#panel').removeClass('slideout-panel-overlay');
+      $('#menu-mobile').removeClass('open');
+      $('.toggle-button span').removeClass('on');
+    }
+  });
+
+  $('html').click(function() {
+  slideout.close();
+  $('#panel').removeClass('slideout-panel-overlay');
+  $('#menu-mobile').removeClass('open');
+  $('.toggle-button span').removeClass('on');
+  });
+
+  $('#menu-mobile').click(function(event){
+    event.stopPropagation();
+  });
+
+  $('#Hamburger-Icon').click(function(event){
+    event.stopPropagation();
+  });
 });
 // var slideout = new Slideout({
 //   'panel': document.getElementById('panel'),
@@ -20,37 +52,6 @@ $(function() {
 //   'touch': 'false'
 // });
 
-$('.toggle-button').on('click', function() {
-  slideout.toggle();
-  $(this).find("span").toggleClass('on');
-  $('#panel').toggleClass('slideout-panel-overlay');
-  $('#menu-mobile').toggleClass('open');
-  slideout.disableTouch();
-});
-
-$(window).resize(function(){
-  if(slideout.isOpen()){
-    slideout.close();
-    $('#panel').removeClass('slideout-panel-overlay');
-    $('#menu-mobile').removeClass('open');
-    $('.toggle-button span').removeClass('on');
-  }
-});
-
-$('html').click(function() {
- slideout.close();
- $('#panel').removeClass('slideout-panel-overlay');
- $('#menu-mobile').removeClass('open');
- $('.toggle-button span').removeClass('on');
-});
-
-$('#menu-mobile').click(function(event){
-   event.stopPropagation();
-});
-
-$('#Hamburger-Icon').click(function(event){
-   event.stopPropagation();
-});
 
 // Events Merchants
 $(function() {
@@ -124,27 +125,37 @@ $(document).ready(function () {
     loop: true,
     autoplay: 2500,
     speed: 1500,
-    slidesPerView: 6,
+    // slidesPerView: 6,
+    slidesPerView: 4,
     effect: 'slide',
-    spaceBetween: 20,
+    spaceBetween: 16,
     centeredSlides: true,
     grabCursor: true,
     breakpoints: {
-      // <= 320px
-      320: {
-        slidesPerView: 2,
-        spaceBetween: 20
-      },
-      // <= 480px
+      // 320: {
+      //   slidesPerView: 2,
+      //   spaceBetween: 16
+      // },
       480: {
-        slidesPerView: 3,
-        spaceBetween: 20
+        slidesPerView: 2,
+        spaceBetween: 16
       },
-      // <= 640px
-      640: {
-        slidesPerView: 4,
-        spaceBetween: 20
+      768: {
+        slidesPerView: 3,
+        spaceBetween: 16
       }
+      // 320: {
+      //   slidesPerView: 2,
+      //   spaceBetween: 16
+      // },
+      // 480: {
+      //   slidesPerView: 3,
+      //   spaceBetween: 16
+      // },
+      // 640: {
+      //   slidesPerView: 4,
+      //   spaceBetween: 16
+      // }
     }
   });
 
