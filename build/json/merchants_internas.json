@@ -648,6 +648,13 @@
       "title": "John L Cook",
       "id": "JohnLCook",
       "active": true
+    }, {
+      "src": "img/logo/indumentaria_bolivia.png",
+      "href": "http://www.bolivia-divina.com/",
+      "alt": "Bolivia",
+      "title": "Bolivia",
+      "id": "Bolivia",
+      "active": true
     }
   ],
 

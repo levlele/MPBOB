@@ -16,7 +16,7 @@
   <link rel="apple-touch-icon-precomposed" href="https://secure.mlstatic.com/components/resources/mp/desktop/images/apple-touch-icon-120x120-precomposed.png?v=2.9.3/apple-touch-icon-120x120-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="https://secure.mlstatic.com/components/resources/mp/desktop/images/apple-touch-icon-144x144-precomposed.png?v=2.9.3/apple-touch-icon-144x144-precomposed.png">
 
-  <link rel="stylesheet" href="{{landing_url}}css/main-min-v09.css">
+  <link rel="stylesheet" href="{{landing_url}}css/main-min-v10.css">
   <!--[if lt IE 9]>
     <script src="https://static.mlstatic.com/org-img/ch/vendor/html5shiv/html5shiv-3.7.0.js"></script>
   <![endif]-->
@@ -27,7 +27,17 @@
     .slideout-open, .slideout-open body, .slideout-open .slideout-panel { overflow: hidden; }
     .slideout-open .slideout-menu { display: block; }
   </style>
-  {% block hotjar %}{% endblock %}
+  <!-- Hotjar Tracking Code for https://www.mercadopago.com -->
+  <script>
+    (function(h,o,t,j,a,r){
+        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+        h._hjSettings={hjid:213621,hjsv:5};
+        a=o.getElementsByTagName('head')[0];
+        r=o.createElement('script');r.async=1;
+        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+        a.appendChild(r);
+    })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+  </script>
   {% block fb_kenshoo %}{% endblock %}
 </head>
 <body>

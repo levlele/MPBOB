@@ -1,0 +1,96 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+
+  "counter_is_on": false,
+  "promo_is_on": true,
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/escapada/landing/",
+
+  "galeria": {
+    "mpbox_hasta": true,
+    "mpbox_descuento": true,
+    "mpbox_solo_texto": false,
+    "mpbox_logo": true,
+    "mpbox_psj": false,
+    "mpbox_code": false
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "¡Disfrutá del último fin de semana largo del verano y escapate a donde quieras!",
+
+    "link": false,
+    "href": "#"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "Colonia Express",
+      "title": "Colonia Express",
+      "alt": "Colonia Express",
+      "href": "https://coloniaexpress.com/ar#112963618",
+      
+      "logo": "img/productos/logo_colonia_express.jpg",
+      "img": "img/productos/colonia_express.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": false,
+      "text": "en pasajes a todos<br> los destinos",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Groupon",
+      "title": "Groupon",
+      "alt": "Groupon",
+      "href": "https://www.groupon.com.ar/occasion/escapadas#66268233",
+      
+      "logo": "img/productos/logo_groupon.jpg",
+      "img": "img/productos/groupon.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "65% OFF",
+
+      "text_only": false,
+      "text": "en escapadas",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}
