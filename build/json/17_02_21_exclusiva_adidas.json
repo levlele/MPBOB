@@ -1,0 +1,178 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/adidas/landing/",
+
+  "promo_is_on": true,
+  "counter_is_on": false,
+  "multiproduct_is_on": false,
+
+  "multiproduct_id": "",
+  "multiproduct_title": "",
+
+  "galeria": {
+    "mpbox_hasta": true,
+    "mpbox_descuento": false,
+    "mpbox_solo_texto": true,
+    "mpbox_logo": false,
+    "mpbox_psj": false,
+    "mpbox_code": false
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Adidas - 15% OFF en todo el sitio + envío gratis a todo el país",
+
+    "link": false,
+    "href": "#"
+  },
+
+  "carrousel_multiproduct": [
+    {
+      "active": true,
+      "id": "Sportline",
+      "alt": "Sportline",
+      "src": "img/logo/indumentaria_sportline.png",
+      "href": "http://www.sportline.com.ar/"
+    }, {
+      "active": true,
+      "id": "Sportline",
+      "alt": "Sportline",
+      "src": "img/logo/indumentaria_sportline.png",
+      "href": "http://www.sportline.com.ar/"
+    }
+  ],
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "AdidasRunningUltraBoost",
+      "title": "Adidas Running Ultra Boost",
+      "alt": "Adidas Running Ultra Boost",
+      "href": "http://www.adidas.com.ar/zapatillas-de-running-ultra-boost/AQ5928.html?cgid=SEARCH",
+      
+      "logo": "img/productos/logo_colonia_express.jpg",
+      "img": "img/productos/running_ultra_boost.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "Running Ultra Boost",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "AdidasBotinesTangoX",
+      "title": "Adidas Botines Futbol Tango X",
+      "alt": "Adidas Botines Futbol Tango X",
+      "href": "http://www.adidas.com.ar/botines-de-futbol-x-tango-16.2-cesped-artificial/BA9470.html?cgid=SEARCH",
+      
+      "logo": "img/productos/logo_colonia_express.jpg",
+      "img": "img/productos/botines_futbol_tango_x.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "Botines Futbol X Tango 16.2",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "AdidasOriginalsUltrastar80s",
+      "title": "Adidas Originals Ultrastar 80s",
+      "alt": "Adidas Originals Ultrastar 80s",
+      "href": "http://www.adidas.com.ar/zapatillas-originals-ultrastar-80s/BB0171.html?cgid=SEARCH",
+      
+      "logo": "img/productos/logo_colonia_express.jpg",
+      "img": "img/productos/originals_ultrastar_80s.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "Originals Ultrastar 80s",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "AdidasOriginalsCourtVantage",
+      "title": "Adidas Originals Court Vantage",
+      "alt": "Adidas Originals Court Vantage",
+      "href": "http://www.adidas.com.ar/zapatillas-originals-court-vantage/S79967.html?cgid=SEARCH",
+      
+      "logo": "img/productos/logo_colonia_express.jpg",
+      "img": "img/productos/originals_court_vantage.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "Originals Court Vantage",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}

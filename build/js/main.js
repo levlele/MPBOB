@@ -125,17 +125,38 @@ $(document).ready(function () {
     loop: true,
     autoplay: 2500,
     speed: 1500,
-    // slidesPerView: 6,
+    slidesPerView: 6,
+    effect: 'slide',
+    spaceBetween: 16,
+    centeredSlides: true,
+    grabCursor: true,
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 16
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 16
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 16
+      }
+    }
+  });
+
+  // Inicializar Slider Logos
+  var multiproductSwiper = new Swiper ('#slider-logos-multiproduct', {
+    loop: true,
+    autoplay: 2500,
+    speed: 1500,
     slidesPerView: 4,
     effect: 'slide',
     spaceBetween: 16,
     centeredSlides: true,
     grabCursor: true,
     breakpoints: {
-      // 320: {
-      //   slidesPerView: 2,
-      //   spaceBetween: 16
-      // },
       480: {
         slidesPerView: 2,
         spaceBetween: 16
@@ -144,18 +165,6 @@ $(document).ready(function () {
         slidesPerView: 3,
         spaceBetween: 16
       }
-      // 320: {
-      //   slidesPerView: 2,
-      //   spaceBetween: 16
-      // },
-      // 480: {
-      //   slidesPerView: 3,
-      //   spaceBetween: 16
-      // },
-      // 640: {
-      //   slidesPerView: 4,
-      //   spaceBetween: 16
-      // }
     }
   });
 

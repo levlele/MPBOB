@@ -1,6 +1,21 @@
+{% if multiproduct_is_on %}
 <section class="carrousel">
-  <p id="solo-48hs" class="main__title">16 y 17 de febrero disfrutá de las siguientes ofertas</p>
-
+  <p id="{{ multiproduct_id }}" class="main__title">{{ multiproduct_title }}</p>
+  <div id="slider-logos-multiproduct" class="carrousel__container swiper-container">
+    <div class="swiper-wrapper">
+      {% for logo in carrousel_multiproduct %}{% if logo.active %}
+      <div class="swiper-slide">
+        <a id="{{ logo.id }}-Carrousel" href="{{ logo.href | safe }}" title="{{ logo.alt }}" target="_blank">
+          <img src="{{ landing_url }}{{logo.src }}" alt="{{ logo.alt }}">
+        </a>
+      </div>
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="carrousel">
+  <p class="main__title">Conocé nuestras mejores marcas</p>
   <div id="slider-logos" class="carrousel__container swiper-container">
     <div class="swiper-wrapper">
       {% for logo in carrousel_logos %}{% if logo.active %}
@@ -13,3 +28,4 @@
     </div>
   </div>
 </section>
+{% endif %}

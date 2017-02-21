@@ -1,191 +1,166 @@
-.clock__container {
-	@include fill-parent;
-	height: 100%;
-
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-
-	text-align: center;
-	background-color: rgba(0, 0, 0, .4);
-
-	// @media (min-width: 320px) {
-	// 	@include fill-parent();
-	// }
-
-	// @media (min-width: 768px) {
-	// 	@include span-columns(8);
-	// 	@include shift(2);
-	// 	@include omega;
-	// }
-
-	// @media (min-width: 1366px) {
-	// 	margin-top: 40px;
-	// 	margin-bottom: 40px;
-	// }
-	// @media (min-width: 1920px) {
-	// 	margin-top: 60px;
-	// 	margin-bottom: 60px;
-	// }
-}
-
 .clock {
-	@include clearfix;
-	width: 330px;
-	margin: 7% auto;
-	margin-bottom: 0;
-	overflow: hidden;
+  widows: 100%;
+  height: 100%;
 
-	@media (min-width: 320px) and (max-width: 459px) {
-		max-width: 400px;
-		margin: 5% auto;
-		margin-bottom: 0;
-	}
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 
-	@media (min-width: 460px) and (max-width: 635px) {
-		width: 430px;
-		margin: 12% auto;
-		margin-bottom: 0;
-	}
+  text-align: center;
+  background-color: rgba(0, 0, 0, .4);
 
-	@media (min-width: 636px) and (max-width: 767px) {
-		width: 430px;
-		margin: 5% auto;
-		margin-bottom: 0;
-	}
+  // Contenedor general del contador y el cta
+  &__container {
+    @include vertical-align;
+    @include display(flex);
+    @include flex-direction(row);
+    @include flex-wrap(wrap);
+    @include justify-content(center);
+    @include align-content(center);
+    overflow: hidden;
+    width: 100%;
+  }
 
-	@media (min-width: 768px) and (max-width: 1023px) {
-		width: 660px;
-		margin: 2% auto;
-		margin-bottom: 0;
-	}
+  // Divisores del contador
+  &__divider {
+    @include flex(0 0 auto);
+    @include align-self(flex-start);
+    @include debug(red);
 
-	@media (min-width: 1024px) and (max-width: 1365px) {
-		width: 660px;
-		margin: 6% auto;
-		margin-bottom: 0;
-	}
+    @media (max-width: 424px) {
+      width: 80px;
+      padding: 0 4px;
+    }
 
-	@media (min-width: 1366px) and (max-width: 1919px) {
-		width: 830px;
-		margin: 9% auto;
-		margin-bottom: 0;
-	}
+    @media (min-width: 425px) and (max-width: 767px) {
+      width: 96px;
+      padding: 0 8px;
+    }
 
-	@media (min-width: 1920px) {
-		width: 1010px;
-		margin: 7% auto;
-		margin-bottom: 0;
-	}
-}
+    @media (min-width: 768px) and (max-width: 1365px) {
+      width: 128px;
+      padding: 0 8px;
+    }
 
-.clock__divider {
-	float: left;
+    @media (min-width: 1366px) and (max-width: 1919px) {
+      width: 128px;
+      padding: 0 16px;
+    }
 
-	@media (min-width: 320px) and (max-width: 767px) {
-		width: 100px;
-		height: 100px;
-		margin-right: 10px;
-	}
+    @media (min-width: 1920px) {
+      width: 200px;
+      padding: 0 32px;
+    }
+  }
 
-	@media (min-width: 768px) and (max-width: 1365px) {
-		width: 150px;
-		height: 160px;
-		margin-right: 20px;
-	}
+  // Estilos comunes para los números y las unidades
+  &__num,
+  &__unity {
+    color: #fff;
+    font-weight: bold;
 
-	@media (min-width: 1366px) and (max-width: 1919px) {
-		width: 200px;
-		height: 160px;
-		margin-right: 10px;
-	}
+    @media (min-width: 320px) and (max-width: 639px) {
+      height: 48px;
+      line-height: 48px;
+    }
 
-	@media (min-width: 1920px) {
-		width: 200px;
-		height: 240px;
-		margin-right: 70px;
-	}
+    @media (min-width: 640px) and (max-width: 767px) {
+      height: 80px;
+      line-height: 80px;
+    }
 
-	&:last-child {
-		display: none;
+    @media (min-width: 768px) and (max-width: 1365px) {
+      height: 80px;
+      line-height: 80px;
+    }
 
-		@media (min-width: 460px) {
-			display: block;
-			margin-right: 0;
-		}
-	}
+    @media (min-width: 1366px) and (max-width: 1919px) {
+      height: 80px;
+      line-height: 80px;
+    }
 
-	.num, .name {
-		color: #fff;
-		font-weight: bold;
+    @media (min-width: 1920px) {
+      height: 120px;
+      line-height: 120px;
+    }
+  }
 
-		@media (min-width: 320px) and (max-width: 767px) {
-			height: 50px;
-			line-height: 50px;
-		}
+  // Estilos únicos de los números
+  &__num {
+    font-weight: 900;
+    border-bottom: 1px solid #fff;
+    font-weight: bold;
+    font-size: 8vw;
 
-		@media (min-width: 768px) and (max-width: 1365px) {
-			height: 80px;
-			line-height: 80px;
-		}
+    // @media (min-width: 320px) and (max-width: 639px) {
+    //   font-size: 32px;
+    //   font-size: 8vw;
+    // }
 
-		@media (min-width: 1366px) and (max-width: 1919px) {
-			height: 80px;
-			line-height: 80px;
-		}
+    // @media (min-width: 640px) and (max-width: 767px) {
+    //   font-size: 48px;
+    // }
 
-		@media (min-width: 1920px) {
-			height: 120px;
-			line-height: 120px;
-		}
-	}
+    // @media (min-width: 768px) and (max-width: 1365px) {
+    //   font-size: 24px;
+    // }
 
-	.num {
-		font-weight: 900;
-		border-bottom: 1px solid #fff;
-		font-weight: bold;
+    // @media (min-width: 1366px) and (max-width: 1919px) {
+    //   font-size: 56px;
+    // }
 
-		@media (min-width: 320px) and (max-width: 767px) {
-			font-size: 32px;
-		}
+    // @media (min-width: 1920px) {
+    //   font-size: 64px;
+    // }
+  }
 
-		@media (min-width: 768px) and (max-width: 1919px) {
-			font-size: 48px;
-		}
+  // Estilos únicos de las unidades
+  &__unity {
+    @media (min-width: 320px) and (max-width: 639px) {
+      font-size: 16px;
+    }
 
-		@media (min-width: 1920px) {
-			font-size: 56px;
-		}
-	}
+    @media (min-width: 640px) and (max-width: 767px) {
+      font-size: 16px;
+    }
 
-	.name {
-		@media (min-width: 320px) and (max-width: 767px) {
-			font-size: 16px;
-		}
+    @media (min-width: 768px) and (max-width: 1365px) {
+      font-size: 22px;
+    }
 
-		@media (min-width: 768px) and (max-width: 1919px) {
-			font-size: 22px;
-		}
+    @media (min-width: 1366px) and (max-width: 1919px) {
+      font-size: 22px;
+    }
 
-		@media (min-width: 1920px) {
-			font-size: 32px;
-		}
-	}
-}
+    @media (min-width: 1920px) {
+      font-size: 32px;
+    }
+  }
 
-.clock__info {
-	color: #ffffff;
-	font-weight:300;
-	line-height: 1.2;
-	padding: 0 10%;
+  // Cta registro
+  &__info {
+    @include flex(1 1 100%);
+    @include align-self(flex-end);
+    margin: 16px 0 8px 0;
 
-	@media (max-width: 767px) {
-		font-size: 16px;
-	}
+    a {
+      color: #ffffff;
+      background-color: $brand-primary;
 
-	@media (min-width: 768px) {
-		font-size: 24px;
-	}
+      font-weight: 300;
+      line-height: 1.2;
+      padding: 8px 32px;
+      border-radius: 4px;
+
+      @media (max-width: 767px) {
+        font-size: 16px;
+      }
+
+      @media (min-width: 768px) {
+        font-size: 24px;
+      }
+    }
+  }
 }

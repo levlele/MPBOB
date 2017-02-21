@@ -22,6 +22,33 @@
   </div>
   <div class="swiper-pagination"></div>
 </section>
+{% elif counter_is_on %}
+<section id="slider-bannerdddd" class="swiper-container">
+  <div class="swiper-wrapper">
+    <!--<div class="swiper-slide">
+      <a id="cta-slider" href="{{slides.href | safe}}" title="Promociones y Beneficios" target="_blank">
+        <img class="slide-small" src="{{slides.src_small_00}}" alt="{{slides.alt_00}}">
+        <img class="slide-medium" src="{{slides.src_medium_00}}" alt="{{slides.alt_00}}">
+        <img class="slide-large" src="{{slides.src_large_00}}" alt="{{slides.alt_00}}">
+      </a>
+    </div>-->
+
+    <div class="swiper-slide">
+      <img class="slide-small" src="http://placehold.it/768x420" alt="{{slides.alt_01}}">
+      <img class="slide-medium" src="http://placehold.it/1366x420" alt="{{slides.alt_01}}">
+      <img class="slide-large" src="http://placehold.it/1920x420" alt="{{slides.alt_01}}">
+
+      <div class="clock">
+        <div id="clock" class="clock__container"></div>
+        <!--<div class="clock__info">
+          <a href="#" target="_blank">Registrate</a>
+        </div>-->
+      </div>
+      
+    </div>
+  </div>
+  <div class="swiper-pagination"></div>
+</section>
 {% else %}
 <section>
   <img class="slide-small" src="{{landing_url}}{{slides.src_small_00}}" alt="{{slides.alt_00}}">

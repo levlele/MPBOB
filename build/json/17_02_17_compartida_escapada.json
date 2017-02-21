@@ -1,9 +1,13 @@
 {
   "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
-
-  "counter_is_on": false,
-  "promo_is_on": true,
   "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/escapada/landing/",
+
+  "promo_is_on": true,
+  "counter_is_on": false,
+  "multiproduct_is_on": false,
+
+  "multiproduct_id": "",
+  "multiproduct_title": "",
 
   "galeria": {
     "mpbox_hasta": true,
@@ -29,6 +33,22 @@
     "href": "#"
   },
 
+  "carrousel_multiproduct": [
+    {
+      "active": true,
+      "id": "Sportline",
+      "alt": "Sportline",
+      "src": "img/logo/indumentaria_sportline.png",
+      "href": "http://www.sportline.com.ar/"
+    }, {
+      "active": true,
+      "id": "Sportline",
+      "alt": "Sportline",
+      "src": "img/logo/indumentaria_sportline.png",
+      "href": "http://www.sportline.com.ar/"
+    }
+  ],
+
   "productos": [
     {
       "active": true,
@@ -39,7 +59,7 @@
       "href": "https://coloniaexpress.com/ar#112963618",
       
       "logo": "img/productos/logo_colonia_express.jpg",
-      "img": "img/productos/colonia_express.jpg",
+      "img": "img/productos/colonia_express_b.jpg",
 
       "psj_12x": false,
       "psj_3x": false,

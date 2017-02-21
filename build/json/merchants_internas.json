@@ -1,7 +1,7 @@
 {
   "carrousel_logos": [
     {
-      "active": false,
+      "active": true,
       "id": "Sportline",
       "alt": "Sportline",
       "src": "img/logo/indumentaria_sportline.png",
@@ -11,87 +11,88 @@
       "active": true,
       "id": "Grimoldi",
       "alt": "Grimoldi",
-      "src": "img/multiproduct/grimoldi.jpg",
-      "href": "http://www.grimoldi.com/Compra/Promotion/?hashPromo=119cf&hashverificador=dhc%2fDSMWWf18p6UJloY8hvIEI20%3d&email=promociones%40grimoldi.com"
+      "src": "img/logo/indumentaria_grimoldi.png",
+      "href": "http://www.grimoldi.com.ar/zapatos/"
     },
     {
       "active": true,
       "id": "Grisino",
       "alt": "Grisino",
-      "src": "img/multiproduct/grisino.jpg",
-      "href": "http://www.grisino.com/grisino.html?utm_source=MercadoPago&utm_medium=Mailing&utm_campaign=Liqui50%"
+      "src": "img/logo/indumentaria_grisino.png",
+      "href": "http://www.grisino.com/"
     },
     {
       "active": true,
       "id": "Ver",
       "alt": "Ver",
-      "src": "img/multiproduct/ver.jpg",
-      "href": "http://www.ver.com.ar/tiendaonline/#/verano/oportunidades"
+      "src": "img/logo/indumentaria_ver.png",
+      "href": "http://www.ver.com.ar/home/"
     },
     {
       "active": true,
       "id": "Complot",
       "alt": "Complot",
-      "src": "img/multiproduct/complot.jpg",
-      "href": "http://www.complot.com.ar/eshop/rebajas-ss17-168.html"
+      "src": "img/logo/indumentaria_complot.png",
+      "href": "http://www.complot.com.ar/"
     },
     {
-      "active": false,
+      "active": true,
       "id": "Arredo",
       "alt": "Arredo",
       "src": "img/logo/homedeco_arredo.png",
       "href": "http://arredo.com.ar/"
     },
     {
-      "active": false,
+      "active": true,
       "id": "DeSillas",
       "alt": "De Sillas",
       "src": "img/logo/homedeco_desillas.png",
       "href": "https://www.desillas.com/"
     },
     {
-      "active": false,
+      "active": true,
       "id": "ColoniaExpress",
       "alt": "Colonia Express",
       "src": "img/logo/turismo_colonia_express.png",
       "href": "https://coloniaexpress.com/ar"
     },
     {
-      "active": false,
+      "active": true,
       "id": "Seacat",
       "alt": "Seacat",
       "src": "img/logo/turismo_seacat.png",
       "href": "https://www.seacatcolonia.com.ar/"
     },
     {
-      "active": false,
+      "active": true,
       "id": "Plataforma10",
       "alt": "Plataforma 10",
       "src": "img/logo/turismo_plataforma10.png",
       "href": "http://www.plataforma10.com.ar/pasajes-micro"
     },
     {
-      "active": false,
+      "active": true,
       "id": "ClubCupon",
       "alt": "Club Cupón",
       "src": "img/logo/turismo_central_de_pasajes.png",
       "href": "http://www.clubcupon.com.ar/"
     },
     {
-      "active": false,
+      "active": true,
       "id": "Groupon",
       "alt": "Groupon",
       "src": "img/logo/cuponeras_groupon.png",
       "href": "https://www.groupon.com.ar/"
     },
     {
-      "active": false,
+      "active": true,
       "id": "NescafeDolceGusto",
       "alt": "Nescafe Dolce Gusto",
       "src": "img/logo/homedeco_dolcegusto.png",
       "href": "https://www.dolce-gusto.com.ar/"
     }
   ],
+
 
   "indumentaria_info": {
     "src": "img/indumentaria_categoria.jpg",
@@ -397,6 +398,22 @@
       "id": "Ginebra",
       "highlight": false,
       "active": true
+    }, {
+      "src": "img/logo/indumentaria_todomoda.png",
+      "href": "http://ar.todomoda.com/?utm_source=MP&utm_medium=landing",
+      "alt": "Todo Moda",
+      "title": "Todo Moda",
+      "id": "TodoModa",
+      "highlight": false,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_isadora.png",
+      "href": "http://ar.isadoraonline.com/?utm_source=MP&utm_medium=landing",
+      "alt": "Isadora",
+      "title": "Isadora",
+      "id": "Isadora",
+      "highlight": false,
+      "active": true
     }
   ],
 
@@ -655,6 +672,20 @@
       "title": "Bolivia",
       "id": "Bolivia",
       "active": true
+    }, {
+      "src": "img/logo/indumentaria_reef.png",
+      "href": "http://www.reef.com.ar/",
+      "alt": "Reef",
+      "title": "Reef",
+      "id": "Reef",
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_tannery.png",
+      "href": "http://www.tannery.com.ar/",
+      "alt": "Tannery",
+      "title": "Tannery",
+      "id": "Tannery",
+      "active": true
     }
   ],
 
@@ -714,6 +745,7 @@
       "active": true
     }
   ],
+
 
   "homedeco_info": {
     "src": "img/home_categoria.jpg",
@@ -865,6 +897,7 @@
     }
   ],
 
+
   "electro_info": {
     "src": "img/electro_categoria.jpg",
     "alt": "Electrónica y Accesorios",
@@ -970,6 +1003,7 @@
       "active": true
     }
   ],
+
 
   "turismo_info": {
     "src": "img/turismo_categoria.jpg",
@@ -1106,6 +1140,7 @@
     }
   ],
 
+
   "cuponeras_info": {
     "src": "img/cuponeras_categoria.jpg",
     "alt": "Cuponeras",
@@ -1173,6 +1208,7 @@
       "active": true
     }
   ],
+
 
   "otros_info": {
     "src": "img/otros_categoria.jpg",
@@ -1309,6 +1345,13 @@
       "alt": "IdeasEnFoto",
       "title": "IdeasEnFoto",
       "id": "IdeasEnFoto",
+      "active": true
+    }, {
+      "src": "img/logo/otros_pol.png",
+      "href": "http://www.polargentina.com/",
+      "alt": "Pol",
+      "title": "Pol",
+      "id": "Pol",
       "active": true
     }
   ]

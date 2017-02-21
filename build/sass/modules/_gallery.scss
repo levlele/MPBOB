@@ -127,7 +127,19 @@
 	}
 }
 
-.item__text {
+.item__text-small {
+  float: left;
+
+  p {
+    margin-bottom: 0;
+    color: $brand-lightred;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
+.item__text-big {
   float: left;
 
   p {

@@ -1,9 +1,9 @@
 {% extends "layout.nunjucks" %}
 {% block metaTags %}
-<title>Mercado Pago Promociones</title>
+<title>Mercado Pago Promociones y cuotas sin interés</title>
 <meta name="description" content="Con Mercado Pago siempre hay promociones. Mirá las ofertas que tenemos para vos y llevate eso que tanto te gusta.">
 <meta name="author" content="Mercado Pago">
-<meta property="og:title" content="Mercado Pago Promociones">
+<meta property="og:title" content="Mercado Pago Promociones y cuotas sin interés">
 <meta property="og:description" content="Con Mercado Pago siempre hay promociones. Mirá las ofertas que tenemos para vos y llevate eso que tanto te gusta.">
 <meta property="og:url" content="https://www.mercadopago.com.ar/promociones/">
 <meta property="og:type" content="website">
@@ -81,13 +81,14 @@
 <script src="{{landing_url}}js/vendor/jquery.countdown.min.js"></script>
 <script src="{{landing_url}}js/vendor/moment-timezone.js"></script>
 <script>
-  var bob = moment.tz("2017-10-31 00:00", "America/Argentina/Buenos_Aires");
-  $('.clock').countdown(bob.toDate(), function(event) {
+  var bob = moment.tz("2017-03-06 00:00", "America/Argentina/Buenos_Aires");
+  $('.clock__container').countdown(bob.toDate(), function(event) {
     var $this = $(this).html(event.strftime(''
-    + '<div class="clock__divider"><div class="num">%D</div><div class="name">DIAS</div></div>'
-    + '<div class="clock__divider"><div class="num">%H</div><div class="name">HORAS</div></div>'
-    + '<div class="clock__divider"><div class="num">%M</div><div class="name">MINUTOS</div></div>'
-    + '<div class="clock__divider"><div class="num">%S</div><div class="name">SEGUNDOS</div></div>'));
+    + '<div class="clock__divider"><div class="clock__num">%D</div><div class="clock__unity">DIAS</div></div>'
+    + '<div class="clock__divider"><div class="clock__num">%H</div><div class="clock__unity">HORAS</div></div>'
+    + '<div class="clock__divider"><div class="clock__num">%M</div><div class="clock__unity">MINUTOS</div></div>'
+    + '<div class="clock__info"><a id="registro-cta" href="https://registration.mercadopago.com.ar/registration-mp?mode=mp" target="_blank">Registrate</a></div>'));
+    //+ '<div class="clock__divider"><div class="num">%S</div><div class="name">SEGUNDOS</div></div>'));
   });
 </script>
 {% endif %}
