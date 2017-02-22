@@ -4,10 +4,6 @@
 
   "promo_is_on": true,
   "counter_is_on": false,
-  "multiproduct_is_on": false,
-
-  "multiproduct_id": "",
-  "multiproduct_title": "",
 
   "galeria": {
     "mpbox_hasta": true,
@@ -32,22 +28,6 @@
     "link": false,
     "href": "#"
   },
-
-  "carrousel_multiproduct": [
-    {
-      "active": true,
-      "id": "Sportline",
-      "alt": "Sportline",
-      "src": "img/logo/indumentaria_sportline.png",
-      "href": "http://www.sportline.com.ar/"
-    }, {
-      "active": true,
-      "id": "Sportline",
-      "alt": "Sportline",
-      "src": "img/logo/indumentaria_sportline.png",
-      "href": "http://www.sportline.com.ar/"
-    }
-  ],
 
   "productos": [
     {

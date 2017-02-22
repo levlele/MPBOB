@@ -38,6 +38,7 @@ var build = {
     img: "build/img/**/*",
     html: "build/index.html",
     json_internas: "build/json/merchants_internas.json", // Información de los merchants en categorias y slider
+    json_multiproduct: "build/json/multiproduct.json", // Información de los multiproduct que reemplazan el slider
     // json_promo: "build/json/test.json"
     // json_promo: "build/json/17_01_20_home_deco.json",
     // json_promo: "build/json/17_01_23_exclusiva_grisino.json",
@@ -104,6 +105,9 @@ gulp.task('html', function() {
       return JSON.parse(fs.readFileSync(build.json_internas));
   }))
   .pipe(data(function(){
+      return JSON.parse(fs.readFileSync(build.json_multiproduct));
+  }))
+  .pipe(data(function(){
       return JSON.parse(fs.readFileSync(build.json_promo));
   }))
   .pipe(nunjucksRender({
@@ -156,6 +160,9 @@ gulp.task('json', ['html'],function(){
       return JSON.parse(fs.readFileSync(build.json_internas));
   }))
   .pipe(data(function(){
+      return JSON.parse(fs.readFileSync(build.json_multiproduct));
+  }))
+  .pipe(data(function(){
       return JSON.parse(fs.readFileSync(build.json_promo));
   }))
   .pipe(nunjucksRender({
@@ -188,6 +195,7 @@ gulp.task('default', ['sass', 'js', 'html'], function () {
     gulp.watch(build.html, ['html-watch']);
     gulp.watch(build.js, ['js-watch']);
     gulp.watch(build.json_internas, ['json-watch']);
+    gulp.watch(build.json_multiproduct, ['json-watch']);
     gulp.watch(build.json_promo, ['json-watch']);
     gulp.watch(["build/templates/layout.nunjucks", "build/templates/partials/**/*.html"], ['html-watch']);
 });

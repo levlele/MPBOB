@@ -1,0 +1,34 @@
+{
+  "multiproduct_is_on": true,
+
+  "multiproduct_id": "solo-48hs",
+  "multiproduct_title": "23 y 24 de febrero aprovechá las ofertas de las siguientes marcas",
+
+  "carrousel_multiproduct": [
+    {
+      "active": true,
+      "id": "Arredo",
+      "alt": "Arredo",
+      "src": "img/multiproduct/arredo.jpg",
+      "href": "http://arredo.com.ar/2das-rebajas"
+    }, {
+      "active": true,
+      "id": "DeSillas",
+      "alt": "De Sillas",
+      "src": "img/multiproduct/desillas.jpg",
+      "href": "https://www.desillas.com/promociones.html"
+    }, {
+      "active": true,
+      "id": "Nylman",
+      "alt": "Nylman",
+      "src": "img/multiproduct/nylman.jpg",
+      "href": "https://nylmandeco.design/167-home-deco"
+    }, {
+      "active": true,
+      "id": "MartinMartin",
+      "alt": "Martin & Martin",
+      "src": "img/multiproduct/martin_martin.jpg",
+      "href": "http://www.mym.com.ar/index.php?seccion=6&producto=iluminacion"
+    }
+  ]
+}
