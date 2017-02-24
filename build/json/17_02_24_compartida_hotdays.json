@@ -1,0 +1,282 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/hotdays/landing/01/",
+
+  "promo_is_on": true,
+  "counter_is_on": false,
+
+  "galeria": {
+    "mpbox_hasta": true,
+    "mpbox_descuento": true,
+    "mpbox_solo_texto": false,
+    "mpbox_logo": true,
+    "mpbox_psj": false,
+    "mpbox_code": true
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "HotDays de Mercado Pago - Hasta 75% OFF en productos seleccionados",
+
+    "link": false,
+    "href": "#"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "GoodPeople",
+      "title": "Good People",
+      "alt": "Good People",
+      "href": "http://goodpeople.com/ar/hotday?utm_campaign=hotday&utm_medium=evento&utm_source=mercadopago#99678614",
+      
+      "logo": "img/productos/logo_goodpeople.jpg",
+      "img": "img/productos/goodpeople.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "60% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "EditorMarket",
+      "title": "Editor Market",
+      "alt": "Editor Market",
+      "href": "http://www.editormarket.com.ar/#226388825",
+      
+      "logo": "img/productos/logo_editor.jpg",
+      "img": "img/productos/editor.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "25% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "LoveAfrica",
+      "title": "Love Africa",
+      "alt": "Love Africa",
+      "href": "http://www.loveafrica.com.ar#232808602",
+      
+      "logo": "img/productos/logo_loveafrica.jpg",
+      "img": "img/productos/loveafrica.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": true,
+      "codigo_txt": "Código:",
+      "codigo_code": "BIKINIGIRLS",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": true,
+      "sup_num": "(1)"
+    },
+    {
+      "active": true,
+
+      "id": "ClubCupon",
+      "title": "Club Cupon",
+      "alt": "Club Cupon",
+      "href": "http://www.clubcupon.com.ar/hotdays#128708948",
+      
+      "logo": "img/productos/logo_clubcupon.jpg",
+      "img": "img/productos/clubcupon.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "75% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "CristobalWines",
+      "title": "Cristobal Wines",
+      "alt": "Cristobal Wines",
+      "href": "http://www.cristobal.com.ar/#114947649",
+      
+      "logo": "img/productos/logo_cristobalwines.jpg",
+      "img": "img/productos/cristobalwines.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": true,
+      "codigo_txt": "Código:",
+      "codigo_code": "CW20",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": true,
+      "text": "EXTRA en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Reef",
+      "title": "Reef",
+      "alt": "Reef",
+      "href": "http://www.reef.com.ar/?utm_source=MP&utm_medium=mailing#169814522",
+      
+      "logo": "img/productos/logo_reef.jpg",
+      "img": "img/productos/reef.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "2x1",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Margie Franzini",
+      "title": "MargieFranzini",
+      "alt": "MargieFranzini",
+      "href": "http://www.margiefranzini.com/#105513467",
+      
+      "logo": "img/productos/logo_margiefranzini.jpg",
+      "img": "img/productos/margiefranzini.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "60% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    },
+    {
+      "active": true,
+
+      "id": "Mi Cyber Compra",
+      "title": "Mi Cyber Compra",
+      "alt": "Mi Cyber Compra",
+      "href": "http://www.micybercompra.com.ar/#69317885",
+      
+      "logo": "img/productos/logo_micybercompra.jpg",
+      "img": "img/productos/micybercompra.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "CW20",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}
