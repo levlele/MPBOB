@@ -1,0 +1,27 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/SportWeek/teaser/",
+
+  "promo_is_on": false,
+  "counter_is_on": true,
+
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01_b.jpg",
+    "src_medium_01": "img/header/slide_medium_01_b.jpg",
+    "src_large_01": "img/header/slide_large_01_b.jpg",
+    "alt_01": "Sport Week - Del 6 al 10 de Marzo - Hasta 60% OFF en deportes",
+
+    "src_small_02": "img/header/slide_small_02_b.jpg",
+    "src_medium_02": "img/header/slide_medium_02_b.jpg",
+    "src_large_02": "img/header/slide_large_02_b.jpg",
+    "alt_02": "Sport Week - Del 6 al 10 de Marzo - Hasta 60% OFF en deportes",
+
+    "link": false,
+    "href": "#"
+  }
+}

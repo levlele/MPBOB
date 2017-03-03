@@ -1,0 +1,370 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/SportWeek/landing/",
+
+  "promo_is_on": true,
+  "counter_is_on": false,
+
+  "galeria": {
+    "mpbox_hasta": true,
+    "mpbox_descuento": true,
+    "mpbox_solo_texto": false,
+    "mpbox_logo": true,
+    "mpbox_psj": false,
+    "mpbox_code": true
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01_b.jpg",
+    "src_medium_01": "img/header/slide_medium_01_b.jpg",
+    "src_large_01": "img/header/slide_large_01_b.jpg",
+    "alt_01": "Sport Week - Del 6 al 10 de Marzo - Hasta 60% OFF en deportes",
+
+    "src_small_02": "img/header/slide_small_02_b.jpg",
+    "src_medium_02": "img/header/slide_medium_02_b.jpg",
+    "src_large_02": "img/header/slide_large_02_b.jpg",
+    "alt_02": "Sport Week - Del 6 al 10 de Marzo - Hasta 60% OFF en deportes",
+
+    "link": true,
+    "href": "#merchants"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "Sportline",
+      "title": "Sportline",
+      "alt": "Sportline",
+      "href": "http://www.sportline.com.ar/?utm_source=MP-SPORTS&utm_campaign=MP-SPORTS&utm_medium=MP-SPORTS&utm_term=MP-SPORTS&utm_content=MP-SPORTS",
+      
+      "logo": "img/productos/logo_sportline.jpg",
+      "img": "img/productos/sportline.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Digital Sport",
+      "title": "Digital Sport",
+      "alt": "Digital Sport",
+      "href": "https://www.digitalsport.com.ar/semana-sports/",
+      
+      "logo": "img/productos/logo_digitalsport.jpg",
+      "img": "img/productos/digitalsport.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "60% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Topper",
+      "title": "Topper",
+      "alt": "Topper",
+      "href": "http://www.topper.com.ar/especial-deportes.html",
+      
+      "logo": "img/productos/logo_topper.jpg",
+      "img": "img/productos/topper.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "35% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Sporting",
+      "title": "Sporting",
+      "alt": "Sporting",
+      "href": "https://www.sporting.com.ar/semanasports.html",
+      
+      "logo": "img/productos/logo_sporting.jpg",
+      "img": "img/productos/sporting.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "30% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "OpenSports",
+      "title": "Open Sports",
+      "alt": "Open Sports",
+      "href": "http://www.opensports.com.ar",
+      
+      "logo": "img/productos/logo_opensports.jpg",
+      "img": "img/productos/opensports.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "RosarioCentral",
+      "title": "Rosario Central",
+      "alt": "Rosario Central",
+      "href": "http://www.tiendarosariocentral.com/",
+      
+      "logo": "img/productos/logo_rosariocentral.jpg",
+      "img": "img/productos/rosariocentral_b.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Pezcalandia",
+      "title": "Pezcalandia",
+      "alt": "Pezcalandia",
+      "href": "https://www.pezcalandia.com.ar/categoria/mercado-pago-50",
+      
+      "logo": "img/productos/logo_pezcalandia.jpg",
+      "img": "img/productos/pezcalandia.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "FlyHalf",
+      "title": "FlyHalf",
+      "alt": "FlyHalf",
+      "href": "http://www.fly-halfrugby.com.ar/",
+      
+      "logo": "img/productos/logo_flyhalf.jpg",
+      "img": "img/productos/flyhalf.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "60% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "SportTotal",
+      "title": "Sport Total",
+      "alt": "Sport Total",
+      "href": "http://www.sportotal.com.ar",
+      
+      "logo": "img/productos/logo_sportotal.jpg",
+      "img": "img/productos/sportotal_b.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": true,
+      "codigo_txt": "Código:",
+      "codigo_code": "SPT20OFF",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Quonam",
+      "title": "Quonam",
+      "alt": "Quonam",
+      "href": "http://www.quonam.com.ar/tienda/Promo-mercado-pago",
+      
+      "logo": "img/productos/logo_quonam.jpg",
+      "img": "img/productos/quonam.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "OutdoorCompany",
+      "title": "Outdoor Company",
+      "alt": "Outdoor Company",
+      "href": "http://outdoorcompany.com.ar/marcas/semana-sport-mp.html",
+      
+      "logo": "img/productos/logo_outdoorcompany.jpg",
+      "img": "img/productos/outdoorcompany.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}

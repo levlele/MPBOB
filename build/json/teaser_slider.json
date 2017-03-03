@@ -1,0 +1,67 @@
+{
+  "teaser_is_on": true,
+  
+  "teaser_logos": [
+    {
+      "active": true,
+      "id": "DigitalSport",
+      "alt": "Digital Sport",
+      "src": "img/productos/digitalsport.jpg",
+      "href": "#"
+    }, {
+      "active": true,
+      "id": "FlyHalf",
+      "alt": "Fly Half",
+      "src": "img/productos/flyhalf.jpg",
+      "href": "#"
+    }, {
+      "active": true,
+      "id": "OpenSports",
+      "alt": "Open Sports",
+      "src": "img/productos/opensports.jpg",
+      "href": "#"
+    }, {
+      "active": true,
+      "id": "Pezcalandia",
+      "alt": "Pezcalandia",
+      "src": "img/productos/pezcalandia.jpg",
+      "href": "#"
+    }, {
+      "active": true,
+      "id": "Quonam",
+      "alt": "Quonam",
+      "src": "img/productos/quonam.jpg",
+      "href": "#"
+    }, {
+      "active": true,
+      "id": "Sporting",
+      "alt": "Sporting",
+      "src": "img/productos/sporting.jpg",
+      "href": "#"
+    }, {
+      "active": true,
+      "id": "Sportine",
+      "alt": "Sportine",
+      "src": "img/productos/sportline.jpg",
+      "href": "#"
+    }, {
+      "active": true,
+      "id": "Sportotal",
+      "alt": "Sportotal",
+      "src": "img/productos/sportotal.jpg",
+      "href": "#"
+    }, {
+      "active": true,
+      "id": "RosarioCentral",
+      "alt": "Rosario Central",
+      "src": "img/productos/tiendarosariocentral.jpg",
+      "href": "#"
+    }, {
+      "active": true,
+      "id": "Topper",
+      "alt": "Topper",
+      "src": "img/productos/topper.jpg",
+      "href": "#"
+    }
+  ]
+}

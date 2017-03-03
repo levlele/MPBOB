@@ -39,6 +39,7 @@ var build = {
     html: "build/index.html",
     json_internas: "build/json/merchants_internas.json", // Información de los merchants en categorias y slider
     json_multiproduct: "build/json/multiproduct.json", // Información de los multiproduct que reemplazan el slider
+    json_teaser: "build/json/teaser_slider.json", // Información de los logos del slider para la teaser
     // json_promo: "build/json/test.json"
     // json_promo: "build/json/17_01_20_home_deco.json",
     // json_promo: "build/json/17_01_23_exclusiva_grisino.json",
@@ -49,7 +50,9 @@ var build = {
     // json_promo: "build/json/17_02_10_compartida_bts.json",
     // json_promo: "build/json/17_02_17_compartida_escapada.json",
     // json_promo: "build/json/17_02_21_exclusiva_adidas.json",
-    json_promo: "build/json/17_02_24_compartida_hotdays.json"
+    // json_promo: "build/json/17_02_24_compartida_hotdays.json",
+    json_promo: "build/json/17_03_02_teaser_sport_week.json"
+    // json_promo: "build/json/17_03_03_sport_week.json"
 };
 
 var dist = {
@@ -111,6 +114,9 @@ gulp.task('html', function() {
   .pipe(data(function(){
       return JSON.parse(fs.readFileSync(build.json_promo));
   }))
+  .pipe(data(function(){
+      return JSON.parse(fs.readFileSync(build.json_teaser));
+  }))
   .pipe(nunjucksRender({
     path: ['build/pages/', 'build/templates/']
   }))
@@ -166,6 +172,9 @@ gulp.task('json', ['html'],function(){
   .pipe(data(function(){
       return JSON.parse(fs.readFileSync(build.json_promo));
   }))
+  .pipe(data(function(){
+      return JSON.parse(fs.readFileSync(build.json_teaser));
+  }))
   .pipe(nunjucksRender({
     path: ['build/pages/', 'build/templates/']
   }))
@@ -198,7 +207,8 @@ gulp.task('default', ['sass', 'js', 'html'], function () {
     gulp.watch(build.json_internas, ['json-watch']);
     gulp.watch(build.json_multiproduct, ['json-watch']);
     gulp.watch(build.json_promo, ['json-watch']);
-    gulp.watch(["build/templates/layout.nunjucks", "build/templates/partials/**/*.html"], ['html-watch']);
+    gulp.watch(build.json_teaser, ['json-watch']);
+    gulp.watch(["build/templates/layout.nunjucks", "build/templates/partials/**/*.html", "build/pages/*.nunjucks"], ['html-watch']);
 });
 
 

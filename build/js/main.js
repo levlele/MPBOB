@@ -103,8 +103,42 @@ $(function(){
   }).trigger("resize");
 });
 
-// Modal video
-$('.venobox').venobox();
+// Legales
+$(function() {
+  $('.footer-toggle').click(function() {
+    $('.legales').toggleClass('block');
+    $('.footer-toggle span').toggleClass('up');
+    $('html, body').animate({
+      scrollTop: $("footer").offset().top
+    }, 800);
+  });
+});
+
+// Randomize MPBoxes
+(function($){
+  var mpboxes  = $( '.gallery__item' );
+  // var merchant = $( '.category__logo' );
+
+  $.fn.shuffle = function() {
+  var allElems = this.get(),
+    getRandom = function(max) {
+        return Math.floor(Math.random() * max);
+    },
+    shuffled = $.map(allElems, function(){
+        var random = getRandom(allElems.length),
+            randEl = $(allElems[random]).clone(true)[0];
+        allElems.splice(random, 1);
+        return randEl;
+  });
+  this.each(function(i){
+    $(this).replaceWith($(shuffled[i]));
+  });
+  return $(shuffled);
+  };
+
+  mpboxes.shuffle();
+  // merchant.shuffle();
+})(jQuery);
 
 // Swiper - Slider header + Api medios de pago + Carrousel logos
 $(document).ready(function () {
@@ -146,7 +180,7 @@ $(document).ready(function () {
     }
   });
 
-  // Inicializar Slider Logos
+  // Inicializar Slider Multiproduct
   var multiproductSwiper = new Swiper ('#slider-logos-multiproduct', {
     loop: true,
     autoplay: 2500,
@@ -231,39 +265,7 @@ $(document).ready(function () {
       }
     }
   });
-
-  // Legales
-  $(function() {
-    $('.footer-toggle').click(function() {
-      $('.legales').toggleClass('block');
-      $('.footer-toggle span').toggleClass('up');
-      $('html, body').animate({
-        scrollTop: $("footer").offset().top
-      }, 800);
-    });
-  });
-
-  // Randomize MPBoxes
-  (function($){
-    var mpboxes = $( '.gallery__item' );
-
-    $.fn.shuffle = function() {
-    var allElems = this.get(),
-      getRandom = function(max) {
-          return Math.floor(Math.random() * max);
-      },
-      shuffled = $.map(allElems, function(){
-          var random = getRandom(allElems.length),
-              randEl = $(allElems[random]).clone(true)[0];
-          allElems.splice(random, 1);
-          return randEl;
-    });
-    this.each(function(i){
-      $(this).replaceWith($(shuffled[i]));
-    });
-    return $(shuffled);
-    };
-
-    mpboxes.shuffle();
-  })(jQuery);
 });
+
+// Modal video
+$('.venobox').venobox();

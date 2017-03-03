@@ -1,166 +1,101 @@
 .clock {
-  widows: 100%;
-  height: 100%;
-
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-
+  padding: $gutter 0;
   text-align: center;
-  background-color: rgba(0, 0, 0, .4);
+  // @include debug(red);
 
   // Contenedor general del contador y el cta
   &__container {
-    @include vertical-align;
     @include display(flex);
     @include flex-direction(row);
     @include flex-wrap(wrap);
     @include justify-content(center);
     @include align-content(center);
     overflow: hidden;
-    width: 100%;
   }
 
   // Divisores del contador
   &__divider {
     @include flex(0 0 auto);
     @include align-self(flex-start);
-    @include debug(red);
 
     @media (max-width: 424px) {
       width: 80px;
-      padding: 0 4px;
     }
 
     @media (min-width: 425px) and (max-width: 767px) {
       width: 96px;
-      padding: 0 8px;
     }
 
     @media (min-width: 768px) and (max-width: 1365px) {
       width: 128px;
+    }
+
+    @media (min-width: 1366px) and (max-width: 1599px) {
+      width: 128px;
+    }
+
+    @media (max-width: 1599px) {
       padding: 0 8px;
     }
 
-    @media (min-width: 1366px) and (max-width: 1919px) {
-      width: 128px;
+    @media (min-width: 1600px) {
       padding: 0 16px;
     }
 
+    @media (min-width: 1600px) and (max-width: 1919px) {
+      width: 160px;
+    }
+
     @media (min-width: 1920px) {
-      width: 200px;
-      padding: 0 32px;
+      width: 208px;
     }
   }
 
   // Estilos comunes para los números y las unidades
   &__num,
   &__unity {
-    color: #fff;
+    color: $brand-primary;
     font-weight: bold;
-
-    @media (min-width: 320px) and (max-width: 639px) {
-      height: 48px;
-      line-height: 48px;
-    }
-
-    @media (min-width: 640px) and (max-width: 767px) {
-      height: 80px;
-      line-height: 80px;
-    }
-
-    @media (min-width: 768px) and (max-width: 1365px) {
-      height: 80px;
-      line-height: 80px;
-    }
-
-    @media (min-width: 1366px) and (max-width: 1919px) {
-      height: 80px;
-      line-height: 80px;
-    }
-
-    @media (min-width: 1920px) {
-      height: 120px;
-      line-height: 120px;
-    }
+    line-height: 1;
   }
 
   // Estilos únicos de los números
   &__num {
-    font-weight: 900;
-    border-bottom: 1px solid #fff;
-    font-weight: bold;
-    font-size: 8vw;
+    padding: 16px 8px;
+    border-bottom: 1px solid $brand-primary;
 
-    // @media (min-width: 320px) and (max-width: 639px) {
-    //   font-size: 32px;
-    //   font-size: 8vw;
-    // }
-
-    // @media (min-width: 640px) and (max-width: 767px) {
-    //   font-size: 48px;
-    // }
-
-    // @media (min-width: 768px) and (max-width: 1365px) {
-    //   font-size: 24px;
-    // }
-
-    // @media (min-width: 1366px) and (max-width: 1919px) {
-    //   font-size: 56px;
-    // }
-
-    // @media (min-width: 1920px) {
-    //   font-size: 64px;
-    // }
+    span {
+      display: block;
+      font-weight: 900;
+      font-size: 16px;
+      font-size: 5vw;
+    }
   }
 
   // Estilos únicos de las unidades
   &__unity {
-    @media (min-width: 320px) and (max-width: 639px) {
-      font-size: 16px;
+    padding: 16px 0;
+    font-size: 14px;
+    line-height: 1.5;
+    
+    @media (max-width: 500px) {
+      font-size: 3vw;
     }
 
-    @media (min-width: 640px) and (max-width: 767px) {
-      font-size: 16px;
+    @media (min-width: 500px) and (max-width: 767px) {
+      font-size: 14px;
     }
 
     @media (min-width: 768px) and (max-width: 1365px) {
-      font-size: 22px;
+      font-size: 18px;
     }
 
     @media (min-width: 1366px) and (max-width: 1919px) {
-      font-size: 22px;
+      font-size: 18px;
     }
 
     @media (min-width: 1920px) {
       font-size: 32px;
-    }
-  }
-
-  // Cta registro
-  &__info {
-    @include flex(1 1 100%);
-    @include align-self(flex-end);
-    margin: 16px 0 8px 0;
-
-    a {
-      color: #ffffff;
-      background-color: $brand-primary;
-
-      font-weight: 300;
-      line-height: 1.2;
-      padding: 8px 32px;
-      border-radius: 4px;
-
-      @media (max-width: 767px) {
-        font-size: 16px;
-      }
-
-      @media (min-width: 768px) {
-        font-size: 24px;
-      }
     }
   }
 }

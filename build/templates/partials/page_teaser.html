@@ -1,0 +1,30 @@
+<main id="panel" role="main">
+  {% include '../partials/modules/module_banner_slider.html' %}
+
+  <section class="clock">
+    <div id="clock" class="clock__container"></div>
+  </section>
+
+  <section class="registro__container is-top">
+    <p>Enterate de todas las ofertas de la <span>Sport Week</span></p>
+    <a id="Registro-Footer" href="https://registration.mercadopago.com.ar/registration-mp?mode=mp" title="Registrarme ahora" target="_blank">Registrate gratis</a>
+  </section>
+
+  <section class="carrousel">
+    <p class="main__title">Conocé las marcas participantes</p>
+
+    <div id="slider-logos" class="carrousel__container swiper-container">
+      <div class="swiper-wrapper">
+        {% for logo in teaser_logos %}{% if logo.active %}
+        <div class="swiper-slide">
+          <img src="{{ promo_url }}{{logo.src }}" alt="{{ logo.alt }}" style="width: auto;">
+        </div>
+        {% endif %}{% endfor %}
+      </div>
+    </div>
+  </section>
+
+  {% include '../partials/modules/module_videos.html' %}
+  {% include '../partials/modules/module_apps.html' %}
+  {% include '../partials/modules/module_registro.html' %}
+</main>
