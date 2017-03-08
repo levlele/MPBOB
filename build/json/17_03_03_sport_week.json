@@ -20,18 +20,18 @@
     "src_large_00": "img/header/slide_large_00.jpg",
     "alt_00": "Fácil quererlo, fácil tenerlo",
 
-    "src_small_01": "img/header/slide_small_01_b.jpg",
-    "src_medium_01": "img/header/slide_medium_01_b.jpg",
-    "src_large_01": "img/header/slide_large_01_b.jpg",
+    "src_small_01": "img/header/slide_small_01_c.jpg",
+    "src_medium_01": "img/header/slide_medium_01_c.jpg",
+    "src_large_01": "img/header/slide_large_01_c.jpg",
     "alt_01": "Sport Week - Del 6 al 10 de Marzo - Hasta 60% OFF en deportes",
 
-    "src_small_02": "img/header/slide_small_02_b.jpg",
-    "src_medium_02": "img/header/slide_medium_02_b.jpg",
-    "src_large_02": "img/header/slide_large_02_b.jpg",
+    "src_small_02": "img/header/slide_small_02_c.jpg",
+    "src_medium_02": "img/header/slide_medium_02_c.jpg",
+    "src_large_02": "img/header/slide_large_02_c.jpg",
     "alt_02": "Sport Week - Del 6 al 10 de Marzo - Hasta 60% OFF en deportes",
 
     "link": true,
-    "href": "#merchants"
+    "href": "#title"
   },
 
   "productos": [
@@ -311,7 +311,7 @@
       "id": "Quonam",
       "title": "Quonam",
       "alt": "Quonam",
-      "href": "http://www.quonam.com.ar/tienda/Promo-mercado-pago",
+      "href": "http://www.quonam.com.ar/tienda/Promo-mercado-pago?utm_source=PromoMP&utm_campaign=PromoMP&utm_medium=emarketing&utm_content=PromoMP",
       
       "logo": "img/productos/logo_quonam.jpg",
       "img": "img/productos/quonam.jpg",
@@ -341,7 +341,7 @@
       "id": "OutdoorCompany",
       "title": "Outdoor Company",
       "alt": "Outdoor Company",
-      "href": "http://outdoorcompany.com.ar/marcas/semana-sport-mp.html",
+      "href": "http://outdoorcompany.com.ar/semana-sport-mp.html",
       
       "logo": "img/productos/logo_outdoorcompany.jpg",
       "img": "img/productos/outdoorcompany.jpg",

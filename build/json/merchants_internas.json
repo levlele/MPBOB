@@ -16,10 +16,10 @@
     },
     {
       "active": true,
-      "id": "Grisino",
-      "alt": "Grisino",
-      "src": "img/logo/indumentaria_grisino.png",
-      "href": "http://www.grisino.com/"
+      "id": "Mimo",
+      "alt": "Mimo",
+      "src": "img/logo/indumentaria_mimo.png",
+      "href": "http://www.mimo.com.ar/"
     },
     {
       "active": true,
@@ -103,14 +103,30 @@
   },
 
   "indumentaria_logos_mujer": [
-    {
-      "src": "img/logo/indumentaria_rapsodia.png",
-      "href": "http://www.rapsodia.com.ar/",
-      "alt": "Rapsodia",
-      "title": "Rapsodia",
-      "id": "Rapsodia",
+    { 
+      "src": "img/logo/indumentaria_sarkany.png",
+      "href": "http://www.rickysarkany.com",
+      "alt": "Sarkany",
+      "title": "Sarkany",
+      "id": "Sarkany",
       "highlight": true,
-      "active": false
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_grimoldi.png",
+      "href": "http://www.grimoldi.com/",
+      "alt": "Grimoldi",
+      "title": "Grimoldi",
+      "id": "Grimoldi",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_bizarro.png",
+      "href": "#",
+      "alt": "Bizarro Store",
+      "title": "Bizarro Store",
+      "id": "BizarroStore",
+      "highlight": true,
+      "active": true
     }, {
       "src": "img/logo/indumentaria_juanitajo.png",
       "href": "http://juanitajo.com/",
@@ -128,12 +144,20 @@
       "highlight": true,
       "active": true
     }, {
+      "src": "img/logo/indumentaria_saverio.png",
+      "href": "https://www.saveriodiricci.com/",
+      "alt": "Saverio",
+      "title": "Saverio",
+      "id": "Saverio",
+      "highlight": true,
+      "active": true
+    }, {
       "src": "img/logo/indumentaria_blaque.png",
       "href": "http://www.blaque.com.ar/",
       "alt": "Blaque",
       "title": "Blaque",
       "id": "Blaque",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_tucci.png",
@@ -141,7 +165,7 @@
       "alt": "Tucci",
       "title": "Tucci",
       "id": "Tucci",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_vitamina.png",
@@ -149,14 +173,14 @@
       "alt": "Vitamina",
       "title": "Vitamina",
       "id": "Vitamina",
-      "highlight": true
+      "highlight": false
     }, {
       "src": "img/logo/indumentaria_viamo.png",
       "href": "http://www.viamo.com/",
       "alt": "Viamo",
       "title": "Viamo",
       "id": "Viamo",
-      "highlight": true,
+      "highlight": false,
       "active": false
     }, {
       "src": "img/logo/indumentaria_47st.png",
@@ -164,7 +188,7 @@
       "alt": "47 Street",
       "title": "47 Street",
       "id": "47Street",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_carocuore.png",
@@ -172,7 +196,7 @@
       "alt": "Caro Cuore",
       "title": "Caro Cuore",
       "id": "CaroCuore",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_markova.png",
@@ -180,7 +204,7 @@
       "alt": "Markova",
       "title": "Markova",
       "id": "Markova",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_uma.png",
@@ -188,7 +212,7 @@
       "alt": "Uma",
       "title": "Uma",
       "id": "Uma",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_antolin.png",
@@ -196,14 +220,14 @@
       "alt": "Antolin",
       "title": "Antolin",
       "id": "Antolin",
-      "highlight": true
+      "highlight": false
     }, {
       "src": "img/logo/indumentaria_besha.png",
       "href": "http://www.besha.com.ar/",
       "alt": "Besha",
       "title": "Besha",
       "id": "Besha",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_kosiuko.png",
@@ -211,7 +235,7 @@
       "alt": "Kosiuko",
       "title": "Kosiuko",
       "id": "Kosiuko",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_guadalupe_cid.png",
@@ -219,7 +243,7 @@
       "alt": "Guadalupe Cid",
       "title": "Guadalupe Cid",
       "id": "GuadalupeCid",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_ver.png",
@@ -227,7 +251,7 @@
       "alt": "Ver",
       "title": "Ver",
       "id": "Ver",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_deluxebuys.png",
@@ -235,7 +259,7 @@
       "alt": "Deluxebuys",
       "title": "Deluxebuys",
       "id": "Deluxebuys-Mujer",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_aynotdead.png",
@@ -243,7 +267,7 @@
       "alt": "Ay Not Dead",
       "title": "Ay Not Dead",
       "id": "AyNotDead-Mujer",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_valdez.png",
@@ -251,7 +275,7 @@
       "alt": "Valdez",
       "title": "Valdez",
       "id": "Valdez",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_prune.png",
@@ -259,7 +283,7 @@
       "alt": "Prune",
       "title": "Prune",
       "id": "Prune",
-      "highlight": true,
+      "highlight": false,
       "active": false
     }, {
       "src": "img/logo/indumentaria_xl.png",
@@ -267,7 +291,7 @@
       "alt": "XL",
       "title": "XL",
       "id": "XL",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_delaostia.png",
@@ -275,23 +299,7 @@
       "alt": "Delaostia",
       "title": "Delaostia",
       "id": "Delaostia",
-      "highlight": true,
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_sarkany.png",
-      "href": "http://www.rickysarkany.com",
-      "alt": "Sarkany",
-      "title": "Sarkany",
-      "id": "Sarkany",
-      "highlight": true,
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_grimoldi.png",
-      "href": "http://www.grimoldi.com/",
-      "alt": "Grimoldi",
-      "title": "Grimoldi",
-      "id": "Grimoldi",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_viru.png",
@@ -299,7 +307,7 @@
       "alt": "Viru",
       "title": "Viru",
       "id": "Viru",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_inversa.png",
@@ -307,7 +315,7 @@
       "alt": "Inversa",
       "title": "Inversa",
       "id": "Inversa",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_basilotta.png",
@@ -315,7 +323,7 @@
       "alt": "Basilotta",
       "title": "Basilotta",
       "id": "Basilotta",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_miux.png",
@@ -414,16 +422,32 @@
       "id": "Isadora",
       "highlight": false,
       "active": true
+    }, {
+      "src": "img/logo/indumentaria_lady_stork.png",
+      "href": "#",
+      "alt": "Lady Stork",
+      "title": "Lady Stork",
+      "id": "LadyStork",
+      "highlight": false,
+      "active": true
     }
   ],
 
   "indumentaria_logos_hombre": [
     {
-      "src": "img/logo/indumentaria_kevingston.png",
-      "href": "http://shop.kevingston.com/",
-      "alt": "Kevinston",
-      "title": "Kevinston",
-      "id": "Kevinston-Hombres",
+      "src": "img/logo/indumentaria_etiqueta_negra.png",
+      "href": "http://etiquetanegra.us/2016win/argentina/home.php",
+      "alt": "Etiqueta Negra",
+      "title": "Etiqueta Negra",
+      "id": "EtiquetaNegra",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_gola.png",
+      "href": "http://www.golasouth.com/",
+      "alt": "Gola",
+      "title": "Gola",
+      "id": "Gola",
       "highlight": true,
       "active": true
     }, {
@@ -432,6 +456,14 @@
       "alt": "El Burgues",
       "title": "El Burgues",
       "id": "ElBurgues",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_kevingston.png",
+      "href": "http://shop.kevingston.com/",
+      "alt": "Kevinston",
+      "title": "Kevinston",
+      "id": "Kevinston-Hombres",
       "highlight": true,
       "active": true
     }, {
@@ -448,22 +480,6 @@
       "alt": "La Dolfina",
       "title": "La Dolfina",
       "id": "LaDolfina",
-      "highlight": true,
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_etiqueta_negra.png",
-      "href": "http://etiquetanegra.us/2016win/argentina/home.php",
-      "alt": "Etiqueta Negra",
-      "title": "Etiqueta Negra",
-      "id": "EtiquetaNegra",
-      "highlight": true,
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_gola.png",
-      "href": "http://www.golasouth.com/",
-      "alt": "Gola",
-      "title": "Gola",
-      "id": "Gola",
       "highlight": true,
       "active": true
     }, {
@@ -500,19 +516,67 @@
       "alt": "Pasotti",
       "title": "Pasotti",
       "id": "Pasotti",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }
   ],
   
   "indumentaria_logos_unisex": [
     {
+      "src": "img/logo/indumentaria_dafiti.png",
+      "href": "http://www.dafiti.com.ar/",
+      "alt": "Dafiti",
+      "title": "Dafiti",
+      "id": "Dafiti-Unisex",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_wanama.png",
+      "href": "http://www.wanama.com/",
+      "alt": "Wanama",
+      "title": "Wanama",
+      "id": "Wanama",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_legion.png",
+      "href": "http://www.legionextranjera.com.ar/",
+      "alt": "Legion Extranjera",
+      "title": "Legion Extranjera",
+      "id": "Legion-Extranjera-Unisex",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_bolivia.png",
+      "href": "http://www.bolivia-divina.com/",
+      "alt": "Bolivia",
+      "title": "Bolivia",
+      "id": "Bolivia",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_cook.png",
+      "href": "http://shop.johnlcook.com.ar/",
+      "alt": "John L Cook",
+      "title": "John L Cook",
+      "id": "JohnLCook",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_elepants.png",
+      "href": "http://www.elepants.com.ar/",
+      "alt": "Elepants",
+      "title": "Elepants",
+      "id": "Elepants-Unisex",
+      "highlight": true,
+      "active": true
+    }, {
       "src": "img/logo/indumentaria_solo_deportes.png",
       "href": "http://www.solodeportes.com.ar",
       "alt": "Solo Deportes",
       "title": "Solo Deportes",
       "id": "SoloDeportes",
-      "highlight": true,
+      "highlight": false,
       "active": false
     }, {
       "src": "img/logo/indumentaria_sportline.png",
@@ -520,7 +584,7 @@
       "alt": "Sportline",
       "title": "Sportline",
       "id": "Sportline",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_digital_sport.png",
@@ -528,7 +592,7 @@
       "alt": "Digitalsport",
       "title": "Digitalsport",
       "id": "Digitalsport",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_redsport.png",
@@ -543,23 +607,7 @@
       "alt": "Montagne",
       "title": "Montagne",
       "id": "Montagne",
-      "highlight": true,
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_deluxebuys.png",
-      "href": "http://www.deluxebuys.com",
-      "alt": "Deluxebuys",
-      "title": "Deluxebuys",
-      "id": "Deluxebuys-Unisex",
-      "highlight": true,
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_kevingston.png",
-      "href": "http://shop.kevingston.com/",
-      "alt": "Kevinston",
-      "title": "Kevinston",
-      "id": "Kevinston-Unisex",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_aynotdead.png",
@@ -567,23 +615,7 @@
       "alt": "Ay Not Dead",
       "title": "Ay Not Dead",
       "id": "AyNotDead-Unisex",
-      "highlight": true,
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_la_martina.png",
-      "href": "http://www.shop.lamartina.com.ar/",
-      "alt": "La Martina",
-      "title": "La Martina",
-      "id": "LaMartina-Unisex",
-      "highlight": true,
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_elepants.png",
-      "href": "http://www.elepants.com.ar/",
-      "alt": "Elepants",
-      "title": "Elepants",
-      "id": "Elepants-Unisex",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_cardon.png",
@@ -591,7 +623,7 @@
       "alt": "Cardón",
       "title": "Cardón",
       "id": "Cardon",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_fotter.png",
@@ -617,20 +649,6 @@
       "highlight": false,
       "active": true
     }, {
-      "src": "img/logo/indumentaria_dafiti.png",
-      "href": "http://www.dafiti.com.ar/",
-      "alt": "Dafiti",
-      "title": "Dafiti",
-      "id": "Dafiti-Unisex",
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_legion.png",
-      "href": "http://www.legionextranjera.com.ar/",
-      "alt": "Legion Extranjera",
-      "title": "Legion Extranjera",
-      "id": "Legion-Extranjera-Unisex",
-      "active": true
-    }, {
       "src": "img/logo/indumentaria_chelsea.png",
       "href": "http://www.chelseamarket.com.ar/",
       "alt": "Chelsea Market",
@@ -652,27 +670,6 @@
       "id": "Adidas",
       "active": true
     }, {
-      "src": "img/logo/indumentaria_wanama.png",
-      "href": "http://www.wanama.com/",
-      "alt": "Wanama",
-      "title": "Wanama",
-      "id": "Wanama",
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_cook.png",
-      "href": "http://shop.johnlcook.com.ar/",
-      "alt": "John L Cook",
-      "title": "John L Cook",
-      "id": "JohnLCook",
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_bolivia.png",
-      "href": "http://www.bolivia-divina.com/",
-      "alt": "Bolivia",
-      "title": "Bolivia",
-      "id": "Bolivia",
-      "active": true
-    }, {
       "src": "img/logo/indumentaria_reef.png",
       "href": "http://www.reef.com.ar/",
       "alt": "Reef",
@@ -686,19 +683,84 @@
       "title": "Tannery",
       "id": "Tannery",
       "active": true
+    }, {
+      "src": "img/logo/indumentaria_wrangler.png",
+      "href": "http://www.wrangler.com.ar/",
+      "alt": "Wrangler",
+      "title": "Wrangler",
+      "id": "Wrangler",
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_good_people.png",
+      "href": "http://goodpeople.com/ar",
+      "alt": "Good People",
+      "title": "Good People",
+      "id": "GoodPeople",
+      "active": true
+    }
+  ],
+
+  "indumentaria_logos_deportes_outdoors": [
+    {
+      "src": "img/logo/indumentaria_sportline.png",
+      "href": "http://www.sportline.com.ar",
+      "alt": "Sportline",
+      "title": "Sportline",
+      "id": "Sportline",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_digital_sport.png",
+      "href": "http://www.digitalsport.com.ar",
+      "alt": "Digitalsport",
+      "title": "Digitalsport",
+      "id": "Digitalsport",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_montagne.png",
+      "href": "http://www.montagne.com.ar",
+      "alt": "Montagne",
+      "title": "Montagne",
+      "id": "Montagne",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_topper.png",
+      "href": "http://www.topper.com.ar/",
+      "alt": "Topper",
+      "title": "Topper",
+      "id": "Topper",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_adidas.png",
+      "href": "http://www.adidas.com.ar/",
+      "alt": "Adidas",
+      "title": "Adidas",
+      "id": "Adidas",
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_dexter.png",
+      "href": "http://www.dexter.com.ar",
+      "alt": "Dexter",
+      "title": "Dexter",
+      "id": "Dexter",
+      "highlight": false,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_stockcenter.png",
+      "href": "http://www.stockcenter.com.ar/",
+      "alt": "Stockcenter",
+      "title": "Stockcenter",
+      "id": "Stockcenter",
+      "highlight": false,
+      "active": true
     }
   ],
 
   "indumentaria_logos_niños": [
     {
-      "src": "img/logo/indumentaria_grisino.png",
-      "href": "http://www.grisino.com",
-      "alt": "Grisino",
-      "title": "Grisino",
-      "id": "Grisino",
-      "highlight": true,
-      "active": false
-    }, {
       "src": "img/logo/indumentaria_mimo.png",
       "href": "http://tienda.mimo.com.ar/",
       "alt": "Mimo",
@@ -707,20 +769,28 @@
       "highlight": true,
       "active": true
     }, {
+      "src": "img/logo/indumentaria_owoko.png",
+      "href": "http://www.owoko.com.ar/",
+      "alt": "Owoko",
+      "title": "Owoko",
+      "id": "Owoko-Niños",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_grisino.png",
+      "href": "http://www.grisino.com",
+      "alt": "Grisino",
+      "title": "Grisino",
+      "id": "Grisino",
+      "highlight": false,
+      "active": false
+    }, {
       "src": "img/logo/indumentaria_elepants.png",
       "href": "http://www.elepants.com.ar/",
       "alt": "Elepants",
       "title": "Elepants",
       "id": "Elepants-Niños",
-      "highlight": true,
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_la_martina.png",
-      "href": "http://www.shop.lamartina.com.ar/",
-      "alt": "La Martina",
-      "title": "La Martina",
-      "id": "LaMartina-Niños",
-      "highlight": true,
+      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/indumentaria_fotter.png",
@@ -728,21 +798,8 @@
       "alt": "Fotter",
       "title": "Fotter",
       "id": "Fotter-Niños",
+      "highlight": false,
       "active": false
-    }, {
-      "src": "img/logo/indumentaria_owoko.png",
-      "href": "http://www.owoko.com.ar/",
-      "alt": "Owoko",
-      "title": "Owoko",
-      "id": "Owoko-Niños",
-      "active": true
-    }, {
-      "src": "img/logo/indumentaria_dafiti.png",
-      "href": "http://www.dafiti.com.ar/infantil/",
-      "alt": "Dafiti",
-      "title": "Dafiti",
-      "id": "Dafiti-Niños",
-      "active": true
     }
   ],
 
@@ -765,19 +822,19 @@
       "highlight": true,
       "active": true
     }, {
-      "src": "img/logo/homedeco_dolcegusto.png",
-      "href": "http://www.dolce-gusto.com.ar/",
-      "alt": "Nestle - Dolce Gusto",
-      "title": "Nestle - Dolce Gusto",
-      "id": "DolceGusto",
-      "highlight": true,
-      "active": true
-    }, {
       "src": "img/logo/homedeco_desillas.png",
       "href": "http://www.desillas.com",
       "alt": "Desillas",
       "title": "Desillas",
       "id": "Desillas",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/homedeco_martinymartin.png",
+      "href": "http://www.mym.com.ar/",
+      "alt": "Martin y Martin",
+      "title": "Martin y Martin",
+      "id": "MartinMartin",
       "highlight": true,
       "active": true
     }, {
@@ -789,12 +846,27 @@
       "highlight": true,
       "active": true
     }, {
-      "src": "img/logo/homedeco_martinymartin.png",
-      "href": "http://www.mym.com.ar/",
-      "alt": "Martin y Martin",
-      "title": "Martin y Martin",
-      "id": "MartinMartin",
+      "src": "img/logo/homedeco_dolcegusto.png",
+      "href": "http://www.dolce-gusto.com.ar/",
+      "alt": "Nestle - Dolce Gusto",
+      "title": "Nestle - Dolce Gusto",
+      "id": "DolceGusto",
       "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/homedeco_deco_hogar.png",
+      "href": "https://www.decohogar.com.ar/",
+      "alt": "Deco Hogar",
+      "title": "Deco Hogar",
+      "id": "DecoHogar",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/homedeco_kitchen_company.png",
+      "href": "http://www.kitchencompany.com.ar/",
+      "alt": "Kitchen Company",
+      "title": "Kitchen Company",
+      "id": "KitchenCompany",
       "active": true
     }, {
       "src": "img/logo/homedeco_gardenlife.png",
@@ -908,6 +980,38 @@
 
   "electro_logos": [
     {
+      "src": "img/logo/electro_necxus.png",
+      "href": "http://www.necxus.com.ar/",
+      "alt": "Necxus",
+      "title": "Necxus",
+      "id": "Necxus",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/electro_lh.png",
+      "href": "#",
+      "alt": "LH",
+      "title": "LH",
+      "id": "LH",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/electro_ansila.png",
+      "href": "http://hiperansila.com.ar",
+      "alt": "Ansila",
+      "title": "Ansila",
+      "id": "Ansila",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/electro_whirlpool.png",
+      "href": "http://www.whirlpoolstore.com.ar/",
+      "alt": "Whirlpool",
+      "title": "Whirlpool",
+      "id": "Whirlpool",
+      "highlight": true,
+      "active": true
+    }, {
       "src": "img/logo/electro_electronext.png",
       "href": "http://www.electronextshop.com.ar/",
       "alt": "Electronext",
@@ -916,21 +1020,19 @@
       "highlight": true,
       "active": true
     }, {
+      "src": "img/logo/electro_trabuco.png",
+      "href": "http://www.trabucohogar.com.ar/",
+      "alt": "Trabuco",
+      "title": "Trabuco",
+      "id": "Trabuco",
+      "active": true
+    }, {
       "src": "img/logo/electro_panasonic.png",
       "href": "http://shop.panasonic.com.ar/",
       "alt": "Panasonic",
       "title": "Panasonic",
       "id": "Panasonic",
-      "highlight": true,
       "active": false
-    }, {
-      "src": "img/logo/electro_necxus.png",
-      "href": "http://www.necxus.com.ar/",
-      "alt": "Necxus",
-      "title": "Necxus",
-      "id": "Necxus",
-      "highlight": true,
-      "active": true
     }, {
       "src": "img/logo/electro_whirlpool.png",
       "href": "http://www.whirlpoolstore.com.ar/",
@@ -981,25 +1083,11 @@
       "id": "Gama",
       "active": true
     }, {
-      "src": "img/logo/electro_trabuco.png",
-      "href": "http://www.trabucohogar.com.ar/",
-      "alt": "Trabuco",
-      "title": "Trabuco",
-      "id": "Trabuco",
-      "active": true
-    }, {
       "src": "img/logo/electro_alclick.png",
       "href": "http://alclickstore.com",
       "alt": "Al Click",
       "title": "Al Click",
       "id": "Al Click",
-      "active": true
-    }, {
-      "src": "img/logo/electro_ansila.png",
-      "href": "http://hiperansila.com.ar",
-      "alt": "Ansila",
-      "title": "Ansila",
-      "id": "Ansila",
       "active": true
     }
   ],
@@ -1023,14 +1111,6 @@
       "highlight": true,
       "active": true
     }, {
-      "src": "img/logo/turismo_plataforma10.png",
-      "href": "http://www.plataforma10.com/ar/pasajes-micro",
-      "alt": "Plataforma 10",
-      "title": "Plataforma 10",
-      "id": "Plataforma10",
-      "highlight": true,
-      "active": true
-    }, {
       "src": "img/logo/turismo_colonia_express.png",
       "href": "http://coloniaexpress.com",
       "alt": "Colonia Express",
@@ -1044,6 +1124,14 @@
       "alt": "Seacat",
       "title": "Seacat",
       "id": "Seacat",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/turismo_plataforma10.png",
+      "href": "http://www.plataforma10.com/ar/pasajes-micro",
+      "alt": "Plataforma 10",
+      "title": "Plataforma 10",
+      "id": "Plataforma10",
       "highlight": true,
       "active": true
     }, {
@@ -1159,19 +1247,19 @@
       "highlight": true,
       "active": true
     }, {
-      "src": "img/logo/cuponeras_clickon.png",
-      "href": "http://www.clickon.com.ar/",
-      "alt": "Clickon",
-      "title": "Clickon",
-      "id": "Clickon",
-      "highlight": true,
-      "active": true
-    }, {
       "src": "img/logo/cuponeras_agrupate.png",
       "href": "http://www.agrupate.com/",
       "alt": "Agrupate",
       "title": "Agrupate",
       "id": "Agrupate",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/cuponeras_clickon.png",
+      "href": "http://www.clickon.com.ar/",
+      "alt": "Clickon",
+      "title": "Clickon",
+      "id": "Clickon",
       "highlight": true,
       "active": true
     }, {
@@ -1182,14 +1270,6 @@
       "id": "Cuponica",
       "highlight": true,
       "active": true
-    }, {
-      "src": "img/logo/cuponeras_descontate.png",
-      "href": "http://descontate.com",
-      "alt": "Descontate",
-      "title": "Descontate",
-      "id": "Descontate",
-      "highlight": true,
-      "active": false
     }, {
       "src": "img/logo/cuponeras_clubcupon.png",
       "href": "http://www.clubcupon.com.ar/",
@@ -1220,15 +1300,6 @@
 
   "otros_logos": [
     {
-      "src": "img/logo/cuponeras_bigbox.png",
-      "href": "http://bigbox.com.ar/",
-      "alt": "Big Box",
-      "title": "Big Box",
-      "id": "BigBox",
-      "highlight": true,
-      "active": true
-    },
-    {
       "src": "img/logo/otros_ticket_bis.png",
       "href": "http://www.ticketbis.com/ar/",
       "alt": "Ticket Bis",
@@ -1245,11 +1316,11 @@
       "highlight": true,
       "active": true
     }, {
-      "src": "img/logo/otros_ticket_hoy.png",
-      "href": "http://bue.tickethoy.com/",
-      "alt": "Ticket Hoy",
-      "title": "Ticket Hoy",
-      "id": "TicketHoy",
+      "src": "img/logo/cuponeras_bigbox.png",
+      "href": "http://bigbox.com.ar/",
+      "alt": "Big Box",
+      "title": "Big Box",
+      "id": "BigBox",
       "highlight": true,
       "active": true
     }, {
@@ -1261,12 +1332,27 @@
       "highlight": true,
       "active": true
     }, {
+      "src": "img/logo/otros_ticket_hoy.png",
+      "href": "http://bue.tickethoy.com/",
+      "alt": "Ticket Hoy",
+      "title": "Ticket Hoy",
+      "id": "TicketHoy",
+      "highlight": true,
+      "active": true
+    }, {
+      "src": "img/logo/otros_ideasenfoto.png",
+      "href": "http://www.ideasenfoto.com/",
+      "alt": "IdeasEnFoto",
+      "title": "IdeasEnFoto",
+      "id": "IdeasEnFoto",
+      "highlight": true,
+      "active": true
+    }, {
       "src": "img/logo/otros_valija.png",
       "href": "http://valijachica.com.ar/",
       "alt": "Valija Chica",
       "title": "Valija Chica",
       "id": "ValijaChica",
-      "highlight": true,
       "active": true
     }, {
       "src": "img/logo/otros_paidos.png",
@@ -1274,7 +1360,6 @@
       "alt": "Librería Paidos",
       "title": "Librería Paidos",
       "id": "Paidos",
-      "highlight": false,
       "active": true
     }, {
       "src": "img/logo/otros_kairon.png",
@@ -1338,13 +1423,6 @@
       "alt": "Delsey",
       "title": "Delsey",
       "id": "Delsey",
-      "active": true
-    }, {
-      "src": "img/logo/otros_ideasenfoto.png",
-      "href": "http://www.ideasenfoto.com/",
-      "alt": "IdeasEnFoto",
-      "title": "IdeasEnFoto",
-      "id": "IdeasEnFoto",
       "active": true
     }, {
       "src": "img/logo/otros_pol.png",

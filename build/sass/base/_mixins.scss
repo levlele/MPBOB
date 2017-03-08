@@ -59,3 +59,52 @@ Viewport sized typography with minimum and maximum values
 @mixin debug($color) {
   border: 1px solid $color;
 }
+
+// Texts ML
+@mixin heading-big {
+  font-size: $ml-heading-big;
+  color: $ml-darkgrey;
+}
+
+@mixin heading-medium {
+  font-size: $ml-heading-medium;
+  color: $ml-darkgrey;
+}
+
+@mixin heading-medium-caps {
+  font-size: $ml-heading-medium;
+  color: $ml-darkgrey;
+  text-transform: uppercase;
+}
+
+@mixin heading-small {
+  font-size: $ml-heading-small;
+  font-weight: light;
+  color: $ml-darkgrey;
+}
+
+/* OK */
+
+@mixin subheading-extra-big {
+  font-size: $ml-subheading-extra-big;
+  color: $ml-halfgrey;
+}
+
+@mixin subheading-big {
+  font-size: $ml-subheading-big;
+  color: $ml-halfgrey;
+}
+
+@mixin subheading-big-caps {
+  font-size: $ml-subheading-big;
+  color: $ml-halfgrey;
+  text-transform: uppercase;
+}
+
+@mixin subheading-big-bold {
+  font-size: $ml-subheading-big;
+  color: $ml-halfgrey;
+  font-weight: bold;
+}
+
+/* OK */

@@ -51,8 +51,8 @@ var build = {
     // json_promo: "build/json/17_02_17_compartida_escapada.json",
     // json_promo: "build/json/17_02_21_exclusiva_adidas.json",
     // json_promo: "build/json/17_02_24_compartida_hotdays.json",
-    json_promo: "build/json/17_03_02_teaser_sport_week.json"
-    // json_promo: "build/json/17_03_03_sport_week.json"
+    // json_promo: "build/json/17_03_02_teaser_sport_week.json"
+    json_promo: "build/json/17_03_03_sport_week.json"
 };
 
 var dist = {

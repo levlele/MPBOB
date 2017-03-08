@@ -42,32 +42,30 @@ $(function() {
     event.stopPropagation();
   });
 });
-// var slideout = new Slideout({
-//   'panel': document.getElementById('panel'),
-//   'menu': document.getElementById('menu-mobile'),
-//   'padding': 300,
-//   'tolerance': 70,
-//   'side': 'right',
-//   'fx': 'ease-in-out',
-//   'touch': 'false'
-// });
 
+// Events Links generales
+$(function() {
+  $('a:not(.gallery__item a), a:not(.category__logos a), input[type=submit]').on('click', function() {
+    var link = $(this)[0].id;
+    ga('send', 'event', 'LANDINGS', 'ALWAYSON', link, 4);
+  });
+});
 
-// Events Merchants
+// Events Productos Promociones - CAMBIAR EL GA SI ES UNA SEASONAL IMPORTANTE
+$(function() {
+  $('.gallery__item a').on('click', function() {
+    var link = $(this)[0].id;
+    ga('send', 'event', 'LANDINGS', 'SPORTWEEK', link, 4);
+  });
+});
+
+// Events Merchants Categorias
 $(function() {
   $('.category__logos a').on('click', function() {
     var merchant = $(this)[0].id;
     var category = $(this).parents('.category__container').attr('id');
     var parametro = 'compras' + '-' + merchant + '-' + category;
     ga('send', 'event', 'LANDINGS', 'ALWAYSON', parametro, 4);
-  });
-});
-
-// Events Links generales
-$(function() {
-  $('a:not(.category__logos a), input[type=submit]').on('click', function() {
-    var link = $(this)[0].id;
-    ga('send', 'event', 'LANDINGS', 'ALWAYSON', link, 4);
   });
 });
 
@@ -114,10 +112,30 @@ $(function() {
   });
 });
 
+// Smooth scroll
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 750);
+        return false;
+      }
+    }
+  });
+});
+
 // Randomize MPBoxes
 (function($){
   var mpboxes  = $( '.gallery__item' );
-  // var merchant = $( '.category__logo' );
+  // var mujer    = $( '#mujer .category__logo' );
+  // var hombre   = $( '#hombre .category__logo' );
+  // var unisex   = $( '#unisex .category__logo' );
+  // var deportes = $( '#deportes .category__logo' );
+  // var ninos    = $( '#ninos .category__logo' );
 
   $.fn.shuffle = function() {
   var allElems = this.get(),
@@ -137,7 +155,10 @@ $(function() {
   };
 
   mpboxes.shuffle();
-  // merchant.shuffle();
+  // mujer.slice( 6 ).shuffle();
+  // hombre.slice( 6 ).shuffle();
+  // unisex.slice( 6 ).shuffle();
+  // deportes.slice( 6 ).shuffle();
 })(jQuery);
 
 // Swiper - Slider header + Api medios de pago + Carrousel logos
@@ -265,6 +286,35 @@ $(document).ready(function () {
       }
     }
   });
+  
+  // $.ajax({
+  //   url: 'https://api.mercadolibre.com/sites/MLA/credit_card_promos',
+  //   async: true
+  // }).then(function(data) {
+  //   for (var key in data) {
+  //     if (data.hasOwnProperty(key)) {
+
+  //       var idBanco			= data[key].issuer.id;
+  //       var nombreBanco	= data[key].issuer.name;
+  //       var cuotasBanco = data[key].max_installments;
+  //       var fechaInicio = moment(data[key].start_date).format('DD/MM');
+  //       var fechaFinal 	= moment(data[key].expiration_date).format('DD/MM');
+
+  //       paymentSwiper.appendSlide(
+  //         '<div class="swiper-slide">' +
+  //           '<div>' +
+  //             '<img src=' + '"https://www.mercadopago.com/org-img/MP3/API/logos/' + idBanco + '.gif"' + '>' +
+  //           '</div>' +
+  //           '<div class="payment__logo-info">' +
+  //             '<p><b>' + cuotasBanco + ' cuotas' + '</b></br>' +
+  //               'Del ' + fechaInicio + ' al ' + fechaFinal +
+  //             '</p>' +
+  //           '</div>' +
+  //         '</div>'
+  //       );
+  //     }
+  //   }
+  // });
 });
 
 // Modal video

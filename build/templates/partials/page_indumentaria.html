@@ -18,7 +18,7 @@
       <div style="clear:both;"></div>
 
       <h3 class="category__title">Mujer</h3>
-      <div class="category__logos">
+      <div id="mujer" class="category__logos">
         {% for logo in indumentaria_logos_mujer %}{% if logo.active %}
         <div class="category__logo">
           <a id="{{logo.id}}" {% if logo.highlight %}class="highlight"{% endif %} href="{{ logo.href | safe }}" title="{{logo.title}}" target="_blank">
@@ -29,7 +29,7 @@
       </div>
 
       <h3 class="category__title">Hombre</h3>
-      <div class="category__logos">
+      <div id="hombre" class="category__logos">
         {% for logo in indumentaria_logos_hombre %}{% if logo.active %}
         <div class="category__logo">
           <a id="{{logo.id}}" {% if logo.highlight %}class="highlight"{% endif %} href="{{ logo.href | safe }}" title="{{logo.title}}" target="_blank">
@@ -40,7 +40,7 @@
       </div>
 
       <h3 class="category__title">Unisex</h3>
-      <div class="category__logos">
+      <div id="unisex" class="category__logos">
         {% for logo in indumentaria_logos_unisex %}{% if logo.active %}
         <div class="category__logo">
           <a id="{{logo.id}}" {% if logo.highlight %}class="highlight"{% endif %} href="{{ logo.href | safe }}" title="{{logo.title}}" target="_blank">
@@ -50,8 +50,19 @@
         {% endif %}{% endfor %}
       </div>
 
+      <h3 class="category__title">Deportes / Outdoors</h3>
+      <div id="deportes" class="category__logos">
+        {% for logo in indumentaria_logos_deportes_outdoors %}{% if logo.active %}
+        <div class="category__logo">
+          <a id="{{logo.id}}" {% if logo.highlight %}class="highlight"{% endif %} href="{{ logo.href | safe }}" title="{{logo.title}}" target="_blank">
+            <img src="{{landing_url}}{{logo.src}}" alt="{{logo.alt}}">
+          </a>
+        </div>
+        {% endif %}{% endfor %}
+      </div>
+
       <h3 class="category__title">Niños</h3>
-      <div class="category__logos">
+      <div id="ninos" class="category__logos">
         {% for logo in indumentaria_logos_niños %}{% if logo.active %}
         <div class="category__logo">
           <a id="{{logo.id}}" {% if logo.highlight %}class="highlight"{% endif %} href="{{ logo.href | safe }}" title="{{logo.title}}" target="_blank">
