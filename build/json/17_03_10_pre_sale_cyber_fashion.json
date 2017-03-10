@@ -1,0 +1,845 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/cyber_fashion/landing/",
+
+  "promo_is_on": true,
+  "counter_is_on": false,
+
+  "galeria": {
+    "mpbox_hasta": true,
+    "mpbox_descuento": true,
+    "mpbox_solo_texto": false,
+    "mpbox_logo": true,
+    "mpbox_psj": false,
+    "mpbox_code": true
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Cyber Fashion - Hasta 40% OFF en la nueva temporada",
+
+    "link": true,
+    "href": "#title"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "Tucci",
+      "title": "Tucci",
+      "alt": "Tucci",
+      "href": "http://www.tucciweb.com/shoponline.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_tucci_b.jpg",
+      "img": "img/productos/tucci.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Wanama",
+      "title": "Wanama",
+      "alt": "Wanama",
+      "href": "http://www.wanama.com/?utm_source=NewsletterMPCF&utm_medium=email",
+      
+      "logo": "img/productos/logo_wanama.jpg",
+      "img": "img/productos/wanama.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Vitamina",
+      "title": "Vitamina",
+      "alt": "Vitamina",
+      "href": "https://www.vitamina.com.ar/e-store.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_vitamina.jpg",
+      "img": "img/productos/vitamina.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Mimo",
+      "title": "Mimo",
+      "alt": "Mimo",
+      "href": "http://tienda.mimo.com.ar/cyber-fashion.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_mimo.jpg",
+      "img": "img/productos/mimo.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Grisino",
+      "title": "Grisino",
+      "alt": "Grisino",
+      "href": "http://www.grisino.com/grisino.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_grisino.jpg",
+      "img": "img/productos/grisino.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "CaroCuore",
+      "title": "Caro Cuore",
+      "alt": "Caro Cuore",
+      "href": "http://www.carocuore.com/cyber-fashion.html?utm_source=mercadopago&utm_campaign=cyberfashion&utm_medium=referral",
+      
+      "logo": "img/productos/logo_caro_cuore.jpg",
+      "img": "img/productos/caro_cuore.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "30% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Portsaid",
+      "title": "Portsaid",
+      "alt": "Portsaid",
+      "href": "http://www.portsaid.com.ar/tienda-online.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_portsaid.jpg",
+      "img": "img/productos/portsaid.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Complot",
+      "title": "Complot",
+      "alt": "Complot",
+      "href": "http://www.complot.com.ar/cyberfashion.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_complot.jpg",
+      "img": "img/productos/complot.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "35% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Desiderata",
+      "title": "Desiderata",
+      "alt": "Desiderata",
+      "href": "http://www.desiderata.com.ar/shop.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_desiderata.jpg",
+      "img": "img/productos/desiderata.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "25% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Uma",
+      "title": "Uma",
+      "alt": "Uma",
+      "href": "http://www.uma.com.ar/e-shop.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_uma.jpg",
+      "img": "img/productos/uma.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Sweet",
+      "title": "Sweet",
+      "alt": "Sweet",
+      "href": "http://www.sweet.com.ar/cyberfashion.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_sweet.jpg",
+      "img": "img/productos/sweet.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Blaque",
+      "title": "Blaque",
+      "alt": "Blaque",
+      "href": "http://www.blaque.com.ar/blaque.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_blaque.jpg",
+      "img": "img/productos/blaque.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Fila",
+      "title": "Fila",
+      "alt": "Fila",
+      "href": "http://tienda.fila.com.ar/cyberfashion.html?utm_source=mercadopago&utm_campaign=cyberfashion&utm_medium=accionint",
+      
+      "logo": "img/productos/logo_fila.jpg",
+      "img": "img/productos/fila.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Airborn",
+      "title": "Airborn",
+      "alt": "Airborn",
+      "href": "http://www.airborn.com.ar/full-collection.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_airborn.jpg",
+      "img": "img/productos/airborn.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Muaa",
+      "title": "Muaa",
+      "alt": "Muaa",
+      "href": "http://www.muaa.com.ar/cyberfashion.html?utm_source=mercadopago&utm_campaign=cyberfashion&utm_medium=referral",
+      
+      "logo": "img/productos/logo_muaa.jpg",
+      "img": "img/productos/muaa.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "25% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Birkenstock",
+      "title": "Birkenstock",
+      "alt": "Birkenstock",
+      "href": "http://www.birkenstockweb.com.ar?utm_source=mercadopago&utm_campaign=cyberfashion&utm_medium=accionint",
+      
+      "logo": "img/productos/logo_birkenstock.jpg",
+      "img": "img/productos/birkenstock.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Kosiuko",
+      "title": "Kosiuko",
+      "alt": "Kosiuko",
+      "href": "http://www.kosiuko.com/store_listado.php?id=260&sitio=ksk&utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_kosiuko.jpg",
+      "img": "img/productos/kosiuko.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Top3",
+      "title": "Top 3",
+      "alt": "Top 3",
+      "href": "http://www.top3.com.ar/?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_top3.jpg",
+      "img": "img/productos/top3.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "25% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Herencia",
+      "title": "Herencia",
+      "alt": "Herencia",
+      "href": "http://www.herenciacustomgarage.com/store_listado.php?id=261&sitio=her&utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_herencia.jpg",
+      "img": "img/productos/herencia.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "JohnLCook",
+      "title": "John L Cook",
+      "alt": "John L Cook",
+      "href": "http://shop.johnlcook.com.ar/?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_john_l_cook.jpg",
+      "img": "img/productos/john_l_cook.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "ReverPass",
+      "title": "Rever Pass",
+      "alt": "Rever Pass",
+      "href": "http://shop.reverpass.com/e-shop.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_rever_pass.jpg",
+      "img": "img/productos/rever_pass.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Broer",
+      "title": "Broer",
+      "alt": "Broer",
+      "href": "http://www.grisino.com/broer.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_broer.jpg",
+      "img": "img/productos/broer.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Materia",
+      "title": "Materia",
+      "alt": "Materia",
+      "href": "http://www.materia.com.ar?utm_source=cyberfashion&utm_campaign=cyberfashion&utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_materia.jpg",
+      "img": "img/productos/materia.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en toda la tienda",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "AdmitOne",
+      "title": "Admit One",
+      "alt": "Admit One",
+      "href": "http://www.admitone.com.ar/new.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_admit_one.jpg",
+      "img": "img/productos/admit_one.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "AnotherRule",
+      "title": "Another Rule",
+      "alt": "Another Rule",
+      "href": "http://www.grisino.com/another-rule.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_another_rule.jpg",
+      "img": "img/productos/another_rule.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": true,
+      "codigo_txt": "",
+      "codigo_code": "Envío gratis",
+
+      "extra": false,
+      "extra_text": "",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "SansDoute",
+      "title": "Sans Doute",
+      "alt": "Sans Doute",
+      "href": "http://www.sansdoute.com/?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
+      
+      "logo": "img/productos/logo_sans_doute.jpg",
+      "img": "img/productos/sans_doute.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "SofiMartire",
+      "title": "Sofi Martire",
+      "alt": "Sofi Martire",
+      "href": "http://www.sofimartire.com.ar/?utm_source=WeekMercadoPago&utm_campaign=MercadoPagoGlamit&utm_medium=MercadoPagoGlamit&utm_term=SofiMartire&utm_content=SofiMartire",
+      
+      "logo": "img/productos/logo_sofi_martire.jpg",
+      "img": "img/productos/sofi_martire.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "XXX",
+
+      "extra": false,
+      "extra_text": "Informacion adicional",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}

@@ -55,7 +55,7 @@ $(function() {
 $(function() {
   $('.gallery__item a').on('click', function() {
     var link = $(this)[0].id;
-    ga('send', 'event', 'LANDINGS', 'SPORTWEEK', link, 4);
+    ga('send', 'event', 'LANDINGS', 'ALWAYSON', link, 4);
   });
 });
 

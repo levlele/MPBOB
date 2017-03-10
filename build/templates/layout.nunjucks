@@ -16,8 +16,7 @@
   <link rel="apple-touch-icon-precomposed" href="https://secure.mlstatic.com/components/resources/mp/desktop/images/apple-touch-icon-120x120-precomposed.png?v=2.9.3/apple-touch-icon-120x120-precomposed.png">
   <link rel="apple-touch-icon-precomposed" href="https://secure.mlstatic.com/components/resources/mp/desktop/images/apple-touch-icon-144x144-precomposed.png?v=2.9.3/apple-touch-icon-144x144-precomposed.png">
 
-  {#<link rel="stylesheet" href="{{landing_url}}css/main-min-v13.css">#}
-  <link rel="stylesheet" href="css/main-min.css">
+  <link rel="stylesheet" href="{{landing_url}}css/main-min-v13.css">
   <!--[if lt IE 9]>
     <script src="https://static.mlstatic.com/org-img/ch/vendor/html5shiv/html5shiv-3.7.0.js"></script>
   <![endif]-->
@@ -54,10 +53,10 @@
 
   ga('create', 'UA-46085787-2', 'auto');
   ga('set', 'title', 'app-landing-mp');
-  ga('set', 'page', '/LANDINGS/SPORTWEEK');
+  ga('set', 'page', '/LANDINGS/ALWAYSON');
   ga('set', 'dimension1', 'desktop');
   ga('send', 'pageview');
 </script>
-<script src="{{landing_url}}js/main-min-v14.js"></script>
+<script src="{{landing_url}}js/main-min-v15.js"></script>
 </body>
 </html>

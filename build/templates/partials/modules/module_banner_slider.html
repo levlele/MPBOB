@@ -4,19 +4,6 @@
     <div class="swiper-slide">
       {% if slides.link %}
       <a id="cta-slider" href="{{slides.href | safe}}" title="Promociones y Beneficios">
-        <img class="slide-small" src="{{promo_url}}{{slides.src_small_02}}" alt="{{slides.alt_02}}">
-        <img class="slide-medium" src="{{promo_url}}{{slides.src_medium_02}}" alt="{{slides.alt_02}}">
-        <img class="slide-large" src="{{promo_url}}{{slides.src_large_02}}" alt="{{slides.alt_02}}">
-      </a>
-      {% else %}
-      <img class="slide-small" src="{{promo_url}}{{slides.src_small_02}}" alt="{{slides.alt_02}}">
-      <img class="slide-medium" src="{{promo_url}}{{slides.src_medium_02}}" alt="{{slides.alt_02}}">
-      <img class="slide-large" src="{{promo_url}}{{slides.src_large_02}}" alt="{{slides.alt_02}}">
-      {% endif %}
-    </div>
-    <div class="swiper-slide">
-      {% if slides.link %}
-      <a id="cta-slider" href="{{slides.href | safe}}" title="Promociones y Beneficios">
         <img class="slide-small" src="{{promo_url}}{{slides.src_small_01}}" alt="{{slides.alt_01}}">
         <img class="slide-medium" src="{{promo_url}}{{slides.src_medium_01}}" alt="{{slides.alt_01}}">
         <img class="slide-large" src="{{promo_url}}{{slides.src_large_01}}" alt="{{slides.alt_01}}">
@@ -26,6 +13,11 @@
       <img class="slide-medium" src="{{promo_url}}{{slides.src_medium_01}}" alt="{{slides.alt_01}}">
       <img class="slide-large" src="{{promo_url}}{{slides.src_large_01}}" alt="{{slides.alt_01}}">
       {% endif %}
+    </div>
+    <div class="swiper-slide">
+      <img class="slide-small" src="{{landing_url}}{{slides.src_small_00}}" alt="{{slides.alt_00}}">
+      <img class="slide-medium" src="{{landing_url}}{{slides.src_medium_00}}" alt="{{slides.alt_00}}">
+      <img class="slide-large" src="{{landing_url}}{{slides.src_large_00}}" alt="{{slides.alt_00}}">
     </div>
   </div>
   <div class="swiper-pagination"></div>
