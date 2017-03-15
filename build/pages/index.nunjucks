@@ -5,16 +5,16 @@
 <meta name="author" content="Mercado Pago">
 <meta property="og:title" content="Mercado Pago Promociones y cuotas sin interés">
 <meta property="og:description" content="Con Mercado Pago siempre hay promociones. Mirá las ofertas que tenemos para vos y llevate eso que tanto te gusta.">
-<meta property="og:url" content="https://www.mercadopago.com.ar/promociones/">
+<meta property="og:url" content="https://www.mercadopago.com/promociones/">
 <meta property="og:type" content="website">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="600">
+<meta property="og:image:height" content="315">
 {% if promo_is_on %}
 <meta property="og:image" content="{{promo_url}}img/share.jpg">
 {% else %}
 <meta property="og:image" content="{{landing_url}}img/share.jpg">
-    {% endif %}
-<meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:width" content="600">
-<meta property="og:image:height" content="315">
+{% endif %}
 {% endblock %}
 {% block fb_kenshoo %}
   <!-- Facebook Pixel Code (Landings) -->

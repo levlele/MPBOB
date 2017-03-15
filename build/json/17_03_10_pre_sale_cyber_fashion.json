@@ -4,6 +4,7 @@
 
   "promo_is_on": true,
   "counter_is_on": false,
+  "axion_is_on": true,
 
   "galeria": {
     "mpbox_hasta": true,
@@ -20,9 +21,9 @@
     "src_large_00": "img/header/slide_large_00.jpg",
     "alt_00": "Fácil quererlo, fácil tenerlo",
 
-    "src_small_01": "img/header/slide_small_01.jpg",
-    "src_medium_01": "img/header/slide_medium_01.jpg",
-    "src_large_01": "img/header/slide_large_01.jpg",
+    "src_small_01": "img/header/slide_small_01_b.jpg",
+    "src_medium_01": "img/header/slide_medium_01_b.jpg",
+    "src_large_01": "img/header/slide_large_01_b.jpg",
     "alt_01": "Cyber Fashion - Hasta 40% OFF en la nueva temporada",
 
     "link": true,
@@ -56,7 +57,7 @@
       "descuento_num": "20% OFF",
 
       "text_only": false,
-      "text": "en productos seleccionados",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -82,8 +83,8 @@
       "extra_text": "Informacion adicional",
 
       "descuento": true,
-      "descuento_txt": true,
-      "descuento_num": "40% OFF",
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
 
       "text_only": false,
       "text": "en todo el sitio",
@@ -116,7 +117,7 @@
       "descuento_num": "20% OFF",
 
       "text_only": false,
-      "text": "en productos seleccionados",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -128,7 +129,7 @@
       "alt": "Mimo",
       "href": "http://tienda.mimo.com.ar/cyber-fashion.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=cyberfashion",
       
-      "logo": "img/productos/logo_mimo.jpg",
+      "logo": "img/productos/logo_mimo_b.jpg",
       "img": "img/productos/mimo.jpg",
 
       "psj_12x": false,
@@ -236,7 +237,7 @@
       "descuento_num": "20% OFF",
 
       "text_only": false,
-      "text": "en productos seleccionados",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -296,7 +297,7 @@
       "descuento_num": "25% OFF",
 
       "text_only": false,
-      "text": "en productos seleccionados",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -326,7 +327,7 @@
       "descuento_num": "20% OFF",
 
       "text_only": false,
-      "text": "en productos seleccionados",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -443,10 +444,10 @@
 
       "descuento": true,
       "descuento_txt": false,
-      "descuento_num": "20% OFF",
+      "descuento_num": "30% OFF",
 
       "text_only": false,
-      "text": "en productos seleccionados",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -476,7 +477,7 @@
       "descuento_num": "25% OFF",
 
       "text_only": false,
-      "text": "en productos seleccionados",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -622,7 +623,7 @@
       "extra_text": "Informacion adicional",
 
       "descuento": true,
-      "descuento_txt": true,
+      "descuento_txt": false,
       "descuento_num": "20% OFF",
 
       "text_only": false,
@@ -656,7 +657,7 @@
       "descuento_num": "20% OFF",
 
       "text_only": false,
-      "text": "en productos seleccionados",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -686,7 +687,7 @@
       "descuento_num": "30% OFF",
 
       "text_only": false,
-      "text": "en productos seleccionados",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -716,7 +717,7 @@
       "descuento_num": "20% OFF",
 
       "text_only": false,
-      "text": "en toda la tienda",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -776,7 +777,7 @@
       "descuento_num": "30% OFF",
 
       "text_only": false,
-      "text": "en productos seleccionados",
+      "text": "en todo el sitio",
 
       "sup": false,
       "sup_num": ""
@@ -802,8 +803,8 @@
       "extra_text": "Informacion adicional",
 
       "descuento": true,
-      "descuento_txt": true,
-      "descuento_num": "50% OFF",
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
 
       "text_only": false,
       "text": "en todo el sitio",
@@ -832,11 +833,11 @@
       "extra_text": "Informacion adicional",
 
       "descuento": true,
-      "descuento_txt": false,
-      "descuento_num": "20% OFF",
+      "descuento_txt": true,
+      "descuento_num": "25% OFF",
 
       "text_only": false,
-      "text": "en todo el sitio",
+      "text": "en productos seleccionados",
 
       "sup": false,
       "sup_num": ""
