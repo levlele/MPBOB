@@ -1,4 +1,4 @@
-{% if promo_is_on %}
+{% if slider_is_on %}
 <section id="slider-banner" class="swiper-container">
   <div class="swiper-wrapper">
     <div class="swiper-slide">
@@ -61,8 +61,16 @@
 </section>
 {% else %}
 <section>
-  <img class="slide-small" src="{{landing_url}}{{slides.src_small_00}}" alt="{{slides.alt_00}}">
-  <img class="slide-medium" src="{{landing_url}}{{slides.src_medium_00}}" alt="{{slides.alt_00}}">
-  <img class="slide-large" src="{{landing_url}}{{slides.src_large_00}}" alt="{{slides.alt_00}}">
+  {% if slides.link %}
+  <a id="cta-slider" href="{{slides.href | safe}}" title="Promociones y Beneficios">
+    <img class="slide-small" src="{{promo_url}}{{slides.src_small_01}}" alt="{{slides.alt_01}}">
+    <img class="slide-medium" src="{{promo_url}}{{slides.src_medium_01}}" alt="{{slides.alt_01}}">
+    <img class="slide-large" src="{{promo_url}}{{slides.src_large_01}}" alt="{{slides.alt_01}}">
+  </a>
+  {% else %}
+  <img class="slide-small" src="{{promo_url}}{{slides.src_small_01}}" alt="{{slides.alt_01}}">
+  <img class="slide-medium" src="{{promo_url}}{{slides.src_medium_01}}" alt="{{slides.alt_01}}">
+  <img class="slide-large" src="{{promo_url}}{{slides.src_large_01}}" alt="{{slides.alt_01}}">
+  {% endif %}
 </section>
 {% endif %}

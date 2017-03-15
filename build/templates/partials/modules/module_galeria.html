@@ -26,7 +26,7 @@
           <img src="{{landing_url}}img/psj_3x.jpg" alt="PSJ 3x">
         </div>
         {% elif producto.codigo %}
-        <div class="item__code">
+        <div class="item__code" style="color:#ee5536;margin-bottom: 8px;">
           {{producto.codigo_txt}}&nbsp;<b style="color:#009ee3">{{producto.codigo_code}}</b>
         </div>
         {% elif producto.extra %}
@@ -46,7 +46,7 @@
           {% if producto.descuento_txt %}<p>Hasta</p>{% else %}<p>&nbsp;</p>{% endif %}
         {% endif %}
           <p class="discount-number">{{producto.descuento_num}}{% if producto.sup %}&nbsp;<sup>{{producto.sup_num}}</sup>{% endif %}</p>
-          <p>{{producto.text | safe}}</p>
+          <p style="text-decoration: line-through">{{producto.text | safe}}</p>
         </div>
         <div class="item__btn" {% if not galeria.mpbox_hasta %}style="margin-top:36px"{% endif %}>
           <a id="promociones-{{producto.id}}-btn" href="{{producto.href|safe}}" title="{{producto.title}}" target="_blank">VER MÁS&nbsp;&gt;</a>

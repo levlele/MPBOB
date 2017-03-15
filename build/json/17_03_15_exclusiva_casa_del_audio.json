@@ -1,0 +1,113 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/casa_del_audio/landing/",
+
+  "promo_is_on": true,
+  "slider_is_on": false,
+  "counter_is_on": false,
+  "axion_is_on": true,
+
+  "galeria": {
+    "mpbox_hasta": false,
+    "mpbox_descuento": true,
+    "mpbox_solo_texto": false,
+    "mpbox_logo": false,
+    "mpbox_psj": false,
+    "mpbox_code": true
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Casa del Audio - Hasta 30% OFF en todo el sitio",
+
+    "link": true,
+    "href": "#title"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "Noblex",
+      "title": "Noblex",
+      "alt": "Noblex",
+      "href": "https://www.casadelaudio.com/ofertas/tv-video/led-smart-tv-3d/smart-tv-noblex-43882fi-x5100-netflix?utm_source=newsletter&utm_campaign=mercado_pago&utm_medium=email&utm_content=mercado_pago#144844107",
+      
+      "img": "img/productos/noblex.jpg",
+
+      "codigo": true,
+      "codigo_txt": "SMART TV 43\" NOBLEX",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "$8.516",
+
+      "text_only": false,
+      "text": "$12.166"
+    }, {
+      "active": true,
+
+      "id": "KenBrown",
+      "title": "KenBrown",
+      "alt": "KenBrown",
+      "href": "https://www.casadelaudio.com/ofertas/tv-video/led-smart-tv-3d/smart-tv-led-32-ken-brown-s2000sa-android-442?utm_source=newsletter&utm_campaign=mercado_pago&utm_medium=email&utm_content=mercado_pago#144844107",
+      
+      "img": "img/productos/kenbrown.jpg",
+
+      "codigo": true,
+      "codigo_txt": "SMART TV LED 32\" KEN BROWN",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "$4.480",
+
+      "text_only": false,
+      "text": "$6.400"
+    }, {
+      "active": true,
+
+      "id": "Gafa",
+      "title": "Gafa",
+      "alt": "Gafa",
+      "href": "https://www.casadelaudio.com/ofertas/heladeras-freezers/heladeras-con-freezer/convencionales-exhibidoras/heladera-con-freezer-gafa-hgf357-281-litros?utm_source=newsletter&utm_campaign=mercado_pago&utm_medium=email&utm_content=mercado_pago#144844107",
+      
+      "img": "img/productos/gafa.jpg",
+
+      "codigo": true,
+      "codigo_txt": "HELADERA CON FREEZER GAFA",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "$8.479",
+
+      "text_only": false,
+      "text": "$12.113"
+    }, {
+      "active": true,
+
+      "id": "BGHJoy",
+      "title": "BGH Joy",
+      "alt": "BGH Joy",
+      "href": "https://www.casadelaudio.com/ofertas/celulares-telefonos-telefonos/celulares-libres/celular-libre-joy-a7g-blanco?utm_source=newsletter&utm_campaign=mercado_pago&utm_medium=email&utm_content=mercado_pago#144844107",
+      
+      "img": "img/productos/bgh_joy.jpg",
+
+      "codigo": true,
+      "codigo_txt": "CELULAR LIBRE JOY A7G BLANCO",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "$2.065",
+
+      "text_only": false,
+      "text": "$2.950"
+    }
+  ]
+}
