@@ -1,0 +1,140 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/hotdays/landing/02/",
+
+  "promo_is_on": true,
+  "counter_is_on": false,
+  "axion_is_on": true,
+
+  "galeria": {
+    "mpbox_hasta": false,
+    "mpbox_descuento": false,
+    "mpbox_solo_texto": true,
+    "mpbox_logo": true,
+    "mpbox_psj": false,
+    "mpbox_code": false
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01b.jpg",
+    "src_medium_01": "img/header/slide_medium_01b.jpg",
+    "src_large_01": "img/header/slide_large_01b.jpg",
+    "alt_01": "HotDays - Hasta 50% OFF en productos seleccionados",
+
+    "link": true,
+    "href": "#title"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "CardonPantalonesMujer",
+      "title": "Cardon - Pantalones Mujer",
+      "alt": "Cardon - Pantalones Mujer",
+      "href": "http://www.cardon.com.ar/mujer/pantalones.html",
+      
+      "logo": "img/productos/logo_cardon.jpg",
+      "img": "img/productos/cardon_pantalones_mujer.jpg",
+
+      "text_only": true,
+      "text": "Pantalones Mujer"
+    }, {
+      "active": true,
+
+      "id": "CardonCamperasMujer",
+      "title": "Cardon - Camperas Mujer",
+      "alt": "Cardon - Camperas Mujer",
+      "href": "http://www.cardon.com.ar/mujer/camperas.html#204318941",
+      
+      "logo": "img/productos/logo_cardon.jpg",
+      "img": "img/productos/cardon_camperas_mujer.jpg",
+
+      "text_only": true,
+      "text": "Camperas Mujer"
+    }, {
+      "active": true,
+
+      "id": "CardonCamperasHombre",
+      "title": "Cardon - Camperas Hombre",
+      "alt": "Cardon - Camperas Hombre",
+      "href": "http://www.cardon.com.ar/hombre/camperas.html#204318941",
+      
+      "logo": "img/productos/logo_cardon.jpg",
+      "img": "img/productos/cardon_camperas_hombre.jpg",
+
+      "text_only": true,
+      "text": "Camperas Hombre"
+    }, {
+      "active": true,
+
+      "id": "CardonPantalonesHombre",
+      "title": "Cardon - Pantalón",
+      "alt": "Cardon - Pantalón",
+      "href": "http://www.cardon.com.ar/hombre/pantalones.html#204318941",
+      
+      "logo": "img/productos/logo_cardon.jpg",
+      "img": "img/productos/cardon_pantalones_hombre.jpg",
+
+      "text_only": true,
+      "text": "Pantalones Hombre"
+    }, {
+      "active": true,
+
+      "id": "TheNetBoutiqueCategoriaHombre",
+      "title": "The Net Boutique - Categoría Hombre",
+      "alt": "The Net Boutique - Categoría Hombre",
+      "href": "https://www.thenetboutique.com/hombres/catalogo/mercado-pago?utm_source=mercadopago&utm_medium=sitio&utm_campaign=hombres#145075974",
+      
+      "logo": "img/productos/logo_thenetboutique_b.jpg",
+      "img": "img/productos/thenetboutique_categoria_hombre.jpg",
+
+      "text_only": true,
+      "text": "Categoría Hombre"
+    }, {
+      "active": true,
+
+      "id": "TheNetBoutiqueVestidosMujer",
+      "title": "The Net Boutique - Vestidos Mujer",
+      "alt": "The Net Boutique - Vestidos Mujer",
+      "href": "https://www.thenetboutique.com/mujeres/catalogo/mercado-pago/vestidos?utm_source=mercadopago&utm_medium=sitio&utm_campaign=vestidos#145075974",
+      
+      "logo": "img/productos/logo_thenetboutique_b.jpg",
+      "img": "img/productos/thenetboutique_vestidos_mujer.jpg",
+
+      "text_only": true,
+      "text": "Vestidos Mujer"
+    }, {
+      "active": true,
+
+      "id": "TheNetBoutiqueJeansMujer",
+      "title": "The Net Boutique - Jeans Mujer",
+      "alt": "The Net Boutique - Jeans Mujer",
+      "href": "https://www.thenetboutique.com/mujeres/catalogo/mercado-pago/jeans?utm_source=mercadopago&utm_medium=sitio&utm_campaign=jeans#145075974",
+      
+      "logo": "img/productos/logo_thenetboutique_b.jpg",
+      "img": "img/productos/thenetboutique_jeans_mujer.jpg",
+
+      "text_only": true,
+      "text": "Jeans Mujer"
+    }, {
+      "active": true,
+
+      "id": "TheNetBoutiqueZapatosMujer",
+      "title": "The Net Boutique - Zapatos Mujer",
+      "alt": "The Net Boutique - Zapatos Mujer",
+      "href": "https://www.thenetboutique.com/mujeres/catalogo/mercado-pago/zapatos?utm_source=mercadopago&utm_medium=sitio&utm_campaign=zapatos#145075974",
+      
+      "logo": "img/productos/logo_thenetboutique_b.jpg",
+      "img": "img/productos/thenetboutique_zapatos_mujer.jpg",
+
+      "text_only": true,
+      "text": "Zapatos Mujer"
+    }
+  ]
+}

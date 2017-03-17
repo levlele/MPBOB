@@ -54,7 +54,8 @@ var build = {
     // json_promo: "build/json/17_03_02_teaser_sport_week.json"
     // json_promo: "build/json/17_03_03_sport_week.json"
     // json_promo: "build/json/17_03_10_pre_sale_cyber_fashion.json"
-    json_promo: "build/json/17_03_15_exclusiva_casa_del_audio.json"
+    // json_promo: "build/json/17_03_15_exclusiva_casa_del_audio.json"
+    json_promo: "build/json/17_03_17_compartida_hotdays.json"
 };
 
 var dist = {

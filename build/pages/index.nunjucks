@@ -11,7 +11,7 @@
 <meta property="og:image:width" content="600">
 <meta property="og:image:height" content="315">
 {% if promo_is_on %}
-<meta property="og:image" content="{{promo_url}}img/share.jpg">
+<meta property="og:image" content="{{promo_url}}img/share_b.jpg">
 {% else %}
 <meta property="og:image" content="{{landing_url}}img/share.jpg">
 {% endif %}

@@ -129,37 +129,60 @@ $(function() {
 });
 
 // Randomize MPBoxes
-(function($){
-  var mpboxes  = $( '.gallery__item' );
-  // var mujer    = $( '#mujer .category__logo' );
-  // var hombre   = $( '#hombre .category__logo' );
-  // var unisex   = $( '#unisex .category__logo' );
-  // var deportes = $( '#deportes .category__logo' );
-  // var ninos    = $( '#ninos .category__logo' );
+// (function($){
+//   var mpboxes  = $( '.gallery__item' );
 
-  $.fn.shuffle = function() {
-  var allElems = this.get(),
-    getRandom = function(max) {
-        return Math.floor(Math.random() * max);
-    },
-    shuffled = $.map(allElems, function(){
-        var random = getRandom(allElems.length),
-            randEl = $(allElems[random]).clone(true)[0];
-        allElems.splice(random, 1);
-        return randEl;
-  });
-  this.each(function(i){
-    $(this).replaceWith($(shuffled[i]));
-  });
-  return $(shuffled);
-  };
+//   $.fn.shuffle = function() {
+//   var allElems = this.get(),
+//     getRandom = function(max) {
+//         return Math.floor(Math.random() * max);
+//     },
+//     shuffled = $.map(allElems, function(){
+//         var random = getRandom(allElems.length),
+//             randEl = $(allElems[random]).clone(true)[0];
+//         allElems.splice(random, 1);
+//         return randEl;
+//   });
+//   this.each(function(i){
+//     $(this).replaceWith($(shuffled[i]));
+//   });
+//   return $(shuffled);
+//   };
 
-  mpboxes.shuffle();
-  // mujer.slice( 6 ).shuffle();
-  // hombre.slice( 6 ).shuffle();
-  // unisex.slice( 6 ).shuffle();
-  // deportes.slice( 6 ).shuffle();
-})(jQuery);
+//   mpboxes.shuffle();
+// })(jQuery);
+
+// (function($){
+//   var mpboxes  = $( '.gallery__item' );
+//   var mujer    = $( '#mujer .category__logo' );
+//   var hombre   = $( '#hombre .category__logo' );
+//   var unisex   = $( '#unisex .category__logo' );
+//   var deportes = $( '#deportes .category__logo' );
+//   var ninos    = $( '#ninos .category__logo' );
+
+//   $.fn.shuffle = function() {
+//   var allElems = this.get(),
+//     getRandom = function(max) {
+//         return Math.floor(Math.random() * max);
+//     },
+//     shuffled = $.map(allElems, function(){
+//         var random = getRandom(allElems.length),
+//             randEl = $(allElems[random]).clone(true)[0];
+//         allElems.splice(random, 1);
+//         return randEl;
+//   });
+//   this.each(function(i){
+//     $(this).replaceWith($(shuffled[i]));
+//   });
+//   return $(shuffled);
+//   };
+
+//   mpboxes.shuffle();
+//   mujer.slice( 6 ).shuffle();
+//   hombre.slice( 6 ).shuffle();
+//   unisex.slice( 6 ).shuffle();
+//   deportes.slice( 6 ).shuffle();
+// })(jQuery);
 
 // Swiper - Slider header + Api medios de pago + Carrousel logos
 $(document).ready(function () {
@@ -300,7 +323,7 @@ $(document).ready(function () {
   //       var fechaInicio = moment(data[key].start_date).format('DD/MM');
   //       var fechaFinal 	= moment(data[key].expiration_date).format('DD/MM');
 
-  //       paymentSwiper.appendSlide(
+  //       paymentSwiperTest.appendSlide(
   //         '<div class="swiper-slide">' +
   //           '<div>' +
   //             '<img src=' + '"https://www.mercadopago.com/org-img/MP3/API/logos/' + idBanco + '.gif"' + '>' +
