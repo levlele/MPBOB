@@ -1,0 +1,198 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/hotdays/landing/03/",
+
+  "promo_is_on": true,
+  "counter_is_on": false,
+  "axion_is_on": true,
+
+  "galeria": {
+    "mpbox_hasta": true,
+    "mpbox_descuento": true,
+    "mpbox_solo_texto": false,
+    "mpbox_logo": true,
+    "mpbox_psj": false,
+    "mpbox_code": true
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "HotDays - Hasta 50% OFF en productos seleccionados",
+
+    "link": true,
+    "href": "#title"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "Mohammed",
+      "title": "Mohammed",
+      "alt": "Mohammed",
+      "href": "http://www.mohammed.com.ar#195185457",
+      
+      "logo": "img/productos/logo_mohammed.jpg",
+      "img": "img/productos/mohammed.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": true,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "MateriaEyeWear",
+      "title": "Materia EyeWear",
+      "alt": "Materia EyeWear",
+      "href": "http://www.materiaeyewear.com/productos/#18166556",
+      
+      "logo": "img/productos/logo_materia_eyewear.jpg",
+      "img": "img/productos/materia_eyewear.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": true,
+      "codigo_txt": "",
+      "codigo_code": "Envíos gratis",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "40% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "SuperManuGames",
+      "title": "Super Manu Games",
+      "alt": "Super Manu Games",
+      "href": "http://www.supermanugames.com/promo-mercadopago/#58626826",
+      
+      "logo": "img/productos/logo_super_manu_games.jpg",
+      "img": "img/productos/super_manu_games_b.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "40% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "BlusasVestidosMexicanos",
+      "title": "Blusas y vestidos Mexicanos",
+      "alt": "Blusas y vestidos Mexicanos",
+      "href": "http://www.blusasyvestidosmexicanos.com/productos/#132971253",
+      
+      "logo": "img/productos/logo_blusas_vestidos.jpg",
+      "img": "img/productos/blusas_vestidos_b.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Alestebrand",
+      "title": "Alestebrand",
+      "alt": "Alestebrand",
+      "href": "http://www.alestebrand.com/#115452020",
+      
+      "logo": "img/productos/logo_alestebrand.jpg",
+      "img": "img/productos/alestebrand.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": true,
+      "codigo_txt": "Código:",
+      "codigo_code": "promo25",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "25% OFF",
+
+      "text_only": false,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "OyuelitoStore",
+      "title": "Oyuelito Store",
+      "alt": "Oyuelito Store",
+      "href": "http://www.oyuelito.com.ar/sale#181388791",
+      
+      "logo": "img/productos/logo_oyuelito.jpg",
+      "img": "img/productos/oyuelito.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": false,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}

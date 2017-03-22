@@ -1,0 +1,84 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "",
+
+  "promo_is_on": true,
+  "counter_is_on": false,
+  "axion_is_on": true,
+
+  "galeria": {
+    "mpbox_hasta": false,
+    "mpbox_descuento": false,
+    "mpbox_solo_texto": true,
+    "mpbox_logo": false,
+    "mpbox_psj": false,
+    "mpbox_code": false
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Arredo - XX% OFF en todo el sitio",
+
+    "link": true,
+    "href": "#title"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "ArredoAcolchados",
+      "title": "Arredo - Acolchados",
+      "alt": "Arredo - Acolchados",
+      "href": "#",
+      
+      "img": "img/productos/mohammed.jpg",
+
+      "text_only": true,
+      "text": "Acolchados"
+    }, {
+      "active": true,
+
+      "id": "ArredoFrazadas",
+      "title": "Arredo - Frazadas",
+      "alt": "Arredo - Frazadas",
+      "href": "#",
+      
+      "img": "img/productos/mohammed.jpg",
+
+      "text_only": true,
+      "text": "Frazadas"
+    }, {
+      "active": true,
+
+      "id": "ArredoMantas",
+      "title": "Arredo - Mantas",
+      "alt": "Arredo - Mantas",
+      "href": "#",
+      
+      "img": "img/productos/mohammed.jpg",
+
+      "text_only": true,
+      "text": "Mantas"
+    }, {
+      "active": true,
+
+      "id": "ArredoSabanas",
+      "title": "Arredo - Sábanas",
+      "alt": "Arredo - Sábanas",
+      "href": "#",
+      
+      "img": "img/productos/mohammed.jpg",
+
+      "text_only": true,
+      "text": "Sábanas"
+    }
+  ]
+}
