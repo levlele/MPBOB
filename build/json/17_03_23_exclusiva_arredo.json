@@ -1,6 +1,6 @@
 {
   "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
-  "promo_url": "",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/arredo/01/landing/",
 
   "promo_is_on": true,
   "counter_is_on": false,
@@ -24,7 +24,7 @@
     "src_small_01": "img/header/slide_small_01.jpg",
     "src_medium_01": "img/header/slide_medium_01.jpg",
     "src_large_01": "img/header/slide_large_01.jpg",
-    "alt_01": "Arredo - XX% OFF en todo el sitio",
+    "alt_01": "Arredo - 30% OFF en todo el sitio",
 
     "link": true,
     "href": "#title"
@@ -37,9 +37,9 @@
       "id": "ArredoAcolchados",
       "title": "Arredo - Acolchados",
       "alt": "Arredo - Acolchados",
-      "href": "#",
+      "href": "http://arredo.com.ar/cama/acolchados.html?utm_source=Mercadopago&utm_medium=Mailing&utm_campaign=MP_Marzo#152667538",
       
-      "img": "img/productos/mohammed.jpg",
+      "img": "img/productos/acolchados.png",
 
       "text_only": true,
       "text": "Acolchados"
@@ -49,9 +49,9 @@
       "id": "ArredoFrazadas",
       "title": "Arredo - Frazadas",
       "alt": "Arredo - Frazadas",
-      "href": "#",
+      "href": "http://arredo.com.ar/cama/frazadas.html?utm_source=Mercadopago&utm_medium=Mailing&utm_campaign=MP_Marzo#152667538",
       
-      "img": "img/productos/mohammed.jpg",
+      "img": "img/productos/frazadas.png",
 
       "text_only": true,
       "text": "Frazadas"
@@ -61,9 +61,9 @@
       "id": "ArredoMantas",
       "title": "Arredo - Mantas",
       "alt": "Arredo - Mantas",
-      "href": "#",
+      "href": "http://arredo.com.ar/cama/mantas.html?utm_source=Mercadopago&utm_medium=Mailing&utm_campaign=MP_Marzo#152667538",
       
-      "img": "img/productos/mohammed.jpg",
+      "img": "img/productos/mantas.png",
 
       "text_only": true,
       "text": "Mantas"
@@ -73,9 +73,9 @@
       "id": "ArredoSabanas",
       "title": "Arredo - Sábanas",
       "alt": "Arredo - Sábanas",
-      "href": "#",
+      "href": "http://arredo.com.ar/cama/sabanas.html?utm_source=Mercadopago&utm_medium=Mailing&utm_campaign=MP_Marzo#152667538",
       
-      "img": "img/productos/mohammed.jpg",
+      "img": "img/productos/sabanas.png",
 
       "text_only": true,
       "text": "Sábanas"
