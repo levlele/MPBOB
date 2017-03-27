@@ -152,37 +152,49 @@ $(function() {
 //   mpboxes.shuffle();
 // })(jQuery);
 
-// (function($){
-//   var mpboxes  = $( '.gallery__item' );
-//   var mujer    = $( '#mujer .category__logo' );
-//   var hombre   = $( '#hombre .category__logo' );
-//   var unisex   = $( '#unisex .category__logo' );
-//   var deportes = $( '#deportes .category__logo' );
-//   var ninos    = $( '#ninos .category__logo' );
+(function($){
+  var mpboxes  = $( '.gallery__item' );
 
-//   $.fn.shuffle = function() {
-//   var allElems = this.get(),
-//     getRandom = function(max) {
-//         return Math.floor(Math.random() * max);
-//     },
-//     shuffled = $.map(allElems, function(){
-//         var random = getRandom(allElems.length),
-//             randEl = $(allElems[random]).clone(true)[0];
-//         allElems.splice(random, 1);
-//         return randEl;
-//   });
-//   this.each(function(i){
-//     $(this).replaceWith($(shuffled[i]));
-//   });
-//   return $(shuffled);
-//   };
+  var mujer    = $( '#mujer .category__logo' );
+  var hombre   = $( '#hombre .category__logo' );
+  var unisex   = $( '#unisex .category__logo' );
+  // var deportes = $( '#deportes .category__logo' );
+  var ninos    = $( '#ninos .category__logo' );
+  var homeDeco = $( '#home_deco .category__logo' );
+  var electro  = $( '#electro .category__logo' );
+  // var turismo  = $( '#turismo .category__logo' );
+  // var cuponeras  = $( '#cuponeras .category__logo' );
+  var otros    = $( '#otros .category__logo' );
 
-//   mpboxes.shuffle();
-//   mujer.slice( 6 ).shuffle();
-//   hombre.slice( 6 ).shuffle();
-//   unisex.slice( 6 ).shuffle();
-//   deportes.slice( 6 ).shuffle();
-// })(jQuery);
+  $.fn.shuffle = function() {
+  var allElems = this.get(),
+    getRandom = function(max) {
+        return Math.floor(Math.random() * max);
+    },
+    shuffled = $.map(allElems, function(){
+        var random = getRandom(allElems.length),
+            randEl = $(allElems[random]).clone(true)[0];
+        allElems.splice(random, 1);
+        return randEl;
+  });
+  this.each(function(i){
+    $(this).replaceWith($(shuffled[i]));
+  });
+  return $(shuffled);
+  };
+
+  mpboxes.shuffle();
+  mujer.slice( 6 ).shuffle();
+  hombre.slice( 6 ).shuffle();
+  unisex.slice( 6 ).shuffle();
+  // deportes.slice( 6 ).shuffle();
+  ninos.shuffle();
+  homeDeco.slice( 6 ).shuffle();
+  electro.slice( 6 ).shuffle();
+  // turismo.slice( 6 ).shuffle();
+  // cuponeras.slice( 6 ).shuffle();
+  otros.slice( 6 ).shuffle();
+})(jQuery);
 
 // Swiper - Slider header + Api medios de pago + Carrousel logos
 $(document).ready(function () {

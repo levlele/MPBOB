@@ -120,8 +120,8 @@
       "highlight": true,
       "active": true
     }, {
-      "src": "img/logo/indumentaria_bizarro.png",
-      "href": "#",
+      "src": "img/logo/indumentaria_bizarro_store.png",
+      "href": "http://www.bizarrostore.com/",
       "alt": "Bizarro Store",
       "title": "Bizarro Store",
       "id": "BizarroStore",
@@ -144,7 +144,7 @@
       "highlight": true,
       "active": true
     }, {
-      "src": "img/logo/indumentaria_saverio.png",
+      "src": "img/logo/indumentaria_saverio_di_ricci.png",
       "href": "https://www.saveriodiricci.com/",
       "alt": "Saverio",
       "title": "Saverio",
@@ -424,7 +424,7 @@
       "active": true
     }, {
       "src": "img/logo/indumentaria_lady_stork.png",
-      "href": "#",
+      "href": "http://www.ladystork.com/home",
       "alt": "Lady Stork",
       "title": "Lady Stork",
       "id": "LadyStork",
@@ -989,10 +989,10 @@
       "active": true
     }, {
       "src": "img/logo/electro_lh.png",
-      "href": "#",
-      "alt": "LH",
-      "title": "LH",
-      "id": "LH",
+      "href": "https://www.lhconfort.com.ar/",
+      "alt": "LH Confort",
+      "title": "LH Confort",
+      "id": "LH Confort",
       "highlight": true,
       "active": true
     }, {
