@@ -1,0 +1,109 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/cher/01/",
+
+  "promo_is_on": true,
+  "counter_is_on": false,
+  "axion_is_on": true,
+
+  "galeria": {
+    "mpbox_hasta": false,
+    "mpbox_descuento": false,
+    "mpbox_solo_texto": true,
+    "mpbox_logo": false,
+    "mpbox_psj": false,
+    "mpbox_code": false
+  },
+ 
+  "slides": {
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Cher - Hasta 35% OFF en todo el sitio",
+
+    "link": true,
+    "href": "#title"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "CherSacosAbrigos",
+      "title": "Cher - Sacos y Abrigos",
+      "alt": "Cher - Sacos y Abrigos",
+      "href": "http://www.maria-cher.com.ar/e-shop/sacos-y-abrigos?244678568",
+      
+      "img": "img/productos/sacos_abrigos.jpg",
+
+      "text_only": true,
+      "text": "Sacos y Abrigos"
+    }, {
+      "active": true,
+
+      "id": "CherCamisasTops",
+      "title": "Cher - Camisas y Tops",
+      "alt": "Cher - Camisas y Tops",
+      "href": "http://www.maria-cher.com.ar/e-shop/camisas-y-tops?O=OrderByReleaseDateDESC?244678568",
+      
+      "img": "img/productos/camisas_tops.jpg",
+
+      "text_only": true,
+      "text": "Camisas y Tops"
+    }, {
+      "active": true,
+
+      "id": "CherDenim",
+      "title": "Cher - Denim",
+      "alt": "Cher - Denim",
+      "href": "http://www.maria-cher.com.ar/e-shop/jeans?O=OrderByReleaseDateDESC?244678568",
+      
+      "img": "img/productos/denim.jpg",
+
+      "text_only": true,
+      "text": "Denim"
+    }, {
+      "active": true,
+
+      "id": "CherPantalones",
+      "title": "Cher - Pantalones",
+      "alt": "Cher - Pantalones",
+      "href": "http://www.maria-cher.com.ar/e-shop/pantalones?O=OrderByReleaseDateDESC?244678568",
+      
+      "img": "img/productos/pantalones.jpg",
+
+      "text_only": true,
+      "text": "Pantalones"
+    }, {
+      "active": true,
+
+      "id": "CherAccesorios",
+      "title": "Cher - Accesorios",
+      "alt": "Cher - Accesorios",
+      "href": "http://www.maria-cher.com.ar/e-shop/accesorios?244678568",
+      
+      "img": "img/productos/accesorios.jpg",
+
+      "text_only": true,
+      "text": "Accesorios"
+    }, {
+      "active": true,
+
+      "id": "CherZapatos",
+      "title": "Cher - Zapatos",
+      "alt": "Cher - Zapatos",
+      "href": "http://www.maria-cher.com.ar/e-shop/zapatos?O=OrderByReleaseDateDESC?244678568",
+      
+      "img": "img/productos/zapatos.jpg",
+
+      "text_only": true,
+      "text": "Zapatos"
+    }, {
+    }
+  ]
+}

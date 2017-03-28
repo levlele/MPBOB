@@ -57,7 +57,8 @@ var build = {
     // json_promo: "build/json/17_03_15_exclusiva_casa_del_audio.json"
     // json_promo: "build/json/17_03_17_compartida_hotdays.json"
     // json_promo: "build/json/17_03_21_compartida_hotdays.json"
-    json_promo: "build/json/17_03_23_exclusiva_arredo.json"
+    // json_promo: "build/json/17_03_23_exclusiva_arredo.json"
+    json_promo: "build/json/17_03_28_exclusiva_cher.json"
 };
 
 var dist = {
