@@ -159,7 +159,7 @@ $(function() {
   var hombre   = $( '#hombre .category__logo' );
   var unisex   = $( '#unisex .category__logo' );
   // var deportes = $( '#deportes .category__logo' );
-  var ninos    = $( '#ninos .category__logo' );
+  // var ninos    = $( '#ninos .category__logo' );
   var homeDeco = $( '#home_deco .category__logo' );
   var electro  = $( '#electro .category__logo' );
   // var turismo  = $( '#turismo .category__logo' );
@@ -188,7 +188,7 @@ $(function() {
   hombre.slice( 6 ).shuffle();
   unisex.slice( 6 ).shuffle();
   // deportes.slice( 6 ).shuffle();
-  ninos.shuffle();
+  // ninos.shuffle();
   homeDeco.slice( 6 ).shuffle();
   electro.slice( 6 ).shuffle();
   // turismo.slice( 6 ).shuffle();

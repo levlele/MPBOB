@@ -1,0 +1,477 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/HomeAndDeco/landing/",
+
+  "test_local": false,
+  "promo_is_on": true,
+  "counter_is_on": false,
+  "axion_is_on": true,
+
+  "galeria": {
+    "mpbox_hasta": true,
+    "mpbox_descuento": true,
+    "mpbox_solo_texto": true,
+    "mpbox_logo": true,
+    "mpbox_psj": false,
+    "mpbox_code": false
+  },
+
+  "slides": {
+    "src_small_cobranded": "img/header/slide_small_cobranded.jpg",
+    "src_medium_cobranded": "img/header/slide_medium_cobranded.jpg",
+    "src_large_cobranded": "img/header/slide_large_cobranded.jpg",
+    "alt_cobranded": "Hasta 12 cuotas sin interés y sin costos de mantenimiento",
+    "link_cobranded": true,
+    "href_cobranded": "https://www.mercadopago.com.ar/tarjeta-mercadopago?utm_source=hero_micrositio&utm_medium=hero_micrositio&utm_campaign=cobranded_hero_micrositio&utm_content=cobranded_hero",
+
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+    "link_00": false,
+    "href_00": "",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "Cher - Hasta 35% OFF en todo el sitio",
+    "link_01": true,
+    "href_01": "#title"
+  },
+
+  "productos": [
+    {
+      "active": true,
+
+      "id": "Arredo",
+      "title": "Arredo",
+      "alt": "Arredo",
+      "href": "http://arredo.com.ar/especial-acolchados?utm_source=Mercadopago&utm_medium=Mailing&utm_campaign=MP_Abril#152667538",
+
+      "logo": "img/productos/logo_arredo.jpg",
+      "img": "img/productos/arredo.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en acolchados seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "De_Sillas",
+      "title": "De_Sillas",
+      "alt": "De_Sillas",
+      "href": "https://www.desillas.com/promociones.html#139386086",
+
+      "logo": "img/productos/logo_desillas.jpg",
+      "img": "img/productos/desillas.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Groupon",
+      "title": "Groupon",
+      "alt": "Groupon",
+      "href": "https://www.groupon.com.ar/goods?category=casa-jardin&category2=mueble-y-alfombra#66268233",
+
+      "logo": "img/productos/logo_groupon.jpg",
+      "img": "img/productos/groupon.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "60% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Garden_Life",
+      "title": "Garden_Life",
+      "alt": "Garden_Life",
+      "href": "http://www.shop.gardenlife.me/?utm_source=Campa%C3%B1a%20MP%20Home%26Deco&utm_medium=mail173271614",
+
+      "logo": "img/productos/logo_gardenlife.jpg",
+      "img": "img/productos/gardenlife.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Deco_Gallery",
+      "title": "Deco Gallery",
+      "alt": "Deco Gallery",
+      "href": "http://www.decogallery.com.ar#114743251",
+
+      "logo": "img/productos/logo_decogallery.jpg",
+      "img": "img/productos/decogallery.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "50% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Morph",
+      "title": "Morph",
+      "alt": "Morph",
+      "href": "http://www.morph.com.ar?utm_source=Campa%C3%B1a%20MP%20Home%26Deco&utm_medium=mail#148976079",
+
+      "logo": "img/productos/logo_morph.jpg",
+      "img": "img/productos/morph.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "40% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Boutique_de_Luz",
+      "title": "MBoutique de Luz",
+      "alt": "Boutique de Luz",
+      "href": "http://www.boutiquedeluz.com/superofertas-descuentos-y-promociones-en-tu-compra-de-iluminacion/#70726629",
+
+      "logo": "img/productos/logo_boutiquedeluz.jpg",
+      "img": "img/productos/boutiquedeluz.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Fiplasto",
+      "title": "Fiplasto",
+      "alt": "Fiplasto",
+      "href": "http://www.muebles.fiplasto.com.ar/?utm_source=Campa%C3%B1a%20MP%20Home%26Deco&utm_medium=mail#196662257",
+
+      "logo": "img/productos/logo_fiplasto.jpg",
+      "img": "img/productos/fiplasto.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Desli",
+      "title": "Desli",
+      "alt": "Desli",
+      "href": "https://desli.com/campaign/retiro-inmediato-1456",
+
+      "logo": "img/productos/logo_desli.jpg",
+      "img": "img/productos/desli.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "50% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Martin_y_Martin",
+      "title": "Martin y Martin",
+      "alt": "Martin y Martin",
+      "href": "http://www.mym.com.ar",
+
+      "logo": "img/productos/logo_martinymartin.jpg",
+      "img": "img/productos/martinymartin.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Tienda_Vainilla",
+      "title": "Tienda Vainilla",
+      "alt": "Tienda Vainilla",
+      "href": "http://www.tiendavanilla.com?utm_source=Campa%C3%B1a%20MP%20Home%26Deco&utm_medium=mail",
+
+      "logo": "img/productos/logo_tiendavainilla.jpg",
+      "img": "img/productos/tiendavainilla.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Editor_Market",
+      "title": "Editor Market",
+      "alt": "Editor Market",
+      "href": "http://www.editormarket.com.ar",
+
+      "logo": "img/productos/logo_editormarket.jpg",
+      "img": "img/productos/editormarket.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "45% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Kitchen_Company",
+      "title": "Kitchen Company",
+      "alt": "Kitchen Company",
+      "href": "http://www.kitchencompany.com.ar/",
+
+      "logo": "img/productos/logo_kitchencompany.jpg",
+      "img": "img/productos/kitchencompany.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Nylman Deco",
+      "title": "Nylman Deco",
+      "alt": "Nylman Deco",
+      "href": "http://nylmandecotienda.com/137--home-deco-",
+
+      "logo": "img/productos/logo_nylmandeco.jpg",
+      "img": "img/productos/nylmandeco.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "30% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Trabuco",
+      "title": "Trabuco",
+      "alt": "Trabuco",
+      "href": "http://www.trabucohogar.com.ar?utm_source=Campa%C3%B1a%20MP%20Home%26Deco&utm_medium=mail",
+
+      "logo": "img/productos/logo_trabuco.jpg",
+      "img": "img/productos/trabuco.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": true,
+      "descuento_num": "20% OFF",
+
+      "text_only": true,
+      "text": "en productos seleccionados",
+
+      "sup": false,
+      "sup_num": ""
+    }, {
+      "active": true,
+
+      "id": "Casapick",
+      "title": "Casapick",
+      "alt": "Casapick",
+      "href": "https://www.casapick.com/producto/juego-de-sabanas-lila-amarelo-1-1-2-plaza-hadas",
+
+      "logo": "img/productos/logo_casapick.jpg",
+      "img": "img/productos/casapick.jpg",
+
+      "psj_12x": false,
+      "psj_3x": false,
+
+      "codigo": false,
+      "codigo_txt": "Código:",
+      "codigo_code": "PARTY",
+
+      "descuento": true,
+      "descuento_txt": false,
+      "descuento_num": "20% OFF",
+
+      "text_only": true,
+      "text": "en todo el sitio",
+
+      "sup": false,
+      "sup_num": ""
+    }
+  ]
+}

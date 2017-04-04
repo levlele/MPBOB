@@ -697,6 +697,14 @@
       "title": "Good People",
       "id": "GoodPeople",
       "active": true
+    }, {
+      "src": "img/logo/indumentaria_club_point.png",
+      "href": "https://clubpoint.com/?utm_source=mercadopago&utm_medium=cpc&utm_content=accion+indumentaria&utm_campaign=Registros+Argentina",
+      "alt": "Club Point",
+      "title": "Club Point",
+      "id": "Club Point",
+      "highlight": false,
+      "active": true
     }
   ],
 
@@ -777,14 +785,6 @@
       "highlight": true,
       "active": true
     }, {
-      "src": "img/logo/indumentaria_grisino.png",
-      "href": "http://www.grisino.com",
-      "alt": "Grisino",
-      "title": "Grisino",
-      "id": "Grisino",
-      "highlight": false,
-      "active": false
-    }, {
       "src": "img/logo/indumentaria_elepants.png",
       "href": "http://www.elepants.com.ar/",
       "alt": "Elepants",
@@ -800,6 +800,14 @@
       "id": "Fotter-Niños",
       "highlight": false,
       "active": false
+    }, {
+      "src": "img/logo/indumentaria_grisino.png",
+      "href": "http://www.grisino.com",
+      "alt": "Grisino",
+      "title": "Grisino",
+      "id": "Grisino",
+      "highlight": false,
+      "active": true
     }
   ],
 
@@ -1374,7 +1382,7 @@
       "alt": "Pedidos Ya",
       "title": "Pedidos Ya",
       "id": "PedidosYa",
-      "active": true
+      "active": false
     }, {
       "src": "img/logo/otros_chakana.png",
       "href": "http://www.chakanawines.com.ar/",

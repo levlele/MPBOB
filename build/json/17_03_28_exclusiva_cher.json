@@ -2,7 +2,7 @@
   "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
   "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/cher/01/",
 
-  "promo_is_on": true,
+  "promo_is_on": false,
   "counter_is_on": false,
   "axion_is_on": true,
 
@@ -16,18 +16,26 @@
   },
  
   "slides": {
+    "src_small_cobranded": "img/header/slide_small_cobranded.jpg",
+    "src_medium_cobranded": "img/header/slide_medium_cobranded.jpg",
+    "src_large_cobranded": "img/header/slide_large_cobranded.jpg",
+    "alt_cobranded": "Hasta 12 cuotas sin interés y sin costos de mantenimiento",
+    "link_cobranded": true,
+    "href_cobranded": "https://www.mercadopago.com.ar/tarjeta-mercadopago?utm_source=hero_micrositio&utm_medium=hero_micrositio&utm_campaign=cobranded_hero_micrositio&utm_content=cobranded_hero",
+
     "src_small_00": "img/header/slide_small_00.jpg",
     "src_medium_00": "img/header/slide_medium_00.jpg",
     "src_large_00": "img/header/slide_large_00.jpg",
     "alt_00": "Fácil quererlo, fácil tenerlo",
+    "link_00": false,
+    "href_00": "",
 
     "src_small_01": "img/header/slide_small_01.jpg",
     "src_medium_01": "img/header/slide_medium_01.jpg",
     "src_large_01": "img/header/slide_large_01.jpg",
     "alt_01": "Cher - Hasta 35% OFF en todo el sitio",
-
-    "link": true,
-    "href": "#title"
+    "link_01": true,
+    "href_01": "#title"
   },
 
   "productos": [

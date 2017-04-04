@@ -19,7 +19,13 @@ var gulp           = require('gulp'),
     fs             = require('fs'),
     cssnano        = require('gulp-cssnano'),
     gutil          = require('gulp-util'),
-    critical       = require('critical').stream;
+    rev            = require('gulp-rev'),
+    revReplace     = require('gulp-rev-replace'),
+    hash           = require("gulp-hash"),
+    del            = require('del'),
+    critical       = require('critical').stream,
+    gulpSequence   = require('gulp-sequence'),
+    autoprefixer   = require('gulp-autoprefixer');
 
 // --------------------------------------------------------------------
 // Carpetas fuente y destino - Modificar las rutas según se requiera
@@ -58,7 +64,8 @@ var build = {
     // json_promo: "build/json/17_03_17_compartida_hotdays.json"
     // json_promo: "build/json/17_03_21_compartida_hotdays.json"
     // json_promo: "build/json/17_03_23_exclusiva_arredo.json"
-    json_promo: "build/json/17_03_28_exclusiva_cher.json"
+    // json_promo: "build/json/17_03_28_exclusiva_cher.json"
+    json_promo: "build/json/17_03_30_home_deco.json"
 };
 
 var dist = {
@@ -88,7 +95,8 @@ function customPlumber(errTitle) {
 // --------------------------------------------------------------------
 
 gulp.task('sass', function(){
-  return gulp.src(build.sass)
+  return gulp
+  .src(build.sass)
   .pipe(sourcemaps.init())
   .pipe(customPlumber('Error al compilar SASS'))
   .pipe(sass({outputStyle: 'compressed'}))
@@ -97,7 +105,11 @@ gulp.task('sass', function(){
     suffix: "-min",
     extname: ".css"
   }))
-  .pipe(sourcemaps.write('./maps'))
+  .pipe(autoprefixer({
+      browsers: ['last 3 versions'],
+      cascade: false
+  }))
+  .pipe(sourcemaps.write('.'))
   .pipe(gulp.dest(dist.css))
   .pipe(browserSync.reload({stream: true}))
   .pipe(notify('SASS Compilado'));
@@ -152,9 +164,9 @@ gulp.task('js', function() {
     .pipe(customPlumber('Error al compilar JS'))
     .pipe(uglify({mangle:false}))
     .pipe(rename(function (path) {
-		  path.basename += "-min";
-		  path.extname = ".js";
-		  return path;
+      path.basename += "-min";
+      path.extname = ".js";
+      return path;
     }))
     .pipe(gulp.dest(dist.js))
     .pipe(browserSync.reload({stream: true}))
@@ -222,7 +234,7 @@ gulp.task('default', ['sass', 'js', 'html'], function () {
 // Task: Critical - Above the fold
 // --------------------------------------------------------------------
 
-gulp.task('criticalmente', function () {
+gulp.task('critical', function () {
   return gulp.src('dist/*.html')
     .pipe(critical({
       base: 'dist/',
@@ -254,3 +266,66 @@ gulp.task('nano', ['sass'], function() {
     .pipe(gulp.dest('dist/inline/css'))
   .pipe(notify('CSS Minificado'));
 });
+
+
+// --------------------------------------------------------------------
+// Task: REV
+// --------------------------------------------------------------------
+
+gulp.task('rev', function(){
+  return gulp
+  .src(build.sass)
+  .pipe(sass({outputStyle: 'compressed'}))
+
+  .pipe(rename({
+    basename: "main",
+    suffix: "-min",
+    extname: ".css"
+  }))
+
+  .pipe(autoprefixer({
+      browsers: ['last 3 versions'],
+      cascade: false
+  }))
+
+  .pipe(rev())
+  .pipe(gulp.dest(dist.css))
+  .pipe(rev.manifest('./manifest/rev-manifest.json', {
+     merge: true
+   }))
+  .pipe(gulp.dest(dist.css))
+
+  .pipe(notify('CSS revisionado'));
+});
+
+
+// --------------------------------------------------------------------
+// Task: REV Replace
+// --------------------------------------------------------------------
+
+function replaceIfMap(filename) {
+  if (filename.indexOf('.map') > -3) {
+      return filename.replace('/', '');
+  }
+  return filename;
+}
+
+gulp.task("replace", function(){
+  var manifest = gulp.src("dist/css/manifest/rev-manifest.json");
+
+  return gulp.src("dist/*.html")
+  .pipe(revReplace({
+    manifest: manifest,
+    modifyUnreved: replaceIfMap,
+    modifyReved: replaceIfMap
+  }))
+  .pipe(gulp.dest("dist"))
+  .pipe(notify('CSS reemplazado en HTMLs'));
+});
+
+
+// --------------------------------------------------------------------
+// Task: BUILD
+// --------------------------------------------------------------------
+
+gulp.task('build', gulpSequence('rev', 'replace'));
