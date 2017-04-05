@@ -1028,11 +1028,20 @@
       "highlight": true,
       "active": true
     }, {
+      "src": "img/logo/electro_megatone.png",
+      "href": "http://www.megatone.net",
+      "alt": "Megatone",
+      "title": "Megatone",
+      "id": "Megatone",
+      "highlight": true,
+      "active": false
+    }, {
       "src": "img/logo/electro_trabuco.png",
       "href": "http://www.trabucohogar.com.ar/",
       "alt": "Trabuco",
       "title": "Trabuco",
       "id": "Trabuco",
+      "highlight": true,
       "active": true
     }, {
       "src": "img/logo/electro_panasonic.png",

@@ -46,7 +46,7 @@ var build = {
     json_internas: "build/json/merchants_internas.json", // Información de los merchants en categorias y slider
     json_multiproduct: "build/json/multiproduct.json", // Información de los multiproduct que reemplazan el slider
     json_teaser: "build/json/teaser_slider.json", // Información de los logos del slider para la teaser
-    // json_promo: "build/json/test.json"
+    json_promo: "build/json/test.json"
     // json_promo: "build/json/17_01_20_home_deco.json",
     // json_promo: "build/json/17_01_23_exclusiva_grisino.json",
     // json_promo: "build/json/17_01_24_compartida_hotday_mshops.json",
@@ -65,7 +65,7 @@ var build = {
     // json_promo: "build/json/17_03_21_compartida_hotdays.json"
     // json_promo: "build/json/17_03_23_exclusiva_arredo.json"
     // json_promo: "build/json/17_03_28_exclusiva_cher.json"
-    json_promo: "build/json/17_03_30_home_deco.json"
+    // json_promo: "build/json/17_03_30_home_deco.json"
 };
 
 var dist = {

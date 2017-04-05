@@ -345,3 +345,52 @@
 #otros nav ul {
   border-bottom: 4px solid $brand-otros;
 }
+
+// test
+.c-tabs-nav {
+  padding: 24px 16px;
+  border-bottom: 1px solid $brand-indumentaria;
+}
+
+.c-tabs-nav__link {
+  display: inline;
+  margin-right: 16px;
+  color: $brand-indumentaria;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.c-tabs-nav__link:last-child {
+  margin-right: 0;
+}
+
+.c-tabs-nav__link.is-active {
+  color: red;
+}
+
+/**
+ * Tab
+ */
+.c-tab {
+  display: none;
+}
+
+.c-tab.is-active {
+  display: block;
+}
+
+/**
+ * Tabs no-js fallback
+ */
+.c-tabs.no-js .c-tabs-nav {
+  display: none;
+}
+
+.c-tabs.no-js .c-tab {
+  display: block;
+  margin-bottom: 1.5rem;
+}
+
+.c-tabs.no-js .c-tab:last-child {
+  margin-bottom: 0;
+}

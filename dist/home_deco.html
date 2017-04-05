@@ -29,7 +29,7 @@
   <link rel="apple-touch-icon-precomposed" href="https://secure.mlstatic.com/components/resources/mp/desktop/images/apple-touch-icon-144x144-precomposed.png?v=2.9.3/apple-touch-icon-144x144-precomposed.png">
 
   
-  <link rel="stylesheet" href="https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/css/main-min-92ccd5e862.css">
+  <link rel="stylesheet" href="css/main-min.css">
   
 
   <!--[if lt IE 9]>
@@ -305,7 +305,17 @@
 </script>
 
 
-<script src="https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/js/main-min-v18.js"></script>
+<script src="js/main-min.js"></script>
 
+
+<script src="js/vendor/tabs.js"></script>
+<script>
+  var myTabs = tabs({
+    el: '#tabs',
+    tabNavigationLinks: '.c-tabs-nav__link',
+    tabContentContainers: '.c-tab'
+  });
+  myTabs.init();
+</script>
 </body>
 </html>
