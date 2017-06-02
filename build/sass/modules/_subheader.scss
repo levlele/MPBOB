@@ -6,7 +6,7 @@
  margin-bottom: 0;
 
  text-align: center;
- line-height: 1.5;
+ line-height: 1.2;
  font-weight: 300;
 
  b {
@@ -36,16 +36,18 @@
   // }
 
   @media (max-width: 1023px) {
-    padding: $gutter 10%;
+    // padding: $gutter 10%;
+    padding: 24px 10%;
   }
 
   @media (min-width: 1024px) {
-    // font-size: em(32);
-    padding: $gutter 15%;
+    // padding: $gutter 15%;
+    padding: 32px 15%;
   }
 
   @media (min-width: 1280px) {
-    padding: $gutter 10%;
+    // padding: $gutter 10%;
+    padding: 32px 10%;
   }
 
   @include responsive-font(5vw, 18px, 32px, 32px);

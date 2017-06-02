@@ -46,26 +46,27 @@ var build = {
     json_internas: "build/json/merchants_internas.json", // Información de los merchants en categorias y slider
     json_multiproduct: "build/json/multiproduct.json", // Información de los multiproduct que reemplazan el slider
     json_teaser: "build/json/teaser_slider.json", // Información de los logos del slider para la teaser
-    json_promo: "build/json/test.json"
-    // json_promo: "build/json/17_01_20_home_deco.json",
-    // json_promo: "build/json/17_01_23_exclusiva_grisino.json",
-    // json_promo: "build/json/17_01_24_compartida_hotday_mshops.json",
-    // json_promo: "build/json/17_01_27_compartida_bensimon_pepas.json",
-    // json_promo: "build/json/17_02_01_exclusiva_topper.json",
-    // json_promo: "build/json/17_02_08_exclusiva_dolce_gusto.json",
-    // json_promo: "build/json/17_02_10_compartida_bts.json",
-    // json_promo: "build/json/17_02_17_compartida_escapada.json",
-    // json_promo: "build/json/17_02_21_exclusiva_adidas.json",
-    // json_promo: "build/json/17_02_24_compartida_hotdays.json",
-    // json_promo: "build/json/17_03_02_teaser_sport_week.json"
-    // json_promo: "build/json/17_03_03_sport_week.json"
-    // json_promo: "build/json/17_03_10_pre_sale_cyber_fashion.json"
-    // json_promo: "build/json/17_03_15_exclusiva_casa_del_audio.json"
-    // json_promo: "build/json/17_03_17_compartida_hotdays.json"
-    // json_promo: "build/json/17_03_21_compartida_hotdays.json"
-    // json_promo: "build/json/17_03_23_exclusiva_arredo.json"
-    // json_promo: "build/json/17_03_28_exclusiva_cher.json"
-    // json_promo: "build/json/17_03_30_home_deco.json"
+    // json_promo: "build/json/test.json"
+    // json_promo: "build/json/17_01/20_home_deco.json",
+    // json_promo: "build/json/17_01/23_exclusiva_grisino.json",
+    // json_promo: "build/json/17_01/24_compartida_hotday_mshops.json",
+    // json_promo: "build/json/17_01/27_compartida_bensimon_pepas.json",
+    // json_promo: "build/json/17_02/01_exclusiva_topper.json",
+    // json_promo: "build/json/17_02/08_exclusiva_dolce_gusto.json",
+    // json_promo: "build/json/17_02/10_compartida_bts.json",
+    // json_promo: "build/json/17_02/17_compartida_escapada.json",
+    // json_promo: "build/json/17_02/21_exclusiva_adidas.json",
+    // json_promo: "build/json/17_02/24_compartida_hotdays.json",
+    // json_promo: "build/json/17_03/02_teaser_sport_week.json"
+    // json_promo: "build/json/17_03/03_sport_week.json"
+    // json_promo: "build/json/17_03/10_pre_sale_cyber_fashion.json"
+    // json_promo: "build/json/17_03/15_exclusiva_casa_del_audio.json"
+    // json_promo: "build/json/17_03/17_compartida_hotdays.json"
+    // json_promo: "build/json/17_03/21_compartida_hotdays.json"
+    // json_promo: "build/json/17_03/23_exclusiva_arredo.json"
+    // json_promo: "build/json/17_03/28_exclusiva_cher.json"
+    // json_promo: "build/json/17_03/30_home_deco.json"
+    json_promo: "build/json/17_05/23_compartida_bizarro_saverio.json"
 };
 
 var dist = {

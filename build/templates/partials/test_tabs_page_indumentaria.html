@@ -1,0 +1,103 @@
+<main id="panel">
+  {% include '../partials/modules/module_banner.html' %}
+
+  <section id="indumentaria" class="category">
+    {% import 'macros/menu_categorias.nunjucks' as nav %}
+    {{nav.active('indumentaria')}}
+
+    <div class="category__container">
+      <div class="category__img">
+        <img src="{{landing_url}}{{indumentaria_info.src}}" alt="{{indumentaria_info.alt}}">
+      </div>
+      <div class="category__info">
+        <h1>{{indumentaria_info.h1}}</h1>
+        <p>{{indumentaria_info.subtitulo}}</p>
+        <p>{{indumentaria_info.p}}</p>
+      </div>
+
+      <div style="clear:both;"></div>
+
+      <div id="tabs" class="c-tabs no-js">
+        <ul class="c-tabs-nav">
+          <li><a href="#" class="c-tabs-nav__link is-active">Mujer</a></li>
+          <li><a href="#" class="c-tabs-nav__link">Hombre</a></li>
+          <li><a href="#" class="c-tabs-nav__link">Unisex</a></li>
+          <li><a href="#" class="c-tabs-nav__link">Deportes / Outdoors</a></li>
+          <li><a href="#" class="c-tabs-nav__link">Niños</a></li>
+        </ul>
+
+        <div class="c-tab is-active">
+          <div class="c-tab__content">
+            <div id="mujer" class="category__logos">
+              {% for logo in indumentaria_logos_mujer %}{% if logo.active %}
+              <div class="category__logo">
+                <a id="{{logo.id}}" {% if logo.highlight %}class="highlight"{% endif %} href="{{ logo.href | safe }}" title="{{logo.title}}" target="_blank">
+                  <img src="{{landing_url}}{{logo.src}}" alt="{{logo.alt}}">
+                </a>
+              </div>
+              {% endif %}{% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <div id="hombre" class="category__logos">
+              {% for logo in indumentaria_logos_hombre %}{% if logo.active %}
+              <div class="category__logo">
+                <a id="{{logo.id}}" {% if logo.highlight %}class="highlight"{% endif %} href="{{ logo.href | safe }}" title="{{logo.title}}" target="_blank">
+                  <img src="{{landing_url}}{{logo.src}}" alt="{{logo.alt}}">
+                </a>
+              </div>
+              {% endif %}{% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <div id="unisex" class="category__logos">
+              {% for logo in indumentaria_logos_unisex %}{% if logo.active %}
+              <div class="category__logo">
+                <a id="{{logo.id}}" {% if logo.highlight %}class="highlight"{% endif %} href="{{ logo.href | safe }}" title="{{logo.title}}" target="_blank">
+                  <img src="{{landing_url}}{{logo.src}}" alt="{{logo.alt}}">
+                </a>
+              </div>
+              {% endif %}{% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <div id="deportes" class="category__logos">
+              {% for logo in indumentaria_logos_deportes_outdoors %}{% if logo.active %}
+              <div class="category__logo">
+                <a id="{{logo.id}}" {% if logo.highlight %}class="highlight"{% endif %} href="{{ logo.href | safe }}" title="{{logo.title}}" target="_blank">
+                  <img src="{{landing_url}}{{logo.src}}" alt="{{logo.alt}}">
+                </a>
+              </div>
+              {% endif %}{% endfor %}
+            </div>
+          </div>
+        </div>
+
+        <div class="c-tab">
+          <div class="c-tab__content">
+            <div id="ninos" class="category__logos">
+              {% for logo in indumentaria_logos_niños %}{% if logo.active %}
+              <div class="category__logo">
+                <a id="{{logo.id}}" {% if logo.highlight %}class="highlight"{% endif %} href="{{ logo.href | safe }}" title="{{logo.title}}" target="_blank">
+                  <img src="{{landing_url}}{{logo.src}}" alt="{{logo.alt}}">
+                </a>
+              </div>
+              {% endif %}{% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {% include '../partials/modules/module_registro.html' %}
+</main>

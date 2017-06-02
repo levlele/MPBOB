@@ -602,14 +602,6 @@
       "id": "Redsport",
       "highlight": false
     }, {
-      "src": "img/logo/indumentaria_montagne.png",
-      "href": "http://www.montagne.com.ar",
-      "alt": "Montagne",
-      "title": "Montagne",
-      "id": "Montagne",
-      "highlight": false,
-      "active": true
-    }, {
       "src": "img/logo/indumentaria_aynotdead.png",
       "href": "http://www.aynotdead.com.ar/",
       "alt": "Ay Not Dead",
@@ -764,6 +756,30 @@
       "id": "Stockcenter",
       "highlight": false,
       "active": true
+    }, {
+      "src": "img/logo/indumentaria_fila.jpg",
+      "href": "http://tienda.fila.com.ar/fila.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=MPexclusivo_landing",
+      "alt": "Fila",
+      "title": "Fila",
+      "id": "Fila",
+      "highlight": false,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_umbro.jpg",
+      "href": "http://tienda.umbro.com.ar/productos/botines-futbol.html?utm_source=mercadopago&utm_medium=referral&utm_campaign=MPexclusivo_landing",
+      "alt": "Umbro",
+      "title": "Umbro",
+      "id": "Umbro",
+      "highlight": false,
+      "active": true
+    }, {
+      "src": "img/logo/indumentaria_ls2.jpg",
+      "href": "http://www.ls2.com.ar/?utm_source=mercadopago&utm_medium=referral&utm_campaign=MPexclusivo_landing",
+      "alt": "Ls2",
+      "title": "Ls2",
+      "id": "Ls2",
+      "highlight": false,
+      "active": true
     }
   ],
 
@@ -852,7 +868,7 @@
       "title": "Nylman Deco",
       "id": "NylmanDeco",
       "highlight": true,
-      "active": true
+      "active": false
     }, {
       "src": "img/logo/homedeco_dolcegusto.png",
       "href": "http://www.dolce-gusto.com.ar/",
@@ -1050,13 +1066,6 @@
       "title": "Panasonic",
       "id": "Panasonic",
       "active": false
-    }, {
-      "src": "img/logo/electro_whirlpool.png",
-      "href": "http://www.whirlpoolstore.com.ar/",
-      "alt": "Whirlpool",
-      "title": "Whirlpool",
-      "id": "Whirlpool",
-      "active": true
     }, {
       "src": "img/logo/electro_casa_del_audio.png",
       "href": "http://www.casadelaudio.com/",

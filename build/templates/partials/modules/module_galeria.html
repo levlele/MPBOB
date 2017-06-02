@@ -26,8 +26,8 @@
           <img src="{{landing_url}}img/psj_3x.jpg" alt="PSJ 3x">
         </div>
         {% elif producto.codigo %}
-        <div class="item__code">
-          {{producto.codigo_txt}}&nbsp;<b style="color:#009ee3">{{producto.codigo_code}}</b>
+        <div class="item__code" style="height:auto;">
+          <span style="text-decoration:line-through;color:#999;">{{producto.codigo_txt}}</span>&nbsp;&nbsp;&nbsp;<b style="font-size:18px;">{{producto.codigo_code}}</b>
         </div>
         {% elif producto.extra %}
         <div class="item__info">

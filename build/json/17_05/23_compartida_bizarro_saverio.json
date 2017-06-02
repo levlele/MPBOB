@@ -1,0 +1,181 @@
+{
+  "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
+  "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/compartida_bizarro_saverio/landing/",
+
+  "test_local": 0,
+  "promo_is_on": 1,
+  "counter_is_on": 0,
+  "axion_is_on": 1,
+
+  "galeria": {
+    "mpbox_hasta": 0,
+    "mpbox_descuento": 0,
+    "mpbox_solo_texto": 1,
+    "mpbox_logo": 1,
+    "mpbox_psj": 0,
+    "mpbox_code": 1
+  },
+
+  "slides": {
+    "src_small_cobranded": "img/header/slide_small_cobranded.jpg",
+    "src_medium_cobranded": "img/header/slide_medium_cobranded.jpg",
+    "src_large_cobranded": "img/header/slide_large_cobranded.jpg",
+    "alt_cobranded": "Hasta 12 cuotas sin interés y sin costos de mantenimiento",
+    "link_cobranded": true,
+    "href_cobranded": "https://www.mercadopago.com.ar/tarjeta-mercadopago?utm_source=hero_micrositio&utm_medium=hero_micrositio&utm_campaign=cobranded_hero_micrositio&utm_content=cobranded_hero",
+
+    "src_small_00": "img/header/slide_small_00.jpg",
+    "src_medium_00": "img/header/slide_medium_00.jpg",
+    "src_large_00": "img/header/slide_large_00.jpg",
+    "alt_00": "Fácil quererlo, fácil tenerlo",
+    "link_00": false,
+    "href_00": "",
+
+    "src_small_01": "img/header/slide_small_01.jpg",
+    "src_medium_01": "img/header/slide_medium_01.jpg",
+    "src_large_01": "img/header/slide_large_01.jpg",
+    "alt_01": "¡Aprovecha estos increibles descuentos del 24 al 26 de mayo! Bizarro Store: Hasta 40% OFF en productos seleccionados - Saverio Di Ricci: Hasta 35% OFF en productos seleccionados",
+    "link_01": true,
+    "href_01": "http://www.bizarrostore.com"
+  },
+
+  "productos": [
+    {
+      "active": 1,
+      "href": "http://www.bizarrostore.com/producto/7443/botineta",
+
+      "id": "BizarroStoreBotinetaNazarena",
+      "title": "Botineta Nazarena",
+      "alt": "Botineta Nazarena",
+
+      "img": "img/productos/botineta_nazarena.jpg",
+      "logo": "img/productos/logo_bizarro_store.jpg",
+
+      "codigo": 1,
+      "codigo_txt": "$750",
+      "codigo_code": "$499",
+
+      "text_only": 1,
+      "text": "Botineta Nazarena"
+    }, {
+      "active": 1,
+      "href": "http://www.bizarrostore.com/producto/7799/botineta",
+
+      "id": "BizarroStoreBotinetaLamaro",
+      "title": "Botineta Lamaro",
+      "alt": "Botineta Lamaro",
+
+      "img": "img/productos/botineta_lamaro.jpg",
+      "logo": "img/productos/logo_bizarro_store.jpg",
+
+      "codigo": 1,
+      "codigo_txt": "$2100",
+      "codigo_code": "$1290",
+
+      "text_only": 1,
+      "text": "Botineta Lamaro"
+    }, {
+      "active": 1,
+      "href": "http://www.bizarrostore.com/producto/7444/zapatilla",
+
+      "id": "BizarroStoreZapatillaNazarena",
+      "title": "Zapatilla Nazarena",
+      "alt": "Zapatilla Nazarena",
+
+      "img": "img/productos/zapatilla_nazarena.jpg",
+      "logo": "img/productos/logo_bizarro_store.jpg",
+
+      "codigo": 1,
+      "codigo_txt": "$750",
+      "codigo_code": "$499",
+
+      "text_only": 1,
+      "text": "Zapatilla Nazarena"
+    }, {
+      "active": 1,
+      "href": "http://www.bizarrostore.com/producto/7533/borcego",
+
+      "id": "BizarroStoreBorcegoInfiniti",
+      "title": "Borcego Infiniti",
+      "alt": "Borcego Infiniti",
+
+      "img": "img/productos/borcego_infiniti.jpg",
+      "logo": "img/productos/logo_bizarro_store.jpg",
+
+      "codigo": 1,
+      "codigo_txt": "$999",
+      "codigo_code": "$750",
+
+      "text_only": 1,
+      "text": "Borcego Infiniti"
+    }, {
+      "active": 1,
+      "href": "http://www.saveriodiriccistore.com/producto/4942/zapato",
+
+      "id": "SaverioDiRicciZapato",
+      "title": "Zapato",
+      "alt": "Zapato",
+
+      "img": "img/productos/zapato.jpg",
+      "logo": "img/productos/logo_saverio_di_ricci.jpg",
+
+      "codigo": 1,
+      "codigo_txt": "$4500",
+      "codigo_code": "$2900",
+
+      "text_only": 1,
+      "text": "Zapato"
+    }, {
+      "active": 1,
+      "href": "http://www.saveriodiriccistore.com/producto/5009/zapato-stiletto",
+
+      "id": "SaverioDiRicciZapatoStiletto",
+      "title": "Zapato Stiletto",
+      "alt": "Zapato Stiletto",
+
+      "img": "img/productos/zapato_stiletto.jpg",
+      "logo": "img/productos/logo_saverio_di_ricci.jpg",
+
+      "codigo": 1,
+      "codigo_txt": "$4300",
+      "codigo_code": "$2900",
+
+      "text_only": 1,
+      "text": "Zapato Stiletto"
+    }, {
+      "active": 1,
+      "href": "http://www.saveriodiriccistore.com/producto/7470/borcego",
+
+      "id": "SaverioDiRicciBorcego",
+      "title": "Borcego",
+      "alt": "Borcego",
+
+      "img": "img/productos/borcego.jpg",
+      "logo": "img/productos/logo_saverio_di_ricci.jpg",
+
+      "codigo": 1,
+      "codigo_txt": "$2200",
+      "codigo_code": "$1980",
+
+      "text_only": 1,
+      "text": "Borcego"
+    }, {
+      "active": 1,
+      "href": "http://www.saveriodiriccistore.com/producto/7741/botineta",
+
+      "id": "SaverioDiRicciBotineta",
+      "title": "Botineta",
+      "alt": "Botineta",
+
+      "img": "img/productos/botineta.jpg",
+      "logo": "img/productos/logo_saverio_di_ricci.jpg",
+
+      "codigo": 1,
+      "codigo_txt": "$2500",
+      "codigo_code": "$2250",
+
+      "text_only": 1,
+      "text": "Botineta"
+    }
+  ]
+}

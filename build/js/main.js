@@ -183,7 +183,7 @@ $(function() {
   return $(shuffled);
   };
 
-  mpboxes.shuffle();
+  // mpboxes.shuffle();
   mujer.slice( 6 ).shuffle();
   hombre.slice( 6 ).shuffle();
   unisex.slice( 6 ).shuffle();
@@ -347,7 +347,7 @@ $(document).ready(function () {
   //           '</div>' +
   //         '</div>'
   //       );
-  //     }
+  //     } 
   //   }
   // });
 });

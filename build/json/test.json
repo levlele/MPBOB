@@ -2,7 +2,7 @@
   "landing_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/BOB/",
   "promo_url": "https://www.mercadopago.com/org-img/MP3/promociones/ar/2017/HomeAndDeco/landing/",
 
-  "test_local": true,
+  "test_local": false,
   "promo_is_on": true,
   "counter_is_on": false,
   "axion_is_on": true,

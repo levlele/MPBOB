@@ -2,14 +2,20 @@
   @include fill-parent;
   @include clearfix;
 	background-color: #ffffff;
-  padding: $gutter 0;
+  // padding: $gutter 0;
+  padding-bottom: 24px;
+
+  @media (min-width: 1280px) {
+    padding: 16px 0 32px;
+  }
 
   &__container {
     @include outer-container(1200px);
     @include clearfix;
 
     @media (max-width: 1200px) {
-      padding: 0 $gutter;
+      // padding: 0 $gutter;
+      padding: 0 24px;
     }
   }
 
@@ -80,7 +86,8 @@
       }
 
       @media (max-width: 767px) {
-        padding: $gutter 10%;
+        // padding: $gutter 10%;
+        padding: 0 10% 24px;
         line-height: 1.5;
         text-align: center;
       }

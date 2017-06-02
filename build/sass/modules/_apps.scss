@@ -2,7 +2,7 @@
   @include fill-parent;
   @include clearfix;
   background-color: #eeeeee;
-  padding: 20px;
+  padding: 24px;
 
   &__container {
     @include outer-container(1200px);
@@ -61,12 +61,12 @@
   }
 
   &__info-img {
-    @media (max-width: 767px) {
+    @media (max-width: 599px) {
       @include fill-parent;
-      margin-bottom: 10px;
+      margin-bottom: 16px;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 600px) {
       float: left;
       width: 60%;
       height: 60px;
@@ -100,22 +100,29 @@
       strong {
         white-space: nowrap;
       }
+
+      br {
+        @media (max-width: 720px) {
+          display: none;
+        }
+      }
     }
   }
 
   // Iconos apps
   &__icons {
-    height: 60px;
+    // height: 60px;
 
     @media (max-width: 767px) {
       @include fill-parent;
       text-align: center;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 600px) {
       // @include span-columns(4); // sacar float y width para apps
       float: right;
       width: 40%;
+      height: 60px;
       text-align: right;
     }
 
@@ -138,12 +145,12 @@
     }
 
     a {
-      display: block;
-      width: auto;
-      height: 60px;
-      padding: 10px;
+      // display: block;
+      // width: auto;
+      // height: 60px;
+      // padding: 10px;
 
-      line-height: 40px;
+      // line-height: 40px;
       text-decoration: none;
 
       img {
@@ -152,6 +159,32 @@
         width: auto;
         border: 0;
       }
+    }
+  }
+
+  // Cta Axion
+  &__cta {
+    display: inline-block;
+    padding: 8px 24px;
+    background-color: #009EE3;
+    color: #fff;
+    border-radius: 4px;
+    transition: all 300ms ease-in-out;
+
+    @media (min-width: 600px) {
+      margin-top: 10px;
+    }
+
+
+    &:hover {
+      background-color: #00b2eb;
+    }
+
+    &:active,
+    &:focus {
+      background-color: #008ed0;
+      -webkit-box-shadow: 0 5px 10px #115b9e inset;
+      box-shadow: 0 5px 10px #115b9e inset;
     }
   }
 }
